@@ -1,0 +1,247 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.toc-child {
+  position: absolute;
+  height: 103.7%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -3.7%;
+  left: 0;
+  border-radius: 0 0 var(--br-29xl) var(--br-29xl);
+  background-color: rgba(16, 16, 19, 0.9);
+}
+.vector-icon7 {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  width: 32px;
+  height: 32px;
+  display: none;
+}
+.table-of-contents {
+  position: absolute;
+  top: 32px;
+  left: 170px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: var(--secction-title);
+  text-align: center;
+}
+.home {
+  top: 164px;
+  left: 408px;
+  cursor: pointer;
+}
+.about-us,
+.course-projects,
+.final-project,
+.home {
+  position: absolute;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: right;
+}
+.final-project {
+  top: 228px;
+  left: 279px;
+  cursor: pointer;
+}
+.about-us,
+.course-projects {
+  top: 332px;
+  left: 226px;
+}
+.about-us {
+  top: 504px;
+  left: 350px;
+}
+.toc-item {
+  position: absolute;
+  top: 170px;
+  left: 511px;
+  width: 4.04px;
+  height: 432.01px;
+}
+.sub-topic-1,
+.team-member-1,
+.week-1,
+.week-5,
+.week-6,
+.week-7,
+.week-8 {
+  position: absolute;
+  top: 228px;
+  left: 541px;
+  letter-spacing: 0.12em;
+  font-weight: 200;
+  display: inline-block;
+  width: 463px;
+  cursor: pointer;
+}
+.team-member-1,
+.week-1,
+.week-5,
+.week-6,
+.week-7,
+.week-8 {
+  top: 332px;
+  left: 543px;
+}
+.team-member-1,
+.week-5,
+.week-6,
+.week-7,
+.week-8 {
+  left: 898px;
+}
+.team-member-1,
+.week-6,
+.week-7,
+.week-8 {
+  top: 368px;
+}
+.team-member-1,
+.week-7,
+.week-8 {
+  top: 404px;
+}
+.team-member-1,
+.week-8 {
+  top: 440px;
+}
+.team-member-1 {
+  top: 504px;
+  left: 543px;
+}
+.sub-topic-2,
+.sub-topic-3,
+.sub-topic-4,
+.team-member-2,
+.team-member-3,
+.team-member-4,
+.team-member-5,
+.week-2,
+.week-3,
+.week-4 {
+  position: absolute;
+  top: 540px;
+  left: 543px;
+  letter-spacing: 0.12em;
+  font-weight: 200;
+  display: inline-block;
+  width: 463px;
+  cursor: pointer;
+}
+.sub-topic-2,
+.sub-topic-3,
+.sub-topic-4,
+.team-member-3,
+.team-member-4,
+.team-member-5,
+.week-2,
+.week-3,
+.week-4 {
+  top: 571px;
+}
+.sub-topic-2,
+.sub-topic-3,
+.sub-topic-4,
+.team-member-4,
+.team-member-5,
+.week-2,
+.week-3,
+.week-4 {
+  top: 504px;
+  left: 898px;
+}
+.sub-topic-2,
+.sub-topic-3,
+.sub-topic-4,
+.team-member-5,
+.week-2,
+.week-3,
+.week-4 {
+  top: 540px;
+}
+.sub-topic-2,
+.sub-topic-3,
+.sub-topic-4,
+.week-2,
+.week-3,
+.week-4 {
+  top: 368px;
+  left: 543px;
+}
+.sub-topic-2,
+.sub-topic-3,
+.sub-topic-4,
+.week-3,
+.week-4 {
+  top: 404px;
+}
+.sub-topic-2,
+.sub-topic-3,
+.sub-topic-4,
+.week-4 {
+  top: 440px;
+}
+.sub-topic-2,
+.sub-topic-3,
+.sub-topic-4 {
+  top: 268px;
+  left: 541px;
+}
+.sub-topic-3,
+.sub-topic-4 {
+  top: 228px;
+  left: 896px;
+}
+.sub-topic-4 {
+  top: 268px;
+}
+.toc {
+  position: relative;
+  width: 1440px;
+  height: 675px;
+  z-index: 0;
+}
+.content-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  width: 89px;
+  height: 95px;
+  cursor: pointer;
+  z-index: 1;
+}
+.toc-eng {
+  position: relative;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  opacity: 0;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-poppins);
+}
+.toc-eng.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-left;
+}
