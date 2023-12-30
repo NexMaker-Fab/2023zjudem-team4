@@ -79,7 +79,7 @@
 .vector-3 {
   top: 0;
   left: calc(50% - 500px);
-  border: 2px solid var(--color-whitesmoke);
+  border: 2px solid var(--font-color);
   box-sizing: border-box;
   width: 1000px;
   height: 1000px;
@@ -94,7 +94,7 @@
   top: 0;
   left: calc(50% - 500px);
   filter: blur(12px);
-  border: 2px solid var(--color-whitesmoke);
+  border: 2px solid var(--font-color);
   box-sizing: border-box;
   width: 1000px;
   height: 1000px;
@@ -163,7 +163,7 @@
   gap: var(--gap-3xs);
   text-align: center;
   font-size: 96px;
-  color: var(--color-whitesmoke);
+  color: var(--font-color);
   font-family: var(--font-encode-sans);
 }
 .imgnovva2-icon {
@@ -185,16 +185,15 @@
   font-family: var(--font-poppins);
 }
 .description {
-  font-size: var(--font-size-mid);
+  font-size: var(--text-size);
   line-height: 27px;
   white-space: pre-wrap;
-  display: flex;
-  align-items: center;
+  display: inline-block;
   width: 465px;
 }
 .read-more {
-  font-size: var(--font-size-5xl);
-  color: var(--color-whitesmoke);
+  font-size: var(--heading-size);
+  color: var(--font-color);
   text-align: center;
 }
 .arrowiconright {
@@ -205,7 +204,7 @@
 }
 .readmorefinalproject1 {
   flex-shrink: 0;
-  gap: 16px;
+  gap: var(--gap-base);
 }
 .readmorefinalproject,
 .readmorefinalproject1 {
@@ -225,7 +224,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 20px;
+  gap: var(--gap-13xl);
 }
 .finalproject {
   position: absolute;
@@ -234,11 +233,12 @@
   width: 954px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   text-align: left;
   font-size: var(--font-size-29xl);
-  color: var(--color-whitesmoke);
+  color: var(--font-color);
   font-family: var(--font-encode-sans);
 }
 .our-course-projects {
@@ -262,7 +262,7 @@
   justify-content: flex-start;
   text-align: left;
   font-size: var(--font-size-29xl);
-  color: var(--color-whitesmoke);
+  color: var(--font-color);
   font-family: var(--font-encode-sans);
 }
 .group-child {
@@ -271,7 +271,7 @@
   left: calc(50% - 104px);
   border-radius: var(--br-85xl);
   filter: blur(4px);
-  border: 2px solid var(--color-whitesmoke);
+  border: 2px solid var(--font-color);
   box-sizing: border-box;
 }
 .group,
@@ -285,7 +285,7 @@
   top: 0;
   left: calc(50% - 104px);
   border-radius: var(--br-85xl);
-  border: 2px solid var(--color-whitesmoke);
+  border: 2px solid var(--font-color);
   box-sizing: border-box;
 }
 .group {
@@ -298,7 +298,7 @@
   top: 14px;
   left: calc(50% - 90px);
   border-radius: var(--br-85xl);
-  background-color: var(--color-darkslategray);
+  background-color: var(--color-darkslategray-200);
   width: 180px;
   height: 320px;
   z-index: 1;
@@ -350,7 +350,7 @@
   cursor: pointer;
   border: 0;
   padding: var(--padding-8xs);
-  background-color: var(--color-gray-100);
+  background-color: var(--color-gray-200);
   align-self: stretch;
   border-radius: var(--br-xl);
   backdrop-filter: blur(4px);
@@ -384,7 +384,7 @@
   cursor: pointer;
   border: 0;
   padding: var(--padding-8xs);
-  background-color: var(--color-gray-100);
+  background-color: var(--color-gray-200);
   align-self: stretch;
   border-radius: var(--br-xl);
   backdrop-filter: blur(4px);
@@ -401,7 +401,7 @@
   left: calc(50% - 104px);
   border-radius: var(--br-85xl);
   filter: blur(4px);
-  border: 2px solid var(--color-whitesmoke);
+  border: 2px solid var(--font-color);
   box-sizing: border-box;
 }
 .group-inner,
@@ -415,7 +415,7 @@
   bottom: 0;
   left: calc(50% - 104px);
   border-radius: var(--br-85xl);
-  border: 2px solid var(--color-whitesmoke);
+  border: 2px solid var(--font-color);
   box-sizing: border-box;
 }
 .group1 {
@@ -431,7 +431,7 @@
   bottom: 14px;
   left: calc(50% - 90px);
   border-radius: var(--br-85xl);
-  background-color: var(--color-darkslategray);
+  background-color: var(--color-darkslategray-200);
   width: 180px;
   height: 320px;
   z-index: 2;
@@ -501,7 +501,7 @@
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  border: 2px solid var(--color-whitesmoke);
+  border: 2px solid var(--font-color);
   box-sizing: border-box;
 }
 .arduinoicon {
@@ -767,7 +767,7 @@
   align-items: center;
   justify-content: center;
   gap: var(--gap-3xs);
-  font-size: var(--font-size-5xl);
+  font-size: var(--heading-size);
   font-family: var(--font-poppins);
 }
 .teammembers {
@@ -781,7 +781,7 @@
   gap: var(--gap-xs);
   text-align: center;
   font-size: var(--font-size-29xl);
-  color: var(--color-whitesmoke);
+  color: var(--font-color);
   font-family: var(--font-encode-sans);
 }
 .home {
@@ -808,31 +808,41 @@
 .scrollupbutton {
   cursor: pointer;
 }
-.footer,
 .footersection {
-  box-sizing: border-box;
   width: 1440px;
-  display: flex;
-}
-.footersection {
   height: 91px;
+  display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
-  padding: 32px var(--padding-61xl);
+  padding: var(--padding-13xl) var(--padding-61xl);
+  box-sizing: border-box;
+  z-index: 0;
   text-align: left;
-  font-size: var(--font-size-mid);
-  color: var(--color-whitesmoke);
+  font-size: var(--text-size);
+  color: var(--font-color);
   font-family: var(--font-poppins);
+}
+.footer-line-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: calc(50% - 640px);
+  max-height: 100%;
+  width: 1280px;
+  object-fit: cover;
+  z-index: 1;
 }
 .footer {
   position: absolute;
   bottom: 0;
   left: calc(50% - 720px);
-  border-top: 0.5px solid #fff;
+  width: 1440px;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  gap: var(--gap-3xs);
 }
 .menuicon1 {
   position: relative;
@@ -855,13 +865,13 @@
 }
 .homepage {
   position: relative;
-  background-color: #101013;
+  background-color: var(--color-gray-100);
   width: 100%;
   height: 3000px;
   overflow: hidden;
   text-align: center;
-  font-size: var(--font-size-xl);
-  color: var(--color-whitesmoke);
+  font-size: var(--text1-size);
+  color: var(--font-color);
   font-family: var(--font-poppins);
 }
 .tableofcontents-31-toc-31-land {
@@ -1044,7 +1054,7 @@
 .tableofcontent {
   position: relative;
   border-radius: 0 0 var(--br-xl) var(--br-xl);
-  background-color: rgba(16, 16, 19, 0.9);
+  background-color: var(--color-gray-600);
   width: 1440px;
   height: 700px;
   opacity: 0;
@@ -1052,8 +1062,8 @@
   max-height: 90%;
   overflow: auto;
   text-align: left;
-  font-size: var(--font-size-5xl);
-  color: var(--color-whitesmoke);
+  font-size: var(--heading-size);
+  color: var(--font-color);
   font-family: var(--font-poppins);
 }
 .tableofcontent.animate {
