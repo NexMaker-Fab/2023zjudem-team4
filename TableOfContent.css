@@ -18,14 +18,14 @@
   font-family: var(--font-encode-sans);
   text-align: center;
 }
-.home3 {
+.home1 {
   top: 164px;
   left: 408px;
 }
 .aboutus,
-.courseprojects1,
+.courseprojects,
 .finalproject1,
-.home3 {
+.home1 {
   position: absolute;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -37,7 +37,7 @@
   cursor: pointer;
 }
 .aboutus,
-.courseprojects1 {
+.courseprojects {
   top: 332px;
   left: 226px;
 }
@@ -45,7 +45,7 @@
   top: 504px;
   left: 350px;
 }
-.line-icon1 {
+.line-icon {
   position: absolute;
   top: 170px;
   left: 512px;
