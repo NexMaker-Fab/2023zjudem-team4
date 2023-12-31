@@ -1,0 +1,261 @@
+.reference-my3dconcepts,
+.what-is-3d {
+  position: relative;
+  display: inline-block;
+  width: 950px;
+}
+.what-is-3d {
+  font-size: var(--heading-size);
+}
+.reference-my3dconcepts {
+  text-decoration: underline;
+  color: var(--color-gold);
+}
+.httpswwwbcn3dcomthe-hist {
+  color: inherit;
+}
+.reference-httpswwwbcn3dc {
+  position: relative;
+  color: var(--color-gold);
+  display: inline-block;
+  width: 950px;
+}
+.s {
+  margin: 0;
+}
+.in-the-early {
+  margin: 0;
+  font-weight: 300;
+}
+.s-in-the-container {
+  position: relative;
+  display: inline-block;
+  width: 950px;
+}
+.printing1-icon {
+  position: relative;
+  width: 954px;
+  height: 454px;
+  object-fit: cover;
+}
+.reprapbcn-in-the {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 950px;
+}
+.new-3d-printing {
+  font-family: var(--text);
+}
+.stanford-engineers-have {
+  font-weight: 300;
+}
+.printing2-icon {
+  position: relative;
+  width: 954px;
+  height: 316px;
+  object-fit: cover;
+}
+.blank-line87,
+.latest-advances-in-mainstream1 {
+  color: var(--font-color);
+}
+.blank-line87 {
+  margin: 0;
+}
+.latest-advances-in-container {
+  position: relative;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 950px;
+  color: var(--color-gold);
+}
+.printing3-icon {
+  position: relative;
+  width: 954px;
+  height: 332px;
+  object-fit: cover;
+}
+.d-printed-skin {
+  text-decoration: underline;
+}
+.printin4-icon,
+.printing5-icon,
+.printing6-icon {
+  position: relative;
+  width: 954px;
+  height: 245px;
+  object-fit: cover;
+}
+.printing5-icon,
+.printing6-icon {
+  height: 451px;
+}
+.printing6-icon {
+  width: 950px;
+  height: 482px;
+}
+.printing10-icon,
+.printing8-icon,
+.printing9-icon {
+  position: relative;
+  width: 950px;
+  height: 496px;
+  object-fit: cover;
+}
+.printing10-icon,
+.printing9-icon {
+  width: 959px;
+  height: 524px;
+}
+.printing10-icon {
+  width: 953px;
+  height: 530px;
+}
+.printing11-icon,
+.printing12-icon,
+.printing13-icon {
+  position: relative;
+  width: 953px;
+  height: 579px;
+  object-fit: cover;
+}
+.printing12-icon,
+.printing13-icon {
+  width: 950px;
+  height: 475px;
+}
+.printing13-icon {
+  width: 952px;
+  height: 340px;
+}
+.ebm-the-electron-container {
+  position: relative;
+  display: inline-block;
+  width: 768px;
+  flex-shrink: 0;
+}
+.printing14-icon {
+  position: relative;
+  width: 162px;
+  height: 410px;
+  object-fit: cover;
+}
+.ebm-the-electron-beam-melting-parent,
+.what-is-3d-printing-parent {
+  width: 954px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.what-is-3d-printing-parent {
+  position: absolute;
+  top: 107px;
+  left: 243px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.d-printing-background1 {
+  backdrop-filter: blur(4px);
+}
+.d-printing-background1:hover {
+  mix-blend-mode: color;
+  color: var(--color-white);
+}
+.d-printing-background1,
+.test-proyect1 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 200;
+  cursor: pointer;
+}
+.menu-items9,
+.navigation9 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.menu-items9 {
+  gap: var(--gap-5xl);
+}
+.navigation9 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  background-color: var(--color-gray-500);
+  width: 1440px;
+  flex-wrap: wrap;
+  padding: var(--padding-5xl) var(--padding-23xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.home10 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 200;
+}
+.copyright18,
+.home-button8,
+.scroll-up-button8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-button8 {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.copyright18,
+.scroll-up-button8 {
+  justify-content: center;
+}
+.scroll-up-button8 {
+  cursor: pointer;
+}
+.footer-section8 {
+  border-top: 0.5px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1200px;
+  height: 91px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-61xl);
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.footer9 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 720px);
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.d-printing {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 13462px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--text-size);
+  color: var(--font-color);
+  font-family: var(--text);
+}

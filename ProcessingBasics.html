@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./ProcessingBasics.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Encode Sans:wght@100;300;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="processing-basics2">
+      <nav class="navigation2">
+        <div class="menu-items2">
+          <b class="processing-basics3" id="processingBasicsText"
+            >Processing Basics</b
+          >
+          <div class="processing-project3" id="processingProjectText">
+            Processing Project
+          </div>
+          <div class="processing-with-ardunio3">Processing with Ardunio</div>
+        </div>
+      </nav>
+      <div class="what-is-processing-parent">
+        <b class="what-is-processing">What is Processing?</b>
+        <img class="image-27-icon2" alt="" src="./public/image-27@2x.png" />
+
+        <div class="processing-is-an-container">
+          <p class="processing-is-an">
+            Processing is an open-source projects that was specifically designed
+            for simplifying the practice of creating interactive graphical
+            applications so that non-programmers could easily create artwork.
+          </p>
+          <p class="processing-is-an">&nbsp;</p>
+          <p class="processing-is-an">
+            It’s completely free to download, use, and modify as you see fit.
+            Casey Reas and Ben Fry started the project at MIT under the tutelage
+            of John Maeda, but a group of developers maintain it by making
+            frequent updates to the core codebase and tools.
+          </p>
+          <p class="processing-is-an">&nbsp;</p>
+          <p class="processing-is-an">
+            The Processing project includes an integrated development
+            environment (IDE) that can be used to develop applications, a
+            programming language specifically designed to simplify programming
+            for visual design, and tools to publish your applications to the web
+            or to the desktop.
+          </p>
+          <p class="processing-is-an">&nbsp;</p>
+          <p class="processing-is-an">Official Website :</p>
+          <ul class="processingorg">
+            <li class="processingorg1">
+              <a
+                class="processingorg2"
+                href="https://processing.org/"
+                target="_blank"
+              >
+                <span class="processingorg3">Processing.org</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <b class="what-is-processing">Downloading and Installing Processing</b>
+        <div class="the-first-step-container">
+          The first step to installing Processing is to head to
+          <a
+            class="processingorg2"
+            href="https://processing.org/"
+            target="_blank"
+          >
+            <span class="processingorg3">Processing.org</span>
+          </a>
+          and look for the Download section. You’ll see four downloads, one for
+          each major operating system (Windows, Mac OS X, and Linux). Once
+          you’ve downloaded and uncompressed the application, you’re done,
+          you’ve installed Processing. Everything Processing needs is right in
+          the initial download. Remember to Download the appropriate archive for
+          your operating system, and move the files in the archive to somewhere
+          you normally store applications, it will help to keep things organized
+          and access things later.
+        </div>
+        <img class="image-30-icon1" alt="" src="./public/image-30@2x.png" />
+
+        <img class="image-31-icon" alt="" src="./public/image-31@2x.png" />
+
+        <img class="image-31-icon" alt="" src="./public/image-32@2x.png" />
+
+        <img class="image-31-icon" alt="" src="./public/image-33@2x.png" />
+
+        <b class="what-is-processing"> Processing IDE</b>
+        <div class="processing-ide-has-container">
+          <p class="processing-is-an">
+            <span class="processing-ide-has"
+              >Processing IDE has four main areas:
+            </span>
+            <b
+              >the controls, the Code window, the Messages window, and the
+              Console window.</b
+            >
+          </p>
+          <p class="processing-is-an">
+            <b>The controls </b>
+            <span class="area-is-where"
+              >area is where the buttons to run and stop. After you’ve entered
+              any code in the Code window and you’re ready to see what it looks
+              like when it runs, click the Run button, which opens a new window
+              and runs your application in that window. To stop your
+              application, either close the window or click the Stop button.
+            </span>
+            <b class="the-code-window">The Code window</b>
+            <span class="processing-ide-has">
+              is where you enter all the code for the application. It supports a
+              few of the common text edit or functions, like Ctrl+F (⌘-F on a
+              Mac) for Find and Ctrl+Z (⌘-Z on a Mac) for Undo.</span
+            >
+            <b class="the-code-window"> The Messages window</b>
+            <span class="processing-ide-has">
+              is where any system messages that might appear will be shown. It
+              isn’t widely used.
+            </span>
+            <b class="the-code-window">The Console window</b>
+            <span class="processing-ide-has">
+              is where any trace statements or errors that occur while your
+              application is running will be shown.</span
+            >
+          </p>
+        </div>
+        <img class="image-34-icon" alt="" src="./public/image-34@2x.png" />
+
+        <b class="what-is-processing">The Basics of a Processing Application</b>
+        <div class="processing-application-has-container">
+          <p class="processing-is-an">
+            <b class="the-code-window"
+              >Processing application has two fundamental methods.</b
+            >
+            <span class="area-is-where">
+              These methods are the instructions for your application at two
+              core moments.</span
+            >
+          </p>
+          <p class="for-drawing-examples">&nbsp;</p>
+          <p class="processing-is-an">
+            <b class="the-code-window">The first, setup(),</b>
+            <span class="area-is-where">
+              is invoked when the application starts. It makes sure any
+              information you want to use in the rest of the application is
+              prepared properly.
+            </span>
+          </p>
+        </div>
+        <div class="void-setup-size200-200-wrapper">
+          <div class="void-setup-size200-container">
+            <p class="processing-is-an">void setup(){</p>
+            <p class="processing-is-an">size(200, 200);</p>
+            <p class="processing-is-an">frameRate(30);</p>
+            <p class="processing-is-an">}</p>
+          </div>
+        </div>
+        <div class="processing-ide-has-container">
+          <b>The second, draw(),</b>
+          <span class="area-is-where">
+            is invoked over and over again from right after startup until the
+            application closes. It is where the drawing of the application
+            happens, but it can be much more than that. Any behavior defined in
+            this method will be called at the number of times per second
+            specified as the frame rate of your application.</span
+          >
+        </div>
+        <div class="void-setup-size200-200-wrapper">
+          <div class="void-draw-container2">
+            <p class="processing-is-an">void draw() {</p>
+            <p class="processing-is-an">background(255);</p>
+            <p class="processing-is-an">}</p>
+          </div>
+        </div>
+        <b class="what-is-processing">The Basics of Drawing with Processing</b>
+        <div class="processing-application-has-container">
+          <p class="processing-is-an">
+            <b
+              >Processing provides various functions to draw and color basic
+              shapes,</b
+            >
+          </p>
+          <p class="processing-is-an">
+            <b>&nbsp;</b>
+          </p>
+          <p class="for-drawing-examples">For Drawing examples:</p>
+          <p class="for-drawing-examples">
+            Line, Rectangle, Rounded Rectangle, Ellipse, Circle, Point, Triangle
+            and Quadrilateral.
+          </p>
+        </div>
+        <div class="void-setup-size200-200-wrapper">
+          <div class="void-draw-container2">
+            <p class="processing-is-an">void draw() {</p>
+            <p class="processing-is-an">
+              background(220); // Set background color
+            </p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">// Draw shapes</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">// Line</p>
+            <p class="processing-is-an">line(50, 50, 150, 50);</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">// Rectangle</p>
+            <p class="processing-is-an">rect(50, 100, 100, 50);</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">// Rounded Rectangle</p>
+            <p class="processing-is-an">
+              rect(200, 100, 100, 50, 20); // Last parameter sets corner radius
+            </p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">// Ellipse</p>
+            <p class="processing-is-an">ellipse(100, 200, 80, 80);</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">// Circle</p>
+            <p class="processing-is-an">ellipse(250, 200, 100, 100);</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">// Point</p>
+            <p class="processing-is-an">point(50, 300);</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">// Triangle</p>
+            <p class="processing-is-an">
+              triangle(150, 275, 200, 350, 250, 275);
+            </p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">// Quadrilateral</p>
+            <p class="processing-is-an">
+              quad(300, 250, 350, 300, 300, 350, 250, 300);
+            </p>
+            <p class="processing-is-an">}</p>
+          </div>
+        </div>
+        <div class="the-first-step-container">
+          <p class="processing-is-an">Using styles examples:</p>
+          <p class="processing-is-an">
+            Stroke - sets the outline color of shapes.
+          </p>
+          <p class="processing-is-an">Fill - sets the fill color of shapes.</p>
+          <p class="processing-is-an">
+            No Stroke - removes the outline of shapes.
+          </p>
+          <p class="processing-is-an">No Fill - removes the fill of shapes.</p>
+        </div>
+        <div class="void-setup-size200-200-wrapper">
+          <div class="void-draw-container2">
+            <p class="processing-is-an">void draw() {</p>
+            <p class="processing-is-an">
+              background(220); // Set background color
+            </p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">// Using stroke() and fill()</p>
+            <p class="processing-is-an">
+              stroke(0); // Set outline color to black
+            </p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">
+              fill(255, 0, 0); // Set fill color to red
+            </p>
+            <p class="processing-is-an">rect(20, 20, 50, 50);</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">
+              fill(0, 255, 0); // Set fill color to green
+            </p>
+            <p class="processing-is-an">
+              stroke(255, 0, 0); // Set outline color to red
+            </p>
+            <p class="processing-is-an">rect(90, 20, 50, 50);</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">noFill(); // No fill</p>
+            <p class="processing-is-an">
+              stroke(0, 0, 255); // Set outline color to blue
+            </p>
+            <p class="processing-is-an">rect(160, 20, 50, 50);</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">noStroke(); // No outline</p>
+            <p class="processing-is-an">
+              fill(0, 0, 255, 100); // Set fill color to blue with transparency
+            </p>
+            <p class="processing-is-an">ellipse(50, 100, 80, 80);</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">// Using noStroke() and noFill()</p>
+            <p class="processing-is-an">
+              stroke(0); // Set outline color to black
+            </p>
+            <p class="processing-is-an">
+              fill(255); // Set fill color to white
+            </p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">rect(200, 20, 50, 50);</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">noStroke(); // No outline</p>
+            <p class="processing-is-an">noFill(); // No fill</p>
+            <p class="processing-is-an">rect(270, 20, 50, 50);</p>
+            <p class="processing-is-an">}</p>
+          </div>
+        </div>
+        <b class="what-is-processing"
+          >Capturing Simple User Interaction with Processing</b
+        >
+        <div class="processing-application-has-container">
+          <span class="area-is-where"
+            >“Processing handles the two most common modes of user interaction:
+            the mouse and the keyboard. To capture interactions with these two
+            tools, what you really need to know is when the mouse is moving,
+            when the mouse button has been pressed, when the user is dragging
+            (that is, holding the mouse button down and moving the mouse),
+            whether a key has been pressed, and what key has been pressed. All
+            these methods and variables already exist in the Processing
+            application. All you need to do is invoke them, that is, to tell the
+            Processing environment that you want to do something when the method
+            is invoked, or access the variable either when one of the methods is
+            invoked or in the
+          </span>
+          <b>draw()</b>
+          <span class="area-is-where"> method of your application.’’ </span>
+        </div>
+        <div class="processing-ide-has-container">
+          <p class="processing-is-an">
+            <b>The mouseX and mouseY Variables</b>
+          </p>
+          <p class="processing-is-an">
+            <b>&nbsp;</b>
+          </p>
+          <p class="for-drawing-examples">
+            The mouseX and mouseY variables contain the position of the mouse in
+            x and y coordinates. This is done in pixels, so if the mouse is in
+            the farthest upper-left corner of the window, mouseX is 0 and mouseY
+            is 0. If the mouse pointer is in the lower-right corner of a window
+            that is 300 × 300 pixels, then mouseX is 300 and mouseY is 300. You
+            can determine the position of the mouse at any time by using these
+            variables.
+          </p>
+          <p class="for-drawing-examples">&nbsp;</p>
+          <p class="for-drawing-examples">
+            Small code to check your mouse coordinates:
+          </p>
+        </div>
+        <div class="void-setup-size200-200-wrapper">
+          <div class="void-draw-container2">
+            <p class="processing-is-an">void setup() {</p>
+            <p class="processing-is-an">size(400, 400); // Set canvas size</p>
+            <p class="processing-is-an">}</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">void draw() {</p>
+            <p class="processing-is-an">
+              background(220); // Set background color
+            </p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">
+              // Display the coordinates of the mouse pointer
+            </p>
+            <p class="processing-is-an">fill(0); // Set fill color to black</p>
+            <p class="processing-is-an">
+              text("MouseX: " + mouseX + " | MouseY: " + mouseY, 20, 20); //
+              Display coordinates
+            </p>
+            <p class="processing-is-an">}</p>
+          </div>
+        </div>
+        <div class="processing-ide-has-container">
+          <p class="processing-is-an">
+            <b>The mousePressed() Method</b>
+          </p>
+          <p class="processing-is-an">
+            <b>&nbsp;</b>
+          </p>
+          <p class="processing-is-an">
+            <span class="processing-ide-has"
+              >Processing applications have a
+            </span>
+            <b class="the-code-window">mousePressed()</b>
+            <span class="area-is-where">
+              method that is called whenever the user clicks the left mouse
+              button. This callback method is called whenever the application
+              has focus and the user presses the mouse button. without a
+            </span>
+            <b class="the-code-window">draw()</b>
+            <span class="processing-ide-has">
+              method in your application, the
+            </span>
+            <b class="the-code-window">mousePressed()</b>
+            <span class="processing-ide-has"> method will not work.</span>
+          </p>
+          <p class="for-drawing-examples">&nbsp;</p>
+          <p class="for-drawing-examples">
+            Small code to change the background color when mouse pressed:
+          </p>
+        </div>
+        <div class="void-setup-size200-200-wrapper">
+          <div class="void-draw-container2">
+            <p class="processing-is-an">void setup() {</p>
+            <p class="processing-is-an">size(400, 400); // Set canvas size</p>
+            <p class="processing-is-an">
+              background(220); // Set background color
+            </p>
+            <p class="processing-is-an">}</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">void draw() {</p>
+            <p class="processing-is-an">
+              // Draw a circle at the center of the canvas without draw mode
+              mouse pressed will not work
+            </p>
+            <p class="processing-is-an">}</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">void mousePressed() {</p>
+            <p class="processing-is-an">
+              // Change the background color when the mouse is pressed
+            </p>
+            <p class="processing-is-an">
+              background(random(255), random(255), random(255));
+            </p>
+            <p class="processing-is-an">}</p>
+          </div>
+        </div>
+        <div class="processing-ide-has-container">
+          <p class="processing-is-an">
+            <b>The mouseReleased() and mouseDragged() Methods</b>
+          </p>
+          <p class="processing-is-an">
+            <b>&nbsp;</b>
+          </p>
+          <p class="processing-is-an">
+            <span class="processing-ide-has">The </span>
+            <b class="the-code-window">mouseReleased() </b>
+            <span class="processing-ide-has"
+              >method notifies you when the user has released the mouse button.
+              It functions similarly to the
+            </span>
+            <b class="the-code-window">mousePressed()</b>
+            <span class="processing-ide-has">
+              method and lets you create actions that you would like to have
+              invoked when the mouse button is released. The
+            </span>
+            <b class="the-code-window">mouseDragged() </b>
+            <span class="area-is-where"
+              >method works much the same way, but is generally (though
+              certainly not always) used
+            </span>
+          </p>
+          <p class="for-drawing-examples">
+            to determine whether the user is dragging the mouse by holding the
+            button down and moving the mouse around.
+          </p>
+          <p class="for-drawing-examples">&nbsp;</p>
+          <p class="for-drawing-examples">
+            Small code to draw random color circles to when mouse pressed and
+            dragged:
+          </p>
+        </div>
+        <div class="void-setup-size200-200-wrapper">
+          <div class="void-draw-container2">
+            <p class="processing-is-an">void setup() {</p>
+            <p class="processing-is-an">size(400, 400); // Set canvas size</p>
+            <p class="processing-is-an">
+              background(220); // Set background color
+            </p>
+            <p class="processing-is-an">}</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">void draw() {</p>
+            <p class="processing-is-an">}</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">void mouseDragged() {</p>
+            <p class="processing-is-an">
+              // Draw circles at the mouse's dragged positions
+            </p>
+            <p class="processing-is-an">
+              fill(random(255), random(255), random(255)); // Random fill color
+            </p>
+            <p class="processing-is-an">
+              ellipse(mouseX, mouseY, 20, 20); // Draw a circle at mouseX and
+              mouseY
+            </p>
+            <p class="processing-is-an">}</p>
+          </div>
+        </div>
+        <div class="processing-ide-has-container">
+          <p class="processing-is-an">
+            <b>The keyPressed and key Variables</b>
+          </p>
+          <p class="processing-is-an">
+            <b>&nbsp;</b>
+          </p>
+          <p class="processing-is-an">
+            <b>keyPressed()</b>
+            <span class="area-is-where">
+              is a built-in function in Processing that gets called whenever any
+              key on the keyboard is pressed. It runs continuously while the key
+              is held down.</span
+            >
+          </p>
+          <p class="for-drawing-examples">&nbsp;</p>
+          <p class="for-drawing-examples">
+            Small code to print the pressed key from keyboard in canvas :
+          </p>
+        </div>
+        <div class="void-setup-size200-200-wrapper">
+          <div class="void-draw-container2">
+            <p class="processing-is-an">void setup() {</p>
+            <p class="processing-is-an">size(400, 400);</p>
+            <p class="processing-is-an">background(220);</p>
+            <p class="processing-is-an">}</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">void draw() {</p>
+            <p class="processing-is-an">}</p>
+            <p class="processing-is-an"></p>
+            <p class="processing-is-an">void keyPressed() {</p>
+            <p class="processing-is-an">
+              // Display the key that was pressed on the background
+            </p>
+            <p class="processing-is-an">
+              background(220); // Clear the previous content on the background
+            </p>
+            <p class="processing-is-an">textSize(32); // Set the text size</p>
+            <p class="processing-is-an">
+              fill(0); // Set the text color to black
+            </p>
+            <p class="processing-is-an">
+              text("Key Pressed: " + key, 50, 50); // Display the key value on
+              the canvas
+            </p>
+            <p class="processing-is-an">}</p>
+          </div>
+        </div>
+        <div class="reference-group">
+          <b class="reference2">Reference</b>
+          <div class="official-website-the-container1">
+            <ul class="processingorg">
+              <li class="processingorg1">
+                <a
+                  class="processingorg2"
+                  href="https://processing.org/"
+                  target="_blank"
+                  >Official Website</a
+                >
+              </li>
+              <li class="processingorg1">
+                <a
+                  class="processingorg2"
+                  href="https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw"
+                  target="_blank"
+                  >The Coding Train
+                </a>
+              </li>
+              <li class="processingorg1">
+                <a
+                  class="processingorg2"
+                  href="https://hello.processing.org/"
+                  target="_blank"
+                  >Hello Processing</a
+                >
+              </li>
+              <li class="processingorg1">
+                <a
+                  class="processingorg2"
+                  href="https://www.oreilly.com/library/view/programming-interactivity-2nd/9781449321482/"
+                  target="_blank"
+                  >Programming Interactivity
+                </a>
+              </li>
+              <li>
+                <a
+                  class="processingorg2"
+                  href="https://openprocessing.org/"
+                  target="_blank"
+                  >Open Processing</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer class="footer3">
+        <footer class="footer-section2">
+          <div class="home-button2" id="homeButtonContainer">
+            <div class="processing-with-ardunio3">Home</div>
+          </div>
+          <div class="copyright6">
+            <div class="processing-with-ardunio3">
+              © | Designed by Team Novva | 2023
+            </div>
+          </div>
+          <div class="scroll-up-button2" id="scrollUpButton">
+            <div class="processing-with-ardunio3">Scroll Up</div>
+          </div>
+        </footer>
+      </footer>
+    </div>
+
+    <script>
+      var processingBasicsText = document.getElementById("processingBasicsText");
+      if (processingBasicsText) {
+        processingBasicsText.addEventListener("click", function (e) {
+          window.location.href = "./ProcessingBasics.html";
+        });
+      }
+      
+      var processingProjectText = document.getElementById("processingProjectText");
+      if (processingProjectText) {
+        processingProjectText.addEventListener("click", function (e) {
+          window.location.href = "ProcessingProject.html";
+        });
+      }
+      
+      var homeButtonContainer = document.getElementById("homeButtonContainer");
+      if (homeButtonContainer) {
+        homeButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./HomePage.html";
+        });
+      }
+      
+      var scrollUpButton = document.getElementById("scrollUpButton");
+      if (scrollUpButton) {
+        scrollUpButton.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='navigationBar']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>
