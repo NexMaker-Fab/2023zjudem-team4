@@ -185,7 +185,7 @@
   font-family: var(--font-poppins);
 }
 .description {
-  font-size: var(--font-size-mid);
+  font-size: var(--text-size);
   line-height: 27px;
   display: inline-block;
   width: 465px;
@@ -203,7 +203,7 @@
 }
 .readmorefinalproject1 {
   flex-shrink: 0;
-  gap: 16px;
+  gap: var(--gap-base);
 }
 .readmorefinalproject,
 .readmorefinalproject1 {
@@ -240,322 +240,6 @@
   font-size: var(--font-size-29xl);
   color: var(--font-color);
   font-family: var(--font-encode-sans);
-}
-.our-course-projects {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 351px);
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
-  font-weight: 100;
-}
-.title {
-  position: relative;
-  width: 1200px;
-  height: 76px;
-}
-.courseprojects {
-  width: 1200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: left;
-  font-size: var(--font-size-29xl);
-  color: var(--font-color);
-  font-family: var(--font-encode-sans);
-}
-.group-child {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 104px);
-  border-radius: var(--br-85xl);
-  filter: blur(4px);
-  border: 2px solid var(--font-color);
-  box-sizing: border-box;
-}
-.group,
-.group-child,
-.group-item {
-  width: 208px;
-  height: 348px;
-}
-.group-item {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 104px);
-  border-radius: var(--br-85xl);
-  border: 2px solid var(--font-color);
-  box-sizing: border-box;
-}
-.group {
-  position: relative;
-  z-index: 0;
-}
-.projectmanagement-child {
-  position: absolute;
-  margin: 0 !important;
-  top: 14px;
-  left: calc(50% - 90px);
-  border-radius: var(--br-85xl);
-  background-color: var(--color-darkslategray);
-  width: 180px;
-  height: 320px;
-  z-index: 1;
-}
-.symb-icon {
-  position: absolute;
-  margin: 0 !important;
-  top: 31px;
-  left: calc(50% - 64px);
-  width: 128px;
-  height: 128px;
-  object-fit: cover;
-  z-index: 2;
-}
-.project-management {
-  position: absolute;
-  top: 0;
-  left: 0;
-  letter-spacing: 0.08em;
-  font-weight: 300;
-}
-.topic {
-  margin: 0 !important;
-  top: 170px;
-  left: calc(50% - 74px);
-  width: 148px;
-  height: 60px;
-  z-index: 3;
-}
-.div,
-.num,
-.topic {
-  position: absolute;
-}
-.div {
-  top: 0;
-  left: 0;
-}
-.num {
-  margin: 0 !important;
-  top: 241px;
-  left: calc(50% - 23px);
-  width: 46px;
-  height: 72px;
-  z-index: 4;
-  font-size: var(--font-size-29xl);
-}
-.readmore {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-8xs);
-  background-color: var(--color-gray-300);
-  align-self: stretch;
-  border-radius: var(--br-xl);
-  backdrop-filter: blur(4px);
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: center;
-  z-index: 5;
-}
-.readmore1:hover,
-.readmore:hover {
-  background-color: var(--color-royalblue);
-}
-.projectmanagement,
-.sectionprojectmanagement {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
-.projectmanagement {
-  position: relative;
-  gap: var(--gap-2xl);
-}
-.sectionprojectmanagement {
-  width: 208px;
-  height: 415px;
-}
-.readmore1 {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-8xs);
-  background-color: var(--color-gray-300);
-  align-self: stretch;
-  border-radius: var(--br-xl);
-  backdrop-filter: blur(4px);
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  z-index: 0;
-}
-.group-inner {
-  position: absolute;
-  bottom: 0;
-  left: calc(50% - 104px);
-  border-radius: var(--br-85xl);
-  filter: blur(4px);
-  border: 2px solid var(--font-color);
-  box-sizing: border-box;
-}
-.group-inner,
-.group1,
-.rectangle-div {
-  width: 208px;
-  height: 348px;
-}
-.rectangle-div {
-  position: absolute;
-  bottom: 0;
-  left: calc(50% - 104px);
-  border-radius: var(--br-85xl);
-  border: 2px solid var(--font-color);
-  box-sizing: border-box;
-}
-.group1 {
-  position: relative;
-  z-index: 1;
-}
-.caddesign-child,
-.symb-icon1 {
-  position: absolute;
-  margin: 0 !important;
-}
-.caddesign-child {
-  bottom: 14px;
-  left: calc(50% - 90px);
-  border-radius: var(--br-85xl);
-  background-color: var(--color-darkslategray);
-  width: 180px;
-  height: 320px;
-  z-index: 2;
-}
-.symb-icon1 {
-  bottom: 191px;
-  left: calc(50% - 64px);
-  width: 128px;
-  height: 128px;
-  object-fit: cover;
-  z-index: 3;
-}
-.cad-designing {
-  position: absolute;
-  top: 0;
-  left: 10.81%;
-  letter-spacing: 0.08em;
-  font-weight: 300;
-}
-.topic1 {
-  margin: 0 !important;
-  bottom: 120px;
-  left: calc(50% - 74px);
-  width: 148px;
-  height: 60px;
-  z-index: 4;
-}
-.div1,
-.num1,
-.topic1 {
-  position: absolute;
-}
-.div1 {
-  top: 0;
-  left: -13.04%;
-}
-.num1 {
-  margin: 0 !important;
-  bottom: 37px;
-  left: calc(50% - 23px);
-  width: 46px;
-  height: 72px;
-  z-index: 5;
-  font-size: var(--font-size-29xl);
-}
-.sectioncaddesign {
-  width: 208px;
-  height: 415px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-}
-.d-printing {
-  position: absolute;
-  top: 0;
-  left: 17.57%;
-  letter-spacing: 0.08em;
-  font-weight: 300;
-}
-.symb-child {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: 50%;
-  border: 2px solid var(--font-color);
-  box-sizing: border-box;
-}
-.arduinoicon {
-  position: absolute;
-  height: 50%;
-  width: 50%;
-  top: 25%;
-  right: 25%;
-  bottom: 25%;
-  left: 25%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
-.symb {
-  position: absolute;
-  margin: 0 !important;
-  bottom: 191px;
-  left: calc(50% - 64px);
-  width: 128px;
-  height: 128px;
-  z-index: 3;
-}
-.div3,
-.laser-cutting {
-  position: absolute;
-  top: 0;
-}
-.laser-cutting {
-  left: 18.92%;
-  letter-spacing: 0.08em;
-  font-weight: 300;
-}
-.div3 {
-  left: -15.22%;
-}
-.contentcourseprojects,
-.courseprojectssection {
-  display: flex;
-  align-items: center;
-  gap: var(--gap-31xl);
-}
-.contentcourseprojects {
-  flex-shrink: 0;
-  flex-direction: row;
-  justify-content: center;
-}
-.courseprojectssection {
-  position: absolute;
-  top: 1469px;
-  left: calc(50% - 600px);
-  flex-direction: column;
-  justify-content: flex-start;
 }
 .imgchathura-icon {
   position: relative;
@@ -821,7 +505,7 @@
   justify-content: space-between;
   padding: var(--padding-13xl) var(--padding-61xl);
   text-align: left;
-  font-size: var(--font-size-mid);
+  font-size: var(--text-size);
   color: var(--font-color);
   font-family: var(--font-poppins);
 }
@@ -853,16 +537,100 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+.ourcourseprojects-31-title-31- {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 351px);
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  font-weight: 100;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+}
+.title-31-courseprojects-31-lan {
+  align-self: stretch;
+  position: relative;
+  height: 76px;
+}
+.courseprojects-31-landingpage- {
+  position: absolute;
+  top: 1457px;
+  left: calc(50% - 553px);
+  width: 1196px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--font-color);
+  font-family: var(--font-encode-sans);
+}
+.back-icon,
+.laserscroll-icon,
+.printingscroll-icon {
+  position: relative;
+  width: 12px;
+  height: 25px;
+  filter: grayscale(100%);
+  transition: transform 0.5s;
+  object-fit: cover;
+}
+.laserscroll-icon,
+.printingscroll-icon {
+  position: relative;
+  width: 216px;
+  height: 419px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.laserscroll-icon:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+  transform: scale(1.1);
+} 
+.printingscroll-icon:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.laserscroll-icon {
+  cursor: pointer;
+}
+.projects-31-scrollrinner-31-sc {
+  height: 500px;
+  overflow-x: hidden;
+  flex-shrink: 0;
+  gap: var(--gap-31xl);
+}
+.back-parent,
+.projects-31-scrollrinner-31-sc,
+.scrollerinner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.scrollerinner {
+  width: 800px;
+  height: 500px;
+  overflow-x: auto;
+  flex-shrink: 0;
+}
+.scrollerinner::-webkit-scrollbar{
+  display: none;
+}
+.back-parent {
+  position: absolute;
+  top: 1586px;
+  left: calc(50% - 432px);
+  gap: var(--gap-xl);
+}
 .homepage {
   position: relative;
   background-color: var(--color-gray-200);
   width: 100%;
   height: 3000px;
   overflow: hidden;
-  text-align: center;
-  font-size: var(--font-size-xl);
-  color: var(--font-color);
-  font-family: var(--font-poppins);
 }
 .tableofcontents {
   position: absolute;
@@ -874,14 +642,14 @@
   font-family: var(--font-encode-sans);
   text-align: center;
 }
-.home3 {
+.home1 {
   top: 164px;
   left: 408px;
 }
 .aboutus,
-.courseprojects1,
+.courseprojects,
 .finalproject1,
-.home3 {
+.home1 {
   position: absolute;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -893,7 +661,7 @@
   cursor: pointer;
 }
 .aboutus,
-.courseprojects1 {
+.courseprojects {
   top: 332px;
   left: 226px;
 }
@@ -901,7 +669,7 @@
   top: 504px;
   left: 350px;
 }
-.line-icon1 {
+.line-icon {
   position: absolute;
   top: 170px;
   left: 512px;
