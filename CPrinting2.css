@@ -1,0 +1,262 @@
+.home5 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 1.69rem;
+  font-weight: 200;
+}
+.copyright10,
+.home-button5,
+.scroll-up-button5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-button5 {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.copyright10,
+.scroll-up-button5 {
+  justify-content: center;
+}
+.scroll-up-button5 {
+  cursor: pointer;
+}
+.footer-section5 {
+  width: 75rem;
+  height: 5.69rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-61xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--font-color);
+  font-family: var(--font-poppins);
+}
+.a-slicer-software,
+.footer5 {
+  display: flex;
+  align-items: center;
+}
+.footer5 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 720px);
+  border-top: 0.5px solid var(--color-white);
+  box-sizing: border-box;
+  width: 90rem;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.a-slicer-software {
+  position: relative;
+  font-weight: 300;
+  text-align: justify;
+  width: 75rem;
+}
+.cp-frame1,
+.flashprint {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+}
+.flashprint {
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  align-items: center;
+  width: 37.5rem;
+}
+.cp-frame1 {
+  width: 75rem;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--sub-heading-size);
+}
+.cp-img1-icon {
+  position: relative;
+  border-radius: var(--br-21xl);
+  width: 18.75rem;
+  height: 18.75rem;
+  object-fit: cover;
+}
+.cp-frame2 {
+  width: 75rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-281xl);
+}
+.some-examples-of {
+  margin: 0;
+}
+.how-to-install-container {
+  position: relative;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+  width: 75rem;
+}
+.here {
+  color: inherit;
+}
+.you-can-download-container {
+  position: relative;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 75rem;
+}
+.cp-img5-icon,
+.cp-img6-icon {
+  position: relative;
+  width: 75rem;
+  height: 44.31rem;
+  object-fit: cover;
+}
+.cp-img6-icon {
+  height: 42.19rem;
+}
+.software-settings-txt-container {
+  width: 100%;
+}
+.div,
+.view-view-the {
+  position: relative;
+  font-weight: 800;
+}
+.view-view-the {
+  flex: 1;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  color: var(--font-color);
+}
+.cp-frame5 {
+  width: 75rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  font-size: var(--font-size-17xl);
+  color: var(--color-gold);
+}
+.cp-img11-icon {
+  position: relative;
+  width: 75rem;
+  height: 42.17rem;
+  object-fit: cover;
+}
+.expert-mode,
+.move-click-it {
+  position: relative;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+}
+.move-click-it {
+  flex: 1;
+  font-weight: 600;
+  color: var(--font-color);
+  white-space: pre-wrap;
+}
+.expert-mode {
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  width: 75rem;
+}
+.shells-txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.shells {
+  position: relative;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 75rem;
+}
+.flashforge-wiki {
+  margin-bottom: false;
+}
+.flashprint-slicer-for {
+  text-decoration: underline;
+}
+.flashforge-wiki-flashprint-sli {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.content106 {
+  position: absolute;
+  top: 5.69rem;
+  left: calc(50% - 600px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) 0;
+  gap: var(--gap-xl);
+}
+.d-printer4,
+.introduction4,
+.slice-software4 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 1.69rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+.introduction4:hover {
+  color: var(--color-white);
+}
+.d-printer4,
+.slice-software4 {
+  font-weight: 800;
+}
+.d-printer4 {
+  font-weight: 300;
+}
+.navigation-bar4 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 90rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-13xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.c-printing2 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1216.5rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--paragraph-size);
+  color: var(--font-color);
+  font-family: var(--sub-heading);
+}

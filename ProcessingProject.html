@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./ProcessingProject.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Encode Sans:wght@100;300;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="processing-project1">
+      <div class="magic-boxes-parent">
+        <b class="magic-boxes">MAGIC BOXES</b>
+        <img class="image-27-icon1" alt="" src="./public/image-27@2x.png" />
+
+        <div class="this-simple-project-container">
+          <p class="this-simple-project">
+            This simple project was created by using processing 4 (4.3). This is
+            a game which takes inputs from mouse and key board to change the
+            color of player and to move the player around. The goal of this game
+            is to move the player to green box. There are obstacles in the way
+            to green box. Other colored boxes are magic boxes which helps player
+            to avoid walls and other obstacles. They act as one way transporting
+            portals. Player can enter from one box and come out from the second
+            same colored box which appears in grid. After Reaching to the green
+            box player will receive a message saying “you win”.
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="this-simple-project">
+            Here is the detailed instruction to make this game step by step, to
+            help and understand the process easily it has braked down into
+            several key parts.
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="setting-up-the">01. Setting Up the Environment.</p>
+          <p class="setting-up-the">02. Understanding the Code Structure.</p>
+          <p class="setting-up-the">03. Customizing the game.</p>
+          <p class="setting-up-the">04. Complete game Code.</p>
+          <p class="setting-up-the">05. Run and Test the Game.</p>
+          <p class="setting-up-the">
+            06. Enhancements and further developments.
+          </p>
+        </div>
+        <b class="magic-boxes">
+          <ul class="setting-up-the-environment">
+            <li>Setting up the Environment.</li>
+          </ul>
+        </b>
+        <div class="since-i-already">
+          Since I already have explained about how to install and set up the
+          processing in processing basics, I’ll not go to a detailed step by
+          step guide here. If you have any doubt you are welcome to Visit the
+          Processing basics page to get a detailed guide about how to download
+          and install processing.
+        </div>
+        <b class="magic-boxes">
+          <ul class="setting-up-the-environment">
+            <li>Understanding the Code Structure</li>
+          </ul>
+        </b>
+        <div class="this-simple-project-container">
+          <p class="this-simple-project">
+            There are five main parts of this code,
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <ul class="variable-initialization-revie">
+            <li>
+              <span class="playerx">Variable Initialization:</span>
+              <span class="review-and-understand">
+                Review and understand the variables used for player position,
+                target position, box positions, maze layout, and Boolean flags
+                for box interaction. In this code there are variables to
+                introduce the Player, Target, and Box Positions: Variables like
+              </span>
+              <span class="playerx">playerX</span>
+              <span class="span">,</span>
+              <span class="playerx"> playerY</span>
+              <span class="span">,</span>
+              <span class="playerx"> targetX, targetY, box1X, box1Y, </span>
+              <span class="span"
+                >and so on, store the coordinates for the player, target, and
+                various boxes in the maze.
+              </span>
+              <span class="playerx">maze </span>
+              <span class="span">and</span>
+              <span class="playerx"> tileSize</span>
+              <span class="span"
+                >: The maze array represents the layout of the maze with 1
+                indicating walls and 0 representing empty spaces. The tileSize
+                variable defines the size of each cell in the maze.
+              </span>
+              <span class="playerx">playerColor</span>
+              <span class="span"> and</span>
+              <span class="playerx"> boxColors</span>
+              <span class="span"
+                >: These two is responsible for the color of the player and the
+                color of the transporting portal boxes in the maze.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="int-playerx-playery-playe-wrapper">
+          <div class="int-playerx-playery-container">
+            <p class="int-playerx-playery">
+              int playerX, playerY; // Player position
+            </p>
+            <p class="int-playerx-playery">
+              int targetX, targetY; // Winning posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box1X, box1Y; // Box 1 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box2X, box2Y; // Box 2 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box3X, box3Y; // Box 3 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box4X, box4Y; // Box 4 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box5X, box5Y; // Box 5 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box6X, box6Y; // Box 6 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box7X, box7Y; // Box 7 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box8X, box8Y; // Box 8 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box9X, box9Y; // Box 8 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box10X, box10Y; // Box 8 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int tileSize = 40; // Size of each box in the maze
+            </p>
+            <p class="int-playerx-playery">
+              color playerColor = color(255, 0, 0); // Initial player color
+              (red)
+            </p>
+            <p class="int-playerx-playery">
+              color[] boxColors = {#FF0000, #0000FF, #FFFF00, #FFC0CB, #FFA500};
+              // colors
+            </p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">// Maze layout</p>
+            <p class="int-playerx-playery">int[][] maze = {</p>
+            <p class="int-playerx-playery">
+              {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
+            </p>
+            <p class="int-playerx-playery">};</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">boolean reachedBox1 = false;</p>
+          </div>
+        </div>
+        <div class="this-simple-project-container">
+          <ul class="variable-initialization-revie">
+            <li>
+              <span class="playerx">Setup Function:</span>
+              <span class="span"> </span>
+              <span class="playerx">setup()</span>
+              <span class="review-and-understand">
+                function that initializes the canvas size and sets initial
+                positions for the player, target, and boxes. Sets up the canvas
+                size using
+              </span>
+              <span class="playerx">size()</span>
+              <span class="span">
+                function. Initializes the starting positions of the player,
+                target, and each box.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="int-playerx-playery-playe-wrapper">
+          <div class="int-playerx-playery-container">
+            <p class="int-playerx-playery">void setup() {</p>
+            <p class="int-playerx-playery">size(520, 520);</p>
+            <p class="int-playerx-playery">
+              playerX = 1 * tileSize + tileSize / 2; // Initial player X
+              position
+            </p>
+            <p class="int-playerx-playery">
+              playerY = 1 * tileSize + tileSize / 2; // Initial player Y
+              position
+            </p>
+            <p class="int-playerx-playery">
+              targetX = 11 * tileSize + tileSize / 2; // winning X position
+            </p>
+            <p class="int-playerx-playery">
+              targetY = 11 * tileSize + tileSize / 2; // Winning Y position
+            </p>
+            <p class="int-playerx-playery">
+              box1X = 2 * tileSize + tileSize / 2; // Yellow Box 1 X position
+            </p>
+            <p class="int-playerx-playery">
+              box1Y = 4 * tileSize + tileSize / 2; // Yellow Box 1 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box2X = 9 * tileSize + tileSize / 2; // Yellow Box 2 X position
+            </p>
+            <p class="int-playerx-playery">
+              box2Y = 5 * tileSize + tileSize / 2; // Yellow Box 2 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box3X = 9 * tileSize + tileSize / 2; // Pink Box 3 X position
+            </p>
+            <p class="int-playerx-playery">
+              box3Y = 7 * tileSize + tileSize / 2; // Pink Box 3 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box4X = 11* tileSize + tileSize / 2; // Pink Box 4 X position
+            </p>
+            <p class="int-playerx-playery">
+              box4Y = 1 * tileSize + tileSize / 2; // Pink Box 4 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box5X = 11 * tileSize + tileSize / 2; // Blue Box 5 X position
+            </p>
+            <p class="int-playerx-playery">
+              box5Y = 4 * tileSize + tileSize / 2; // Blue Box 5 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box6X = 8 * tileSize + tileSize / 2; // Blue Box 6 X position
+            </p>
+            <p class="int-playerx-playery">
+              box6Y = 11 * tileSize + tileSize / 2; // Blue Box 6 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box7X = 8 * tileSize + tileSize / 2; // Red Box 7 X position
+            </p>
+            <p class="int-playerx-playery">
+              box7Y = 3 * tileSize + tileSize / 2; // Red Box 7 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box8X = 7 * tileSize + tileSize / 2; // Red Box 8 X position
+            </p>
+            <p class="int-playerx-playery">
+              box8Y = 9 * tileSize + tileSize / 2; // Red Box 8 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box9X = 6 * tileSize + tileSize / 2; // Red Box 8 X position
+            </p>
+            <p class="int-playerx-playery">
+              box9Y = 3 * tileSize + tileSize / 2; // Red Box 8 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box10X = 7 * tileSize + tileSize / 2; // Red Box 8 X position
+            </p>
+            <p class="int-playerx-playery">
+              box10Y = 1 * tileSize + tileSize / 2; // Red Box 8 Y position
+            </p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">}</p>
+          </div>
+        </div>
+        <div class="this-simple-project-container">
+          <ul class="variable-initialization-revie">
+            <li class="draw-functions-drawmaze-dr1">
+              <span class="playerx">Draw Functions:</span>
+              <span class="span"> </span>
+              <span class="playerx"
+                >drawMaze(), drawPlayer(), drawTarget(), drawBox()</span
+              >
+              <span class="span">, and </span>
+              <span class="playerx">draw()</span>
+              <span class="review-and-understand">
+                functions to draw the maze, player, target, and boxes.
+              </span>
+            </li>
+          </ul>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="int-playerx-playery">
+            <span class="review-and-understand">3.1 Main Draw Loop using </span>
+            <span class="playerx">draw()</span>
+            <span class="review-and-understand"
+              >: Background Rendering: Clears the screen with a white background
+              using background(255).
+            </span>
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="int-playerx-playery">
+            <span class="review-and-understand"
+              >3.2 Drawing Elements: Invokes functions to draw the maze, player,
+              target, and boxes.
+            </span>
+            <span class="playerx">drawMaze()</span>
+            <span class="span"
+              >: Loops through the maze array and draws the maze walls based on
+              the values (1 or 0) present in the array.
+            </span>
+            <span class="playerx">drawPlayer() and drawTarget()</span>
+            <span class="span"
+              >: Render the player (red ellipse) and target (green rectangle)
+              respectively at their specified positions.
+            </span>
+            <span class="playerx">drawBox()</span>
+            <span class="review-and-understand"
+              >: Draws different colored boxes at their specified positions in
+              the maze.
+            </span>
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="this-simple-project">
+            3.3 Using Logics: Win Condition Check: Checks if the player's
+            position matches the target position and displays a "You Win!"
+            message if they coincide. Box Interaction: Checks if the player
+            reaches specific boxes and updates the player's position
+            accordingly. The code checks the player's position against the
+            positions of various boxes (box1, box4, box6, box7). If the player's
+            position matches a box's position, it triggers an action: For
+            instance, when the player reaches box1, they get teleported to the
+            position of box2. Similarly, reaching box4 teleports the player to
+            the position of box3, and so on for other boxes. The relevant
+            section in the draw() function contains the logic for box
+            interaction.
+          </p>
+        </div>
+        <div class="int-playerx-playery-playe-wrapper">
+          <div class="int-playerx-playery-container">
+            <p class="int-playerx-playery">void draw() {</p>
+            <p class="int-playerx-playery">background(255);</p>
+            <p class="int-playerx-playery">drawMaze();</p>
+            <p class="int-playerx-playery">drawPlayer();</p>
+            <p class="int-playerx-playery">drawTarget();</p>
+            <p class="int-playerx-playery">
+              drawBox(box1X, box1Y, boxColors[2]); // Draw Box with yellow
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box2X, box2Y, boxColors[2]); // Draw Box with yellow
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box3X, box3Y, boxColors[3]); // Draw Box with pink
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box4X, box4Y, boxColors[3]); // Draw Box with pink
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box5X, box5Y, boxColors[1]); // Draw Box with blue
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box6X, box6Y, boxColors[1]); // Draw Box with blue
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box7X, box7Y, boxColors[0]); // Draw Box with red
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box8X, box8Y, boxColors[0]); // Draw Box with red
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box9X, box9Y, boxColors[4]); // Draw Box with red
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box10X, box10Y, boxColors[4]); // Draw Box with red
+            </p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">
+              if (playerX == targetX && playerY == targetY) {
+            </p>
+            <p class="int-playerx-playery">fill(0);</p>
+            <p class="int-playerx-playery">textSize(80);</p>
+            <p class="int-playerx-playery">textAlign(CENTER, CENTER);</p>
+            <p class="int-playerx-playery">
+              text("You Win!", width / 2, height / 2); // win message
+            </p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">
+              // Check if the player reaches Box 1
+            </p>
+            <p class="int-playerx-playery">
+              if (playerX == box1X && playerY == box1Y) {
+            </p>
+            <p class="int-playerx-playery">
+              playerX = box2X; // Respawn the player at Box 2 X position
+            </p>
+            <p class="int-playerx-playery">
+              playerY = box2Y; // Respawn the player at Box 2 Y position
+            </p>
+            <p class="int-playerx-playery">reachedBox1 = true;</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">
+              if (playerX == box4X && playerY == box4Y) {
+            </p>
+            <p class="int-playerx-playery">
+              playerX = box3X; // Respawn the player at Box 3 X position
+            </p>
+            <p class="int-playerx-playery">
+              playerY = box3Y; // Respawn the player at Box 3 Y position
+            </p>
+            <p class="int-playerx-playery">reachedBox1 = true;</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">
+              if (playerX == box7X && playerY == box7Y) {
+            </p>
+            <p class="int-playerx-playery">
+              playerX = box8X; // Respawn the player at Box 8 X position
+            </p>
+            <p class="int-playerx-playery">
+              playerY = box8Y; // Respawn the player at Box 8Y position
+            </p>
+            <p class="int-playerx-playery">reachedBox1 = true;</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">
+              if (playerX == box6X && playerY == box6Y) {
+            </p>
+            <p class="int-playerx-playery">
+              playerX = box5X; // Respawn the player at Box 5 X position
+            </p>
+            <p class="int-playerx-playery">
+              playerY = box5Y; // Respawn the player at Box 5 Y position
+            </p>
+            <p class="int-playerx-playery">reachedBox1 = true;</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">
+              if (playerX == box9X && playerY == box9Y) {
+            </p>
+            <p class="int-playerx-playery">
+              playerX = box10X; // Respawn the player at Box 5 X position
+            </p>
+            <p class="int-playerx-playery">
+              playerY = box10Y; // Respawn the player at Box 5 Y position
+            </p>
+            <p class="int-playerx-playery">reachedBox1 = true;</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">void drawMaze() {</p>
+            <p class="int-playerx-playery">
+              for (int i = 0; i &lt; maze.length; i++) {
+            </p>
+            <p class="int-playerx-playery">
+              for (int j = 0; j &lt; maze[i].length; j++) {
+            </p>
+            <p class="int-playerx-playery">if (maze[i][j] == 1) {</p>
+            <p class="int-playerx-playery">fill(100);</p>
+            <p class="int-playerx-playery">
+              rect(j * tileSize, i * tileSize, tileSize, tileSize);
+            </p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">void drawPlayer() {</p>
+            <p class="int-playerx-playery">fill(playerColor);</p>
+            <p class="int-playerx-playery">
+              ellipse(playerX, playerY, tileSize * 0.8, tileSize * 0.8);
+            </p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">void drawTarget() {</p>
+            <p class="int-playerx-playery">fill(0, 255, 0);</p>
+            <p class="int-playerx-playery">
+              rect(targetX - tileSize / 2, targetY - tileSize / 2, tileSize,
+              tileSize);
+            </p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">
+              void drawBox(int x, int y, color boxColor) {
+            </p>
+            <p class="int-playerx-playery">fill(boxColor); // Use the color</p>
+            <p class="int-playerx-playery">
+              rect(x - tileSize / 2, y - tileSize / 2, tileSize, tileSize);
+            </p>
+            <p class="int-playerx-playery">}</p>
+          </div>
+        </div>
+        <div class="this-simple-project-container">
+          <ul class="variable-initialization-revie">
+            <li>
+              <span class="playerx">Key Press Handling: </span>
+              <span class="span">Using the </span>
+              <span class="playerx">keyPressed()</span>
+              <span class="review-and-understand">
+                function responsible for handling player movements using arrow
+                keys. Detects player input using arrow keys (LEFT, RIGHT, UP,
+                DOWN). Checks the validity of the next move based on the maze
+                layout. Updates the player's position according to the arrow key
+                pressed and the maze structure.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="int-playerx-playery-playe-wrapper">
+          <div class="int-playerx-playery-container">
+            <p class="int-playerx-playery">void keyPressed() {</p>
+            <p class="int-playerx-playery">int nextX = playerX;</p>
+            <p class="int-playerx-playery">int nextY = playerY;</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">
+              if (keyCode == LEFT && maze[playerY / tileSize][(playerX -
+              tileSize) / tileSize] != 1) {
+            </p>
+            <p class="int-playerx-playery">nextX -= tileSize;</p>
+            <p class="int-playerx-playery">
+              } else if (keyCode == RIGHT && maze[playerY / tileSize][(playerX +
+              tileSize) / tileSize] != 1) {
+            </p>
+            <p class="int-playerx-playery">nextX += tileSize;</p>
+            <p class="int-playerx-playery">
+              } else if (keyCode == UP && maze[(playerY - tileSize) /
+              tileSize][playerX / tileSize] != 1) {
+            </p>
+            <p class="int-playerx-playery">nextY -= tileSize;</p>
+            <p class="int-playerx-playery">
+              } else if (keyCode == DOWN && maze[(playerY + tileSize) /
+              tileSize][playerX / tileSize] != 1) {
+            </p>
+            <p class="int-playerx-playery">nextY += tileSize;</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">
+              if (nextX &gt;= 0 && nextX &lt; width && nextY &gt;= 0 && nextY
+              &lt; height) {
+            </p>
+            <p class="int-playerx-playery">playerX = nextX;</p>
+            <p class="int-playerx-playery">playerY = nextY;</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">}</p>
+          </div>
+        </div>
+        <div class="this-simple-project-container">
+          <ul class="variable-initialization-revie">
+            <li>
+              <span class="playerx">Mouse press Handling:</span>
+              <span class="span"> Using the </span>
+              <span class="playerx">mouseClicked()</span>
+              <span class="review-and-understand">
+                function responsible for handling player color changes using
+                mouse.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="int-playerx-playery-playe-wrapper">
+          <div class="int-playerx-playery-container">
+            <p class="int-playerx-playery">void mouseClicked() {</p>
+            <p class="int-playerx-playery">
+              playerColor = color(random(255), random(255), random(255));
+            </p>
+            <p class="int-playerx-playery">}</p>
+          </div>
+        </div>
+        <b class="magic-boxes">
+          <ul class="setting-up-the-environment">
+            <li>Customizing the game.</li>
+          </ul>
+        </b>
+        <div class="this-simple-project-container">
+          <p class="this-simple-project">Add New Boxes and Interactions:</p>
+          <p class="int-playerx-playery">
+            <span class="span"
+              >Define new box positions (boxX and boxY variables). Create new
+              conditional checks similar to existing ones in the
+            </span>
+            <span class="playerx">draw()</span>
+            <span class="review-and-understand">
+              function to handle interactions when the player reaches these new
+              boxes.</span
+            >
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="this-simple-project">Change Box Interaction Actions:</p>
+          <p class="this-simple-project">
+            Instead of teleporting the player to another box, you can create
+            different actions, such as opening new paths, triggering events,
+            changing maze configurations, etc.
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="this-simple-project">Implement Conditional Events:</p>
+          <p class="this-simple-project">
+            Utilize boolean flags (like reachedBox1, reachedBox2, etc.) to track
+            which boxes the player has reached and implement conditional events
+            based on these states.
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="this-simple-project">
+            Example Modification (Adding a New Box Interaction):
+          </p>
+        </div>
+        <div class="int-playerx-playery-playe-wrapper">
+          <div class="int-box9x-container">
+            <p class="int-playerx-playery">
+              int box9X = 6 * tileSize + tileSize / 2; // New Box 9 X position
+            </p>
+            <p class="int-playerx-playery">
+              int box9Y = 8 * tileSize + tileSize / 2; // New Box 9 Y position
+            </p>
+            <p class="int-playerx-playery">&nbsp;</p>
+            <p class="int-playerx-playery">
+              // Check if the player reaches Box 9
+            </p>
+            <p class="int-playerx-playery">
+              if (playerX == box9X && playerY == box9Y) {
+            </p>
+            <p class="int-playerx-playery">&nbsp;</p>
+            <p class="int-playerx-playery">
+              // Implement a new action when reaching Box 9 (for example)
+            </p>
+            <p class="int-playerx-playery">&nbsp;</p>
+            <p class="int-playerx-playery">
+              // Update player position to a specific coordinate
+            </p>
+            <p class="int-playerx-playery">
+              playerX = 3 * tileSize + tileSize / 2; // Move player to new
+              position X
+            </p>
+            <p class="int-playerx-playery">
+              playerY = 4 * tileSize + tileSize / 2; // Move player to new
+              position Y
+            </p>
+            <p class="int-playerx-playery">
+              // Add other actions or state changes as needed
+            </p>
+            <p class="int-playerx-playery">}</p>
+          </div>
+        </div>
+        <b class="magic-boxes">
+          <ul class="setting-up-the-environment">
+            <li>Complete game Code.</li>
+          </ul>
+        </b>
+        <div class="since-i-already">Final Code of the full game</div>
+        <div class="int-playerx-playery-playe-wrapper">
+          <div class="int-playerx-playery-container">
+            <p class="int-playerx-playery">
+              int playerX, playerY; // Player position
+            </p>
+            <p class="int-playerx-playery">
+              int targetX, targetY; // Winning posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box1X, box1Y; // Box 1 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box2X, box2Y; // Box 2 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box3X, box3Y; // Box 3 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box4X, box4Y; // Box 4 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box5X, box5Y; // Box 5 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box6X, box6Y; // Box 6 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box7X, box7Y; // Box 7 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box8X, box8Y; // Box 8 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box9X, box9Y; // Box 8 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int box10X, box10Y; // Box 8 posssition
+            </p>
+            <p class="int-playerx-playery">
+              int tileSize = 40; // Size of each box in the maze
+            </p>
+            <p class="int-playerx-playery">
+              color playerColor = color(255, 0, 0); // Initial player color
+              (red)
+            </p>
+            <p class="int-playerx-playery">
+              color[] boxColors = {#FF0000, #0000FF, #FFFF00, #FFC0CB, #FFA500};
+              // colors
+            </p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">// Maze layout</p>
+            <p class="int-playerx-playery">int[][] maze = {</p>
+            <p class="int-playerx-playery">
+              {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1},
+            </p>
+            <p class="int-playerx-playery">
+              {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
+            </p>
+            <p class="int-playerx-playery">};</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">boolean reachedBox1 = false;</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">void setup() {</p>
+            <p class="int-playerx-playery">size(520, 520);</p>
+            <p class="int-playerx-playery">
+              playerX = 1 * tileSize + tileSize / 2; // Initial player X
+              position
+            </p>
+            <p class="int-playerx-playery">
+              playerY = 1 * tileSize + tileSize / 2; // Initial player Y
+              position
+            </p>
+            <p class="int-playerx-playery">
+              targetX = 11 * tileSize + tileSize / 2; // winning X position
+            </p>
+            <p class="int-playerx-playery">
+              targetY = 11 * tileSize + tileSize / 2; // Winning Y position
+            </p>
+            <p class="int-playerx-playery">
+              box1X = 2 * tileSize + tileSize / 2; // Yellow Box 1 X position
+            </p>
+            <p class="int-playerx-playery">
+              box1Y = 4 * tileSize + tileSize / 2; // Yellow Box 1 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box2X = 9 * tileSize + tileSize / 2; // Yellow Box 2 X position
+            </p>
+            <p class="int-playerx-playery">
+              box2Y = 5 * tileSize + tileSize / 2; // Yellow Box 2 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box3X = 9 * tileSize + tileSize / 2; // Pink Box 3 X position
+            </p>
+            <p class="int-playerx-playery">
+              box3Y = 7 * tileSize + tileSize / 2; // Pink Box 3 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box4X = 11* tileSize + tileSize / 2; // Pink Box 4 X position
+            </p>
+            <p class="int-playerx-playery">
+              box4Y = 1 * tileSize + tileSize / 2; // Pink Box 4 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box5X = 11 * tileSize + tileSize / 2; // Blue Box 5 X position
+            </p>
+            <p class="int-playerx-playery">
+              box5Y = 4 * tileSize + tileSize / 2; // Blue Box 5 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box6X = 8 * tileSize + tileSize / 2; // Blue Box 6 X position
+            </p>
+            <p class="int-playerx-playery">
+              box6Y = 11 * tileSize + tileSize / 2; // Blue Box 6 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box7X = 8 * tileSize + tileSize / 2; // Red Box 7 X position
+            </p>
+            <p class="int-playerx-playery">
+              box7Y = 3 * tileSize + tileSize / 2; // Red Box 7 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box8X = 7 * tileSize + tileSize / 2; // Red Box 8 X position
+            </p>
+            <p class="int-playerx-playery">
+              box8Y = 9 * tileSize + tileSize / 2; // Red Box 8 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box9X = 6 * tileSize + tileSize / 2; // Red Box 8 X position
+            </p>
+            <p class="int-playerx-playery">
+              box9Y = 3 * tileSize + tileSize / 2; // Red Box 8 Y position
+            </p>
+            <p class="int-playerx-playery">
+              box10X = 7 * tileSize + tileSize / 2; // Red Box 8 X position
+            </p>
+            <p class="int-playerx-playery">
+              box10Y = 1 * tileSize + tileSize / 2; // Red Box 8 Y position
+            </p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">void draw() {</p>
+            <p class="int-playerx-playery">background(255);</p>
+            <p class="int-playerx-playery">drawMaze();</p>
+            <p class="int-playerx-playery">drawPlayer();</p>
+            <p class="int-playerx-playery">drawTarget();</p>
+            <p class="int-playerx-playery">
+              drawBox(box1X, box1Y, boxColors[2]); // Draw Box with yellow
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box2X, box2Y, boxColors[2]); // Draw Box with yellow
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box3X, box3Y, boxColors[3]); // Draw Box with pink
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box4X, box4Y, boxColors[3]); // Draw Box with pink
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box5X, box5Y, boxColors[1]); // Draw Box with blue
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box6X, box6Y, boxColors[1]); // Draw Box with blue
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box7X, box7Y, boxColors[0]); // Draw Box with red
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box8X, box8Y, boxColors[0]); // Draw Box with red
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box9X, box9Y, boxColors[4]); // Draw Box with red
+            </p>
+            <p class="int-playerx-playery">
+              drawBox(box10X, box10Y, boxColors[4]); // Draw Box with red
+            </p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">
+              if (playerX == targetX && playerY == targetY) {
+            </p>
+            <p class="int-playerx-playery">fill(0);</p>
+            <p class="int-playerx-playery">textSize(80);</p>
+            <p class="int-playerx-playery">textAlign(CENTER, CENTER);</p>
+            <p class="int-playerx-playery">
+              text("You Win!", width / 2, height / 2); // win message
+            </p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">
+              // Check if the player reaches Box 1
+            </p>
+            <p class="int-playerx-playery">
+              if (playerX == box1X && playerY == box1Y) {
+            </p>
+            <p class="int-playerx-playery">
+              playerX = box2X; // Respawn the player at Box 2 X position
+            </p>
+            <p class="int-playerx-playery">
+              playerY = box2Y; // Respawn the player at Box 2 Y position
+            </p>
+            <p class="int-playerx-playery">reachedBox1 = true;</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">
+              if (playerX == box4X && playerY == box4Y) {
+            </p>
+            <p class="int-playerx-playery">
+              playerX = box3X; // Respawn the player at Box 3 X position
+            </p>
+            <p class="int-playerx-playery">
+              playerY = box3Y; // Respawn the player at Box 3 Y position
+            </p>
+            <p class="int-playerx-playery">reachedBox1 = true;</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">
+              if (playerX == box7X && playerY == box7Y) {
+            </p>
+            <p class="int-playerx-playery">
+              playerX = box8X; // Respawn the player at Box 8 X position
+            </p>
+            <p class="int-playerx-playery">
+              playerY = box8Y; // Respawn the player at Box 8Y position
+            </p>
+            <p class="int-playerx-playery">reachedBox1 = true;</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">
+              if (playerX == box6X && playerY == box6Y) {
+            </p>
+            <p class="int-playerx-playery">
+              playerX = box5X; // Respawn the player at Box 5 X position
+            </p>
+            <p class="int-playerx-playery">
+              playerY = box5Y; // Respawn the player at Box 5 Y position
+            </p>
+            <p class="int-playerx-playery">reachedBox1 = true;</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">
+              if (playerX == box9X && playerY == box9Y) {
+            </p>
+            <p class="int-playerx-playery">
+              playerX = box10X; // Respawn the player at Box 5 X position
+            </p>
+            <p class="int-playerx-playery">
+              playerY = box10Y; // Respawn the player at Box 5 Y position
+            </p>
+            <p class="int-playerx-playery">reachedBox1 = true;</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">void drawMaze() {</p>
+            <p class="int-playerx-playery">
+              for (int i = 0; i &lt; maze.length; i++) {
+            </p>
+            <p class="int-playerx-playery">
+              for (int j = 0; j &lt; maze[i].length; j++) {
+            </p>
+            <p class="int-playerx-playery">if (maze[i][j] == 1) {</p>
+            <p class="int-playerx-playery">fill(100);</p>
+            <p class="int-playerx-playery">
+              rect(j * tileSize, i * tileSize, tileSize, tileSize);
+            </p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">void drawPlayer() {</p>
+            <p class="int-playerx-playery">fill(playerColor);</p>
+            <p class="int-playerx-playery">
+              ellipse(playerX, playerY, tileSize * 0.8, tileSize * 0.8);
+            </p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">void drawTarget() {</p>
+            <p class="int-playerx-playery">fill(0, 255, 0);</p>
+            <p class="int-playerx-playery">
+              rect(targetX - tileSize / 2, targetY - tileSize / 2, tileSize,
+              tileSize);
+            </p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">
+              void drawBox(int x, int y, color boxColor) {
+            </p>
+            <p class="int-playerx-playery">fill(boxColor); // Use the color</p>
+            <p class="int-playerx-playery">
+              rect(x - tileSize / 2, y - tileSize / 2, tileSize, tileSize);
+            </p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">void keyPressed() {</p>
+            <p class="int-playerx-playery">int nextX = playerX;</p>
+            <p class="int-playerx-playery">int nextY = playerY;</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">
+              if (keyCode == LEFT && maze[playerY / tileSize][(playerX -
+              tileSize) / tileSize] != 1) {
+            </p>
+            <p class="int-playerx-playery">nextX -= tileSize;</p>
+            <p class="int-playerx-playery">
+              } else if (keyCode == RIGHT && maze[playerY / tileSize][(playerX +
+              tileSize) / tileSize] != 1) {
+            </p>
+            <p class="int-playerx-playery">nextX += tileSize;</p>
+            <p class="int-playerx-playery">
+              } else if (keyCode == UP && maze[(playerY - tileSize) /
+              tileSize][playerX / tileSize] != 1) {
+            </p>
+            <p class="int-playerx-playery">nextY -= tileSize;</p>
+            <p class="int-playerx-playery">
+              } else if (keyCode == DOWN && maze[(playerY + tileSize) /
+              tileSize][playerX / tileSize] != 1) {
+            </p>
+            <p class="int-playerx-playery">nextY += tileSize;</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">
+              if (nextX &gt;= 0 && nextX &lt; width && nextY &gt;= 0 && nextY
+              &lt; height) {
+            </p>
+            <p class="int-playerx-playery">playerX = nextX;</p>
+            <p class="int-playerx-playery">playerY = nextY;</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery">}</p>
+            <p class="int-playerx-playery"></p>
+            <p class="int-playerx-playery">void mouseClicked() {</p>
+            <p class="int-playerx-playery">
+              playerColor = color(random(255), random(255), random(255));
+            </p>
+            <p class="int-playerx-playery">}</p>
+          </div>
+        </div>
+        <b class="magic-boxes">
+          <ul class="setting-up-the-environment">
+            <li>Run and Test the Game.</li>
+          </ul>
+        </b>
+        <div class="since-i-already">
+          <p class="int-playerx-playery">Running the Game:</p>
+          <p class="int-playerx-playery">
+            Click the "Play" button in the Processing IDE to execute the code
+            and run the game.
+          </p>
+          <p class="int-playerx-playery">
+            This action will display the maze, player, boxes, and target on the
+            canvas.
+          </p>
+          <p class="int-playerx-playery">&nbsp;</p>
+          <p class="int-playerx-playery">Testing Gameplay:</p>
+          <p class="int-playerx-playery">
+            Use the arrow keys to navigate the player through the maze.
+          </p>
+          <p class="int-playerx-playery">
+            Click on the player to see it’s color changing.
+          </p>
+          <p class="int-playerx-playery">
+            Reach the target position to trigger the "You Win!" message and
+            check if it functions correctly.
+          </p>
+          <p class="int-playerx-playery">
+            Interact with different boxes to understand their effects
+            (teleportation) on the player.
+          </p>
+          <p class="int-playerx-playery">
+            Test movement boundaries and collisions with walls to ensure they
+            work as intended.
+          </p>
+        </div>
+        <b class="magic-boxes">
+          <ul class="setting-up-the-environment">
+            <li>Enhancements and further developments.</li>
+          </ul>
+        </b>
+        <div class="since-i-already">
+          <p class="int-playerx-playery">Modifying Maze Layout:</p>
+          <p class="int-playerx-playery">
+            Change the maze layout by altering the maze array to create
+            different maze structures or challenges.
+          </p>
+          <p class="int-playerx-playery">
+            Adjust the size, placement, and distribution of walls to make the
+            maze more complex or interesting.
+          </p>
+          <p class="int-playerx-playery">&nbsp;</p>
+          <p class="int-playerx-playery">Adding Levels or Challenges:</p>
+          <p class="int-playerx-playery">
+            Introduce multiple levels with varying maze structures or
+            difficulties.
+          </p>
+          <p class="int-playerx-playery">
+            Incorporate new obstacles, moving elements, or time-based challenges
+            to enhance gameplay complexity.
+          </p>
+          <p class="int-playerx-playery">&nbsp;</p>
+          <p class="int-playerx-playery">
+            Enhancing Visuals and User Interface:
+          </p>
+          <p class="int-playerx-playery">
+            Customize colors, shapes, or visual elements (player, boxes, walls)
+            to improve aesthetics.
+          </p>
+          <p class="int-playerx-playery">
+            Implement a more intuitive user interface with menus, scoreboards,
+            or instructions for a better user experience.
+          </p>
+          <p class="int-playerx-playery">&nbsp;</p>
+          <p class="int-playerx-playery">Implementing Additional Features:</p>
+          <p class="int-playerx-playery">
+            Add features like a scoring system, timer, sound effects, or
+            animations to make the game more immersive.
+          </p>
+          <p class="int-playerx-playery">
+            Include power-ups, special abilities, or collectibles to introduce
+            new dynamics and rewards.
+          </p>
+          <p class="int-playerx-playery">&nbsp;</p>
+          <p class="int-playerx-playery">Scaling Difficulty or Rewards:</p>
+          <p class="int-playerx-playery">
+            Adjust the difficulty curve by altering maze complexity, increasing
+            challenge, or providing rewards for completion.
+          </p>
+          <p class="int-playerx-playery">
+            Balance the game's difficulty to offer a challenging yet enjoyable
+            experience.
+          </p>
+          <p class="int-playerx-playery">&nbsp;</p>
+          <p class="int-playerx-playery">Collecting User Feedback:</p>
+          <p class="int-playerx-playery">
+            Gather feedback from playtesting or user input to identify areas for
+            improvement or features players would like to see.
+          </p>
+          <p class="int-playerx-playery">
+            Incorporate feedback to refine and optimize the game further.
+          </p>
+        </div>
+        <div class="reference-wrapper">
+          <b class="reference1">Reference</b>
+        </div>
+        <div class="since-i-already">
+          <ul class="inspired-by-different-kind-of">
+            <li class="draw-functions-drawmaze-dr1">
+              <a
+                class="inspired-by-different-kind-of2"
+                href="https://openprocessing.org/sketch/2042562"
+                target="_blank"
+              >
+                <span class="inspired-by-different"
+                  >Inspired by different kind of platformer on
+                  openprocessing.org</span
+                >
+              </a>
+            </li>
+            <li class="draw-functions-drawmaze-dr1">
+              <a
+                class="inspired-by-different-kind-of2"
+                href="https://processing.org/"
+                target="_blank"
+              >
+                <span class="inspired-by-different">Official Website</span>
+              </a>
+            </li>
+            <li class="draw-functions-drawmaze-dr1">
+              <a
+                class="inspired-by-different-kind-of2"
+                href="https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw"
+                target="_blank"
+              >
+                <span class="inspired-by-different">The Coding Train </span>
+              </a>
+            </li>
+            <li class="draw-functions-drawmaze-dr1">
+              <a
+                class="inspired-by-different-kind-of2"
+                href="https://hello.processing.org/"
+                target="_blank"
+              >
+                <span class="inspired-by-different">Hello Processing</span>
+              </a>
+            </li>
+            <li class="draw-functions-drawmaze-dr1">
+              <a
+                class="inspired-by-different-kind-of2"
+                href="https://www.oreilly.com/library/view/programming-interactivity-2nd/9781449321482/"
+                target="_blank"
+              >
+                <span class="inspired-by-different"
+                  >Programming Interactivity
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="inspired-by-different-kind-of2"
+                href="https://openprocessing.org/"
+                target="_blank"
+              >
+                <span class="inspired-by-different">Open Processing</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navigation1">
+        <div class="menu-items1">
+          <div class="processing-basics1" id="processingBasicsText">
+            Processing Basics
+          </div>
+          <b class="processing-project2" id="processingProjectText"
+            >Processing Project
+          </b>
+          <div class="processing-with-ardunio2">Processing with Ardunio</div>
+        </div>
+      </nav>
+      <footer class="footer2">
+        <footer class="footer-section1">
+          <div class="home-button1" id="homeButtonContainer">
+            <div class="processing-with-ardunio2">Home</div>
+          </div>
+          <div class="copyright4">
+            <div class="processing-with-ardunio2">
+              © | Designed by Team Novva | 2023
+            </div>
+          </div>
+          <div class="scroll-up-button1" id="scrollUpButton">
+            <div class="processing-with-ardunio2">Scroll Up</div>
+          </div>
+        </footer>
+      </footer>
+    </div>
+
+    <script>
+      var processingBasicsText = document.getElementById("processingBasicsText");
+      if (processingBasicsText) {
+        processingBasicsText.addEventListener("click", function (e) {
+          window.location.href = "./ProcessingBasics.html";
+        });
+      }
+      
+      var processingProjectText = document.getElementById("processingProjectText");
+      if (processingProjectText) {
+        processingProjectText.addEventListener("click", function (e) {
+          window.location.href = "ProcessingProject.html";
+        });
+      }
+      
+      var homeButtonContainer = document.getElementById("homeButtonContainer");
+      if (homeButtonContainer) {
+        homeButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./HomePage.html";
+        });
+      }
+      
+      var scrollUpButton = document.getElementById("scrollUpButton");
+      if (scrollUpButton) {
+        scrollUpButton.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='navigationBar']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

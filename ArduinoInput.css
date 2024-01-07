@@ -1,0 +1,280 @@
+.arduino-basics {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 200;
+  backdrop-filter: blur(4px);
+  cursor: pointer;
+}
+.arduino-basics:hover {
+  mix-blend-mode: color;
+  color: var(--color-white);
+}
+.arduino-output {
+  font-weight: 200;
+}
+.arduino-input1,
+.arduino-output {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  cursor: pointer;
+}
+.menu-items3,
+.navigation3 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.menu-items3 {
+  gap: var(--gap-5xl);
+}
+.navigation3 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-500);
+  width: 1440px;
+  flex-wrap: wrap;
+  padding: var(--padding-5xl) var(--padding-23xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.class-project-containing {
+  font-size: var(--heading-size);
+}
+.class-project-containing,
+.list-of-components {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+}
+.name {
+  position: relative;
+}
+.arduino-uno-r3-parent,
+.name-parent,
+.parent,
+.u3-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.arduino-uno-r3-parent,
+.parent,
+.u3-parent {
+  top: 48px;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.arduino-uno-r3-parent,
+.parent {
+  left: 106px;
+}
+.arduino-uno-r3-parent {
+  left: 237px;
+}
+.frame-group {
+  position: relative;
+  width: 455px;
+  height: 114px;
+}
+.list-of-components-parent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.arduino56-icon {
+  position: relative;
+  width: 954px;
+  height: 424px;
+  object-fit: cover;
+}
+.int-count {
+  margin: 0;
+}
+.int-count-container {
+  position: relative;
+  font-weight: 300;
+  white-space: pre-wrap;
+}
+.int-count-0-int-trigpin-a-wrapper {
+  background-color: var(--color-gainsboro);
+  width: 954px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-35xl) var(--padding-38xl);
+  box-sizing: border-box;
+  color: var(--color-black);
+}
+.image-26 {
+  position: relative;
+  background-color: var(--color-silver);
+  width: 955px;
+  height: 424px;
+}
+.class-project-containing-ultra-parent,
+.runing-the-system-parent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.class-project-containing-ultra-parent {
+  gap: var(--gap-13xl);
+}
+.frame-container {
+  position: relative;
+  width: 476px;
+  height: 294px;
+}
+.int-baselinetemp-container {
+  position: relative;
+  font-weight: 300;
+}
+.positional-micro-servo {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+}
+.arduino-uno-r3-container {
+  position: absolute;
+  top: 48px;
+  left: 217px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.group-div {
+  position: relative;
+  width: 435px;
+  height: 159px;
+}
+.includes-the-servo-container {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 809px;
+  flex-shrink: 0;
+}
+.first-download-the {
+  color: var(--font-color);
+}
+.httpsprocessingorgdownloa1 {
+  text-decoration: underline;
+}
+.httpsprocessingorgdownloa {
+  color: inherit;
+}
+.first-download-the-software-fr {
+  margin: 0;
+  color: var(--color-gold);
+}
+.processing-is-a-container,
+.we-got-our-container {
+  position: relative;
+  display: inline-block;
+  width: 954px;
+}
+.we-got-our-container {
+  color: var(--color-gold);
+  width: 950px;
+}
+.arduino60-icon {
+  position: relative;
+  width: 954px;
+  height: 358px;
+  object-fit: cover;
+}
+.frame-parent {
+  position: absolute;
+  top: 108px;
+  left: 243px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-45xl);
+}
+.home5 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 200;
+}
+.copyright8,
+.home-button3,
+.scroll-up-button3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-button3 {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.copyright8,
+.scroll-up-button3 {
+  justify-content: center;
+}
+.scroll-up-button3 {
+  cursor: pointer;
+}
+.footer-section3 {
+  border-top: 0.5px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1200px;
+  height: 91px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-61xl);
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.footer4 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 720px);
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.arduino-input {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 8412px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--text-size);
+  color: var(--font-color);
+  font-family: var(--text);
+}

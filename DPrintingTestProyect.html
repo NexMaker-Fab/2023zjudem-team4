@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./DPrintingTestProyect.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Encode Sans:wght@100;300;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="d-printing-test-proyect">
+      <nav class="navigation8">
+        <div class="menu-items8">
+          <div class="d-printing-background" id="dPrintingBackground">
+            3D Printing Background
+          </div>
+          <b class="test-proyect" id="testProyectText">Test proyect</b>
+        </div>
+      </nav>
+      <b class="machine-control">Machine control</b>
+      <div class="d-printing-is">
+        3D printing is an additive manufacturing process that builds a
+        three-dimensional object from a digital file. An object is formed by
+        adding material in layers based on the digital design in a computer
+        controlled process. In other words, 3D printing refers to any computer
+        controlled process that builds an object by adding material in layers
+        following instructions from a digital file.
+      </div>
+      <img class="printing20-icon" alt="" src="./public/printing20@2x.png" />
+
+      <img class="printing21-icon" alt="" src="./public/printing21@2x.png" />
+
+      <div class="power-on-the">
+        Power ON the Machine then the below picture is shown
+      </div>
+      <img class="printing22-icon" alt="" src="./public/printing22@2x.png" />
+
+      <div class="if-we-click">if we click</div>
+    </div>
+
+    <script>
+      var dPrintingBackground = document.getElementById("dPrintingBackground");
+      if (dPrintingBackground) {
+        dPrintingBackground.addEventListener("click", function (e) {
+          window.location.href = "./DPrinting.html";
+        });
+      }
+      
+      var testProyectText = document.getElementById("testProyectText");
+      if (testProyectText) {
+        testProyectText.addEventListener("click", function (e) {
+          window.location.href = "DPrintingTestProyect.html";
+        });
+      }
+      </script>
+  </body>
+</html>

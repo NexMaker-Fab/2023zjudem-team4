@@ -1,0 +1,460 @@
+.home1 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 1.69rem;
+  font-weight: 200;
+}
+.copyright2,
+.home-button1,
+.scroll-up-button1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-button1 {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.copyright2,
+.scroll-up-button1 {
+  justify-content: center;
+}
+.scroll-up-button1 {
+  cursor: pointer;
+}
+.footer-section1 {
+  width: 75rem;
+  height: 5.69rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-61xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--font-color);
+  font-family: var(--font-poppins);
+}
+.footer1,
+.step-13-how {
+  display: flex;
+  align-items: center;
+}
+.footer1 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 720px);
+  border-top: 0.5px solid var(--color-white);
+  box-sizing: border-box;
+  width: 90rem;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.step-13-how {
+  position: relative;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  line-height: 1.69rem;
+  text-align: left;
+  width: 75rem;
+}
+.bcad-stepdivider-icon {
+  position: relative;
+  width: 75rem;
+  height: 0.25rem;
+  object-fit: contain;
+}
+.the-body-structure {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 75rem;
+}
+.blank-line {
+  margin: 0;
+}
+.prepare-the-design-container {
+  position: relative;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  display: inline-block;
+  width: 75rem;
+}
+.bcad-img47-icon {
+  position: relative;
+  width: 75rem;
+  height: 42.19rem;
+  object-fit: cover;
+}
+.select-faces-to {
+  margin: 0;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+.select-faces-to-container {
+  position: relative;
+  display: inline-block;
+  width: 75rem;
+}
+.number-of-outcomes {
+  margin: 0;
+  font-weight: 600;
+}
+.this-is-the {
+  margin: 0;
+  font-weight: 300;
+}
+.style1 {
+  font-weight: 600;
+  font-family: var(--sub-heading);
+}
+.span {
+  font-weight: 300;
+}
+.the-generative-designs-container {
+  position: relative;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  text-align: left;
+  display: inline-block;
+  width: 75rem;
+}
+.bcad-img48-icon {
+  position: relative;
+  width: 75rem;
+  height: 42.22rem;
+  object-fit: cover;
+}
+.the-generative-designs1 {
+  margin: 0;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+}
+.the-generative-designs-container1 {
+  position: relative;
+  font-weight: 300;
+  text-align: left;
+  display: inline-block;
+  width: 75rem;
+}
+.bcad-sectionstep13 {
+  position: absolute;
+  top: 2303.88rem;
+  left: calc(50% - 600px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0;
+  gap: var(--gap-xl);
+}
+.step-12-sharing {
+  position: relative;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  line-height: 1.69rem;
+  white-space: pre-wrap;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 75rem;
+}
+.bcad-stepdivider-icon1 {
+  position: relative;
+  width: 75rem;
+  height: 0.32rem;
+  object-fit: contain;
+}
+.bcad-frame14 {
+  position: relative;
+  width: 75rem;
+  height: 12.5rem;
+}
+.bcad-sectionstep12 {
+  position: absolute;
+  top: 2268.13rem;
+  left: calc(50% - 600px);
+  width: 75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.bcad-frame13 {
+  position: relative;
+  width: 75rem;
+  height: 50rem;
+}
+.bcad-sectionstep11 {
+  position: absolute;
+  top: 2063.38rem;
+  left: calc(50% - 600px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0;
+  gap: var(--gap-xl);
+}
+.step-10-the {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 1.69rem;
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  width: 75rem;
+}
+.great-work-now {
+  position: relative;
+  font-size: var(--paragraph-size);
+  font-weight: 300;
+  text-align: justify;
+  display: inline-block;
+  width: 75rem;
+}
+.bcad-sectionstep10 {
+  position: absolute;
+  top: 1961.81rem;
+  left: calc(50% - 600px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--sub-heading-size);
+}
+.before-the-motion-container {
+  position: relative;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  color: var(--color-white);
+  display: inline-block;
+  width: 75rem;
+}
+.bcad-sectionstep9 {
+  position: absolute;
+  top: 1798.56rem;
+  left: calc(50% - 600px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0;
+  gap: var(--gap-xl);
+}
+.step-8-using {
+  position: relative;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  line-height: 1.69rem;
+  color: var(--font-color);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 75rem;
+}
+.now-you-have,
+.you-final-design {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 75rem;
+}
+.now-you-have {
+  color: var(--font-color);
+}
+.you-final-design {
+  font-size: var(--font-size-mid);
+}
+.bcad-sectionstep7,
+.bcad-sectionstep8 {
+  position: absolute;
+  left: calc(50% - 600px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0;
+  gap: var(--gap-xl);
+}
+.bcad-sectionstep8 {
+  top: 1456.25rem;
+  color: var(--color-white);
+}
+.bcad-sectionstep7 {
+  top: 1166.44rem;
+}
+.here1 {
+  text-decoration: underline;
+}
+.here {
+  color: inherit;
+}
+.bcad-sectionstep4,
+.bcad-sectionstep5,
+.bcad-sectionstep6 {
+  position: absolute;
+  top: 964.63rem;
+  left: calc(50% - 600px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0;
+  gap: var(--gap-xl);
+}
+.bcad-sectionstep4,
+.bcad-sectionstep5 {
+  top: 805.13rem;
+}
+.bcad-sectionstep4 {
+  top: 607rem;
+  align-items: flex-start;
+}
+.bcad-img14-icon {
+  position: relative;
+  width: 75rem;
+  height: 24.48rem;
+  object-fit: cover;
+}
+.bcad-sectionstep2,
+.bcad-sectionstep3 {
+  position: absolute;
+  top: 430.19rem;
+  left: calc(50% - 600px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0;
+  gap: var(--gap-xl);
+}
+.bcad-sectionstep2 {
+  top: 281.63rem;
+  align-items: flex-start;
+}
+.bcad-img7-icon {
+  position: relative;
+  width: 29.69rem;
+  height: 39.38rem;
+  object-fit: cover;
+}
+.bcad-sectionstep1 {
+  position: absolute;
+  top: 215.5rem;
+  left: calc(50% - 600px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0;
+  gap: var(--gap-xl);
+}
+.bcad-step1-icon {
+  position: relative;
+  width: 75rem;
+  height: 4.69rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+.bcad-menu {
+  position: absolute;
+  top: 130.56rem;
+  left: calc(50% - 600px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0;
+  gap: var(--gap-xl);
+}
+.a-four-leg {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 1.69rem;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  width: 75rem;
+}
+.we-have-designed {
+  position: relative;
+  font-size: var(--paragraph-size);
+  font-weight: 300;
+  font-family: var(--sub-heading);
+  text-align: justify;
+  display: inline-block;
+  width: 75rem;
+}
+.bcad-header {
+  position: absolute;
+  top: 10.69rem;
+  left: calc(50% - 600px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-encode-sans);
+}
+.cad-design,
+.modeling-process,
+.practice {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 1.69rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+.cad-design:hover {
+  color: var(--color-white);
+}
+.modeling-process,
+.practice {
+  font-weight: 800;
+}
+.practice {
+  font-weight: 300;
+}
+.navigation-bar {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 90rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-13xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.b-cad3 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 2706.25rem;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--paragraph-size);
+  color: var(--font-color);
+  font-family: var(--sub-heading);
+}

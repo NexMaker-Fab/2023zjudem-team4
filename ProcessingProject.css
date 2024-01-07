@@ -1,0 +1,220 @@
+.magic-boxes {
+  position: relative;
+  font-size: var(--heading-size);
+  display: inline-block;
+  width: 950px;
+}
+.image-27-icon1 {
+  position: relative;
+  width: 388px;
+  height: 371px;
+  object-fit: cover;
+}
+.this-simple-project {
+  margin: 0;
+  font-weight: 300;
+}
+.setting-up-the {
+  margin: 0;
+  font-weight: 600;
+}
+.this-simple-project-container {
+  position: relative;
+  display: inline-block;
+  width: 950px;
+}
+.setting-up-the-environment {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.since-i-already {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 950px;
+}
+.review-and-understand {
+  font-weight: 300;
+}
+.playerx,
+.span {
+  font-weight: 600;
+  font-family: var(--text);
+}
+.span {
+  font-weight: 300;
+}
+.variable-initialization-revie {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-4xl);
+}
+.int-playerx-playery {
+  margin: 0;
+}
+.int-playerx-playery-container {
+  position: relative;
+  font-weight: 300;
+  white-space: pre-wrap;
+}
+.int-playerx-playery-playe-wrapper {
+  background-color: var(--color-gainsboro);
+  width: 954px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-38xl);
+  box-sizing: border-box;
+  color: var(--color-black);
+}
+.draw-functions-drawmaze-dr1 {
+  margin-bottom: 0;
+}
+.int-box9x-container {
+  position: relative;
+  font-weight: 300;
+}
+.reference1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 950px;
+}
+.reference-wrapper {
+  position: relative;
+  width: 950px;
+  height: 29px;
+  font-size: var(--heading-size);
+}
+.inspired-by-different {
+  text-decoration: underline;
+}
+.inspired-by-different-kind-of2 {
+  color: inherit;
+}
+.inspired-by-different-kind-of {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-4xl);
+}
+.magic-boxes-parent {
+  position: absolute;
+  top: 107px;
+  left: 243px;
+  height: 6708px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.processing-basics1 {
+  font-weight: 200;
+  backdrop-filter: blur(4px);
+  cursor: pointer;
+}
+.processing-basics1:hover {
+  mix-blend-mode: color;
+  color: var(--color-white);
+}
+.processing-basics1,
+.processing-project2,
+.processing-with-ardunio2 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+}
+.processing-project2 {
+  cursor: pointer;
+}
+.processing-with-ardunio2 {
+  font-weight: 200;
+}
+.menu-items1,
+.navigation1 {
+  flex-shrink: 0;
+  justify-content: center;
+}
+.menu-items1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.navigation1 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-500);
+  width: 1440px;
+  flex-wrap: wrap;
+  padding: var(--padding-5xl) var(--padding-23xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.copyright4,
+.home-button1,
+.navigation1,
+.scroll-up-button1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-button1 {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.copyright4,
+.scroll-up-button1 {
+  justify-content: center;
+}
+.scroll-up-button1 {
+  cursor: pointer;
+}
+.footer-section1 {
+  border-top: 0.5px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1200px;
+  height: 91px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-61xl);
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.footer2 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 720px);
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.processing-project1 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 11031px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--text-size);
+  color: var(--font-color);
+  font-family: var(--text);
+}

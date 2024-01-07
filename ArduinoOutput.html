@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./ArduinoOutput.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Encode Sans:wght@100;300;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="arduino-output1">
+      <div class="frame-parent1">
+        <div class="class-project-containing-two-l-parent">
+          <b class="assessment-project-containing-container"
+            >Class Project containing two LED and one pushbutton</b
+          >
+          <div class="list-of-components-parent1">
+            <b class="list-of-components3">List of components</b>
+            <div class="frame-parent2">
+              <div class="name-parent1">
+                <div class="k-resistor">Name</div>
+                <div class="k-resistor">Quantity</div>
+                <div class="k-resistor">Component</div>
+              </div>
+              <div class="u1-parent">
+                <div class="k-resistor">U3</div>
+                <div class="k-resistor">R1, R2</div>
+                <div class="k-resistor">D1</div>
+                <div class="k-resistor">D2</div>
+                <div class="k-resistor">R3</div>
+                <div class="k-resistor">R1, R2</div>
+                <div class="k-resistor">S1</div>
+              </div>
+              <div class="parent1">
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">2</div>
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">2</div>
+                <div class="k-resistor">1</div>
+              </div>
+              <div class="arduino-uno-r3-parent1">
+                <div class="k-resistor">Arduino Uno R3</div>
+                <div class="k-resistor">220 Ω Resistor</div>
+                <div class="k-resistor">Red LED</div>
+                <div class="k-resistor">Green LED</div>
+                <div class="k-resistor">1 kΩ Resistor</div>
+                <div class="k-resistor">220 Ω Resistor</div>
+                <div class="k-resistor">Pushbutton</div>
+              </div>
+            </div>
+          </div>
+          <div class="list-of-components-parent1">
+            <b class="list-of-components3">Simulation Circuit</b>
+            <img class="arduino9-icon" alt="" src="./public/arduino9@2x.png" />
+          </div>
+          <div class="list-of-components-parent1">
+            <b class="list-of-components3">Arduino IDE Code</b>
+            <div class="const-int-led112-const-int-l-wrapper">
+              <div class="const-int-led112-container">
+                <p class="pinmodeled1-output">const int LED1=12;</p>
+                <p class="pinmodeled1-output">const int LED2=13;</p>
+                <p class="pinmodeled1-output">int val=0;</p>
+                <p class="pinmodeled1-output">void setup()</p>
+                <p class="pinmodeled1-output">{</p>
+                <p class="pinmodeled1-output">pinMode(LED1, OUTPUT);</p>
+                <p class="pinmodeled1-output">pinMode(LED2, OUTPUT);</p>
+                <p class="pinmodeled1-output">pinMode(7, INPUT);</p>
+                <p class="pinmodeled1-output">}</p>
+                <p class="pinmodeled1-output">void loop(){</p>
+                <p class="pinmodeled1-output">val=digitalRead(7);</p>
+                <p class="pinmodeled1-output">if(val==HIGH)</p>
+                <p class="pinmodeled1-output">{</p>
+                <p class="pinmodeled1-output">digitalWrite(LED1,HIGH);</p>
+                <p class="pinmodeled1-output">digitalWrite(LED2,LOW);</p>
+                <p class="pinmodeled1-output">}</p>
+                <p class="pinmodeled1-output">else</p>
+                <p class="pinmodeled1-output">{</p>
+                <p class="pinmodeled1-output">digitalWrite(LED2,HIGH);</p>
+                <p class="pinmodeled1-output">digitalWrite(LED1,LOW);</p>
+                <p class="pinmodeled1-output">}</p>
+                <p class="pinmodeled1-output">delay(100);</p>
+                <p class="pinmodeled1-output">}</p>
+              </div>
+            </div>
+          </div>
+          <div class="runing-the-system-container">
+            <b class="list-of-components3">Runing the system.</b>
+            <div class="arduino11"></div>
+          </div>
+        </div>
+        <div class="class-project-containing-two-l-parent">
+          <b class="assessment-project-containing-container">
+            <p class="pinmodeled1-output">
+              Assessment project containing seven LED and one pushbutton
+            </p>
+            <p class="pinmodeled1-output">Christmas Lights ;D</p>
+          </b>
+          <div class="list-of-components-parent1">
+            <b class="list-of-components3">List of components</b>
+            <div class="frame-parent3">
+              <div class="name-parent1">
+                <div class="k-resistor">Name</div>
+                <div class="k-resistor">Quantity</div>
+                <div class="k-resistor">Component</div>
+              </div>
+              <div class="u1-parent">
+                <div class="k-resistor">U3</div>
+                <div class="r1-r2-r3-container">
+                  <p class="pinmodeled1-output">R1, R2, R3,</p>
+                  <p class="pinmodeled1-output">R4, R5, R6,</p>
+                  <p class="pinmodeled1-output">R7</p>
+                </div>
+                <div class="k-resistor">D1, D4, D7</div>
+                <div class="k-resistor">D2, D5</div>
+                <div class="k-resistor">D3, D6</div>
+                <div class="k-resistor">R8</div>
+                <div class="k-resistor">S1</div>
+              </div>
+              <div class="parent1">
+                <div class="k-resistor">1</div>
+                <div class="div19">
+                  <p class="pinmodeled1-output">7</p>
+                  <p class="pinmodeled1-output">&nbsp;</p>
+                </div>
+                <div class="k-resistor">3</div>
+                <div class="k-resistor">2</div>
+                <div class="k-resistor">2</div>
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">1</div>
+              </div>
+              <div class="arduino-uno-r3-parent1">
+                <div class="k-resistor">Arduino Uno R3</div>
+                <div class="resistor3">
+                  <p class="pinmodeled1-output">220 Ω Resistor</p>
+                  <p class="pinmodeled1-output">&nbsp;</p>
+                </div>
+                <div class="k-resistor">Red LED</div>
+                <div class="k-resistor">Green LED</div>
+                <div class="k-resistor">Yellow LED</div>
+                <div class="k-resistor">1 kΩ Resistor</div>
+                <div class="k-resistor">Pushbutton</div>
+              </div>
+            </div>
+          </div>
+          <div class="list-of-components-parent1">
+            <b class="list-of-components3">Simulation Circuit</b>
+            <img class="arduino9-icon" alt="" src="./public/arduino12@2x.png" />
+          </div>
+          <div class="list-of-components-parent1">
+            <b class="list-of-components3">Arduino IDE Code</b>
+            <div class="const-int-led112-const-int-l-wrapper">
+              <div class="const-int-led112-container">
+                <p class="pinmodeled1-output">int L1 = 13;</p>
+                <p class="pinmodeled1-output">int L2 = 12;</p>
+                <p class="pinmodeled1-output">int L3 = 11;</p>
+                <p class="pinmodeled1-output">int L4 = 10;</p>
+                <p class="pinmodeled1-output">int L5 = 9;</p>
+                <p class="pinmodeled1-output">int L6 = 8;</p>
+                <p class="pinmodeled1-output">int L7 = 7; //7 LED pin</p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">
+                  int buttonPin = 6; //the number of the pushbutton pin
+                </p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">int de=50; // delay time</p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">
+                  int p=0; // variable for pattem
+                </p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">
+                  int buttonState = 0; // variable for reading the pushbutton
+                  status
+                </p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">void setup() {</p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">pinMode(L1, OUTPUT);</p>
+                <p class="pinmodeled1-output">pinMode(L2, OUTPUT);</p>
+                <p class="pinmodeled1-output">pinMode(L3, OUTPUT);</p>
+                <p class="pinmodeled1-output">pinMode(L4, OUTPUT);</p>
+                <p class="pinmodeled1-output">pinMode(L5, OUTPUT);</p>
+                <p class="pinmodeled1-output">pinMode(L6, OUTPUT);</p>
+                <p class="pinmodeled1-output">pinMode(L7, OUTPUT);</p>
+                <p class="pinmodeled1-output">pinMode(buttonPin, INPUT);</p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">}</p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">void loop()</p>
+                <p class="pinmodeled1-output">{</p>
+                <p class="pinmodeled1-output">
+                  buttonState = digitalRead(buttonPin);
+                </p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">if (buttonState == HIGH)</p>
+                <p class="pinmodeled1-output">{</p>
+                <p class="pinmodeled1-output">p++;</p>
+                <p class="pinmodeled1-output">delay(2000);</p>
+                <p class="pinmodeled1-output">}</p>
+                <p class="pinmodeled1-output">if(p==1)</p>
+                <p class="pinmodeled1-output">{</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //1</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //2</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //3</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //4</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //5</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //6</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,1); //7</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">}</p>
+                <p class="pinmodeled1-output">if(p==2)</p>
+                <p class="pinmodeled1-output">{</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,1); //7</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //6</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //5</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //4</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //3</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //2</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //1</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">}</p>
+                <p class="pinmodeled1-output">if(p==3)</p>
+                <p class="pinmodeled1-output">{</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //1</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //2</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //3</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //4</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //5</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //6</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,1); //7</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //6</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //5</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //4</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //3</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //2</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">}</p>
+                <p class="pinmodeled1-output">if(p==4)</p>
+                <p class="pinmodeled1-output">{</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,1); //1,7</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //2,6</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //3,5</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //4</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">}</p>
+                <p class="pinmodeled1-output">if(p==5)</p>
+                <p class="pinmodeled1-output">{</p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //4</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //3,5</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //2,6</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,1);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,1); //1,7</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">}</p>
+                <p class="pinmodeled1-output">if(p==6)</p>
+                <p class="pinmodeled1-output">{</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,1);</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,1);</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,1);</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,1);</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,1);</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,1);</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,1); //1,7</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //1,7</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">delay(de);</p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">}</p>
+                <p class="pinmodeled1-output">if(p==7)</p>
+                <p class="pinmodeled1-output">{</p>
+                <p class="pinmodeled1-output">digitalWrite(L1,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L2,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L3,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L4,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L5,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L6,0);</p>
+                <p class="pinmodeled1-output">digitalWrite(L7,0); //1,7</p>
+                <p class="pinmodeled1-output">p=0;</p>
+                <p class="pinmodeled1-output">}</p>
+                <p class="pinmodeled1-output">}</p>
+              </div>
+            </div>
+          </div>
+          <div class="runing-the-system-container">
+            <b class="runing-the-system-container1">
+              <p class="pinmodeled1-output">Runing the system.</p>
+              <p class="pinmodeled1-output">Merry Christmas 🎄 :D</p>
+            </b>
+            <div class="arduino11"></div>
+          </div>
+        </div>
+        <div class="class-project-containing-two-l-parent">
+          <b class="assessment-project-containing-container"
+            >Assesment containing screen, two LED, and one pushbutton</b
+          >
+          <div class="list-of-components-parent1">
+            <b class="list-of-components3">List of components</b>
+            <div class="frame-parent4">
+              <div class="name-parent1">
+                <div class="k-resistor">Name</div>
+                <div class="k-resistor">Quantity</div>
+                <div class="k-resistor">Component</div>
+              </div>
+              <div class="u1-parent">
+                <div class="k-resistor">U1</div>
+                <div class="k-resistor">U1</div>
+                <div class="k-resistor">R1, R3</div>
+                <div class="k-resistor">D1</div>
+                <div class="k-resistor">D2</div>
+                <div class="k-resistor">R2</div>
+                <div class="k-resistor">R1, R2</div>
+                <div class="k-resistor">Rpot1</div>
+              </div>
+              <div class="parent1">
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">2</div>
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">2</div>
+                <div class="k-resistor">1</div>
+              </div>
+              <div class="arduino-uno-r3-parent1">
+                <div class="k-resistor">Arduino Uno R3</div>
+                <div class="k-resistor">LCD 16 x 2</div>
+                <div class="k-resistor">220 Ω Resistor</div>
+                <div class="k-resistor">Green LED</div>
+                <div class="k-resistor">Red LED</div>
+                <div class="k-resistor">1 kΩ Resistor</div>
+                <div class="k-resistor">220 Ω Resistor</div>
+                <div class="k-resistor">250 kΩ Potentiometer</div>
+              </div>
+            </div>
+          </div>
+          <div class="list-of-components-parent1">
+            <b class="list-of-components3">Simulation Circuit</b>
+            <img class="arduino9-icon" alt="" src="./public/arduino15@2x.png" />
+          </div>
+          <div class="list-of-components-parent1">
+            <b class="list-of-components3">Arduino IDE Code</b>
+            <div class="const-int-led112-const-int-l-wrapper">
+              <div class="const-int-led112-container">
+                <p class="pinmodeled1-output">
+                  #include &lt;LiquidCrystal.h&gt;
+                </p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">
+                  LiquidCrystal lcd(12, 11, 5, 4, 3, 2); // Set up the LCD pins
+                </p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">
+                  const int led = 13; // Green LED connection to digital pin 13
+                </p>
+                <p class="pinmodeled1-output">
+                  const int led1 = 6; // Red LED connection to digital pin 6
+                </p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">byte leds = 0;</p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">void setup() {</p>
+                <p class="pinmodeled1-output">
+                  lcd.begin(16, 2); // Initialize the LCD screen
+                </p>
+                <p class="pinmodeled1-output">pinMode(led, OUTPUT);</p>
+                <p class="pinmodeled1-output">pinMode(led1, OUTPUT);</p>
+                <p class="pinmodeled1-output">}</p>
+                <p class="pinmodeled1-output">void loop() {</p>
+                <p class="pinmodeled1-output">
+                  // Turn on the Green LED and display message "NOVVA ON!"
+                </p>
+                <p class="pinmodeled1-output">digitalWrite(led, HIGH);</p>
+                <p class="pinmodeled1-output">digitalWrite(led1, LOW);</p>
+                <p class="pinmodeled1-output">lcd.setCursor(0, 0);</p>
+                <p class="pinmodeled1-output">lcd.print(" NOVVA ON");</p>
+                <p class="pinmodeled1-output">
+                  delay(2000); // Delay for 2 seconds
+                </p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">
+                  // Turn on the Red LED and display message "NOVVA OFF!"
+                </p>
+                <p class="pinmodeled1-output">digitalWrite(led, LOW);</p>
+                <p class="pinmodeled1-output">digitalWrite(led1, HIGH);</p>
+                <p class="pinmodeled1-output">
+                  lcd.clear(); // Clear the LCD Display
+                </p>
+                <p class="pinmodeled1-output">lcd.setCursor(0, 0);</p>
+                <p class="pinmodeled1-output">lcd.print(" NOVVA OFF!");</p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">
+                  delay(2000); // Delay for 2 seconds
+                </p>
+                <p class="pinmodeled1-output">}</p>
+              </div>
+            </div>
+          </div>
+          <div class="runing-the-system-container">
+            <b class="list-of-components3">Runing the system.</b>
+            <div class="arduino11"></div>
+          </div>
+        </div>
+        <div class="class-project-containing-two-l-parent">
+          <b class="assessment-project-containing-container"
+            >Assesment containing motor and one pushbutton</b
+          >
+          <div class="list-of-components-parent1">
+            <b class="list-of-components3">List of components</b>
+            <div class="frame-parent5">
+              <div class="name-parent1">
+                <div class="k-resistor">Name</div>
+                <div class="k-resistor">Quantity</div>
+                <div class="k-resistor">Component</div>
+              </div>
+              <div class="u1-parent">
+                <div class="k-resistor">U1</div>
+                <div class="k-resistor">SERVO2</div>
+                <div class="k-resistor">S1</div>
+              </div>
+              <div class="parent1">
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">2</div>
+              </div>
+              <div class="arduino-uno-r3-parent1">
+                <div class="k-resistor">Arduino Uno R3</div>
+                <div class="k-resistor">Positional Micro Servo</div>
+                <div class="k-resistor">Pushbutton</div>
+              </div>
+            </div>
+          </div>
+          <div class="list-of-components-parent1">
+            <b class="list-of-components3">Simulation Circuit</b>
+            <img class="arduino9-icon" alt="" src="./public/arduino16@2x.png" />
+          </div>
+          <div class="list-of-components-parent1">
+            <b class="list-of-components3">Arduino IDE Code</b>
+            <div class="const-int-led112-const-int-l-wrapper">
+              <div class="const-int-led112-container">
+                <p class="pinmodeled1-output">#include &lt;Servo.h&gt;</p>
+                <p class="pinmodeled1-output">
+                  Servo Serv1; //create a servo object named Serv1
+                </p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">
+                  //use a PWM pin (3,5,6,9,10,11)
+                </p>
+                <p class="pinmodeled1-output">int pinServo1=8;</p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">void setup(){</p>
+                <p class="pinmodeled1-output">Serv1.attach(pinServo1);</p>
+                <p class="pinmodeled1-output">}</p>
+                <p class="pinmodeled1-output">&nbsp;</p>
+                <p class="pinmodeled1-output">void loop(){</p>
+                <p class="pinmodeled1-output">//move the servo 20 degrees</p>
+                <p class="pinmodeled1-output">Serv1.write(20);</p>
+                <p class="pinmodeled1-output">//allow enough time to move</p>
+                <p class="pinmodeled1-output">delay(1000);</p>
+                <p class="pinmodeled1-output">//move the servo 100 degrees</p>
+                <p class="pinmodeled1-output">Serv1.write(100);</p>
+                <p class="pinmodeled1-output">//allow enough time to move</p>
+                <p class="pinmodeled1-output">delay(1000);</p>
+                <p class="pinmodeled1-output">}</p>
+              </div>
+            </div>
+          </div>
+          <div class="runing-the-system-container">
+            <b class="list-of-components3">Runing the system.</b>
+            <div class="arduino11"></div>
+          </div>
+        </div>
+        <div class="class-project-containing-two-l-parent">
+          <b class="assessment-project-containing-container"
+            >Extra Assesment containing motor, screen and two LED</b
+          >
+          <div class="list-of-components-parent1">
+            <b class="list-of-components3">List of components</b>
+            <div class="frame-parent6">
+              <div class="name-parent1">
+                <div class="k-resistor">Name</div>
+                <div class="k-resistor">Quantity</div>
+                <div class="k-resistor">Component</div>
+              </div>
+              <div class="u1-parent">
+                <div class="k-resistor">U1</div>
+                <div class="k-resistor">SERVO2</div>
+                <div class="k-resistor">U1</div>
+                <div class="k-resistor">D1</div>
+                <div class="k-resistor">D2</div>
+              </div>
+              <div class="parent1">
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">1</div>
+                <div class="k-resistor">1</div>
+              </div>
+              <div class="arduino-uno-r3-parent1">
+                <div class="k-resistor">Arduino Uno R3</div>
+                <div class="k-resistor">Positional Micro Servo</div>
+                <div class="k-resistor">LCD 16 x 2</div>
+                <div class="k-resistor">Green LED</div>
+                <div class="k-resistor">Red LED</div>
+              </div>
+            </div>
+          </div>
+          <div class="list-of-components-parent1">
+            <b class="list-of-components3">Simulation Circuit</b>
+            <img
+              class="arduino18-icon"
+              alt=""
+              src="./public/arduino18@2x.png"
+            />
+          </div>
+          <div class="list-of-components-parent1">
+            <b class="list-of-components3">Arduino IDE Code</b>
+            <div class="include-liquidcrystalh-inc-wrapper">
+              <div class="include-liquidcrystalh-inc-container">
+                <p class="pinmodeled1-output">
+                  #include &lt;LiquidCrystal.h&gt;
+                </p>
+                <p class="pinmodeled1-output">#include &lt;Servo.h&gt;</p>
+                <p class="pinmodeled1-output"></p>
+                <p class="pinmodeled1-output">
+                  LiquidCrystal lcd(12, 11, 5, 4, 3, 2); // Set up the LCD pins
+                </p>
+                <p class="pinmodeled1-output">
+                  Servo myservo; // Create a Servo object
+                </p>
+                <p class="pinmodeled1-output"></p>
+                <p class="pinmodeled1-output">
+                  const int led = 13; // LED connection to digital pin 13
+                </p>
+                <p class="pinmodeled1-output">
+                  const int led1 = 6; // LED connection to digital pin 6
+                </p>
+                <p class="pinmodeled1-output"></p>
+                <p class="pinmodeled1-output">byte leds = 0;</p>
+                <p class="pinmodeled1-output"></p>
+                <p class="pinmodeled1-output">void setup() {</p>
+                <p class="pinmodeled1-output">
+                  lcd.begin(16, 2); // Initialize the LCD screen
+                </p>
+                <p class="pinmodeled1-output">pinMode(led, OUTPUT);</p>
+                <p class="pinmodeled1-output">pinMode(led1, OUTPUT);</p>
+                <p class="pinmodeled1-output">
+                  myservo.attach(10); // Attach the servo motor to digital pin
+                  10
+                </p>
+                <p class="pinmodeled1-output">}</p>
+                <p class="pinmodeled1-output"></p>
+                <p class="pinmodeled1-output">void loop() {</p>
+                <p class="pinmodeled1-output">
+                  // Turn on the LED and rotate the servo and display message
+                  "on"
+                </p>
+                <p class="pinmodeled1-output">digitalWrite(led, HIGH);</p>
+                <p class="pinmodeled1-output">digitalWrite(led1, LOW);</p>
+                <p class="pinmodeled1-output">lcd.setCursor(0, 0);</p>
+                <p class="pinmodeled1-output">lcd.print(" NOVVA ON");</p>
+                <p class="pinmodeled1-output">
+                  myservo.write(0); // Rotate the servo to 90 degrees
+                </p>
+                <p class="pinmodeled1-output"></p>
+                <p class="pinmodeled1-output">
+                  delay(3000); // Delay for 3 seconds
+                </p>
+                <p class="pinmodeled1-output"></p>
+                <p class="pinmodeled1-output">
+                  // Turn off the LED and stop the servo and display message
+                  "off"
+                </p>
+                <p class="pinmodeled1-output">digitalWrite(led, LOW);</p>
+                <p class="pinmodeled1-output">digitalWrite(led1, HIGH);</p>
+                <p class="pinmodeled1-output">
+                  lcd.clear(); // Clear the LCD Display
+                </p>
+                <p class="pinmodeled1-output">lcd.setCursor(0, 0);</p>
+                <p class="pinmodeled1-output">lcd.print(" NOVVA OFF!");</p>
+                <p class="pinmodeled1-output">
+                  myservo.write(90); // Stop the servo motor
+                </p>
+                <p class="pinmodeled1-output"></p>
+                <p class="pinmodeled1-output">
+                  delay(3000); // Delay for 3 seconds
+                </p>
+                <p class="pinmodeled1-output">}</p>
+              </div>
+            </div>
+          </div>
+          <div class="runing-the-system-container">
+            <b class="list-of-components3">Runing the system.</b>
+            <div class="arduino11"></div>
+          </div>
+        </div>
+      </div>
+      <nav class="navigation4">
+        <div class="menu-items4">
+          <b class="arduino-basics1" id="arduinoBasicsText">Arduino Basics</b>
+          <div class="arduino-output2" id="arduinoOutputText">
+            Arduino Output
+          </div>
+          <div class="arduino-output2" id="arduinoInputText">Arduino Input</div>
+        </div>
+      </nav>
+      <footer class="footer5">
+        <footer class="footer-section4">
+          <div class="home-button4" id="homeButtonContainer">
+            <div class="home6">Home</div>
+          </div>
+          <div class="copyright10">
+            <div class="home6">© | Designed by Team Novva | 2023</div>
+          </div>
+          <div class="scroll-up-button4" id="scrollUpButton">
+            <div class="home6">Scroll Up</div>
+          </div>
+        </footer>
+      </footer>
+    </div>
+
+    <script>
+      var arduinoBasicsText = document.getElementById("arduinoBasicsText");
+      if (arduinoBasicsText) {
+        arduinoBasicsText.addEventListener("click", function (e) {
+          window.location.href = "./Arduino.html";
+        });
+      }
+      
+      var arduinoOutputText = document.getElementById("arduinoOutputText");
+      if (arduinoOutputText) {
+        arduinoOutputText.addEventListener("click", function (e) {
+          window.location.href = "./ArduinoOutput.html";
+        });
+      }
+      
+      var arduinoInputText = document.getElementById("arduinoInputText");
+      if (arduinoInputText) {
+        arduinoInputText.addEventListener("click", function (e) {
+          window.location.href = "ArduinoInput.html";
+        });
+      }
+      
+      var homeButtonContainer = document.getElementById("homeButtonContainer");
+      if (homeButtonContainer) {
+        homeButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./HomePage.html";
+        });
+      }
+      
+      var scrollUpButton = document.getElementById("scrollUpButton");
+      if (scrollUpButton) {
+        scrollUpButton.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='navigationBar']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>
