@@ -1,0 +1,212 @@
+.home23 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 200;
+}
+.copyright46,
+.home-button23,
+.scroll-up-button23 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-button23 {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.copyright46,
+.scroll-up-button23 {
+  justify-content: center;
+}
+.scroll-up-button23 {
+  cursor: pointer;
+}
+.footer-section23,
+.footer23 {
+  box-sizing: border-box;
+  display: flex;
+}
+.footer-section23 {
+  width: 1200px;
+  height: 91px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-61xl);
+  text-align: left;
+  font-size: var(--text1-size);
+  color: var(--font-color);
+  font-family: var(--font-poppins);
+}
+.footer23 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 720px);
+  border-top: 0.5px solid var(--color-white);
+  width: 1440px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.bcad-img6-icon {
+  position: relative;
+  border-radius: var(--br-21xl);
+  width: 474px;
+  height: 233px;
+  object-fit: cover;
+}
+.bcad-imgfusionicon {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fusion-360-is {
+  margin: 0;
+}
+.fusion-360-is-container {
+  position: relative;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 1200px;
+}
+.main-features-of-container {
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+.d-design-and-container,
+.main-features-of-container {
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 1200px;
+}
+.manufacturing-txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.electronics-txt {
+  width: 100%;
+}
+.it-is-cloud-based {
+  margin-bottom: 0;
+}
+.it-is-cloud-based-which-means {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.blank-line297 {
+  margin: 0;
+  font-weight: 800;
+}
+.drawbacks-of-fusion {
+  margin: 0;
+  font-size: var(--sub-heading-size);
+  font-weight: 600;
+  font-family: var(--text);
+}
+.drawbacks-of-fusion-container,
+.getting-started-with-container {
+  position: relative;
+  letter-spacing: 0.1em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 1200px;
+}
+.drawbacks-of-fusion-container {
+  line-height: 27px;
+  font-size: var(--text-size);
+  font-family: var(--font-poppins);
+}
+.getting-started-with-container {
+  font-size: var(--sub-heading-size);
+}
+.here5 {
+  text-decoration: underline;
+}
+.here4 {
+  color: inherit;
+}
+.you-can-download-container2 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 1200px;
+}
+.bcad-frame1 {
+  position: relative;
+  width: 1200px;
+  height: 800px;
+}
+.content219 {
+  position: absolute;
+  top: 91px;
+  left: calc(50% - 600px);
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.cad-design2,
+.fusion-3609,
+.modeling-process2 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.cad-design2:hover {
+  color: var(--color-white);
+}
+.fusion-3609,
+.modeling-process2 {
+  font-weight: 800;
+}
+.modeling-process2 {
+  font-weight: 300;
+}
+.navigation-bar8 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-13xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.b-cad2 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 11740px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--paragraph-size);
+  color: var(--font-color);
+  font-family: var(--text);
+}

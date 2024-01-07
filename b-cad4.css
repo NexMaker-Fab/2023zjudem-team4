@@ -1,0 +1,142 @@
+.home21 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 200;
+}
+.copyright42,
+.home-button21,
+.scroll-up-button21 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-button21 {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.copyright42,
+.scroll-up-button21 {
+  justify-content: center;
+}
+.scroll-up-button21 {
+  cursor: pointer;
+}
+.footer-section21,
+.footer21 {
+  box-sizing: border-box;
+  display: flex;
+}
+.footer-section21 {
+  width: 1200px;
+  height: 91px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-61xl);
+  text-align: left;
+  font-size: var(--text1-size);
+  color: var(--font-color);
+  font-family: var(--font-poppins);
+}
+.footer21 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 720px);
+  border-top: 0.5px solid var(--color-white);
+  width: 1440px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.designed-by-jiko {
+  margin: 0;
+}
+.a-four-leg {
+  margin: 0;
+  font-size: var(--font-size-17xl);
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: var(--font-encode-sans);
+}
+.designed-by-jiko-container1 {
+  width: 100%;
+}
+.designed-by-jiko-container {
+  position: relative;
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+  width: 1200px;
+}
+.bcad-frame14 {
+  position: relative;
+  width: 1200px;
+  height: 800px;
+}
+.chess-board {
+  text-transform: uppercase;
+}
+.chess-board,
+.fan-mechanism {
+  margin: 0;
+  font-size: var(--font-size-17xl);
+  line-height: 27px;
+  font-weight: 100;
+  font-family: var(--font-encode-sans);
+}
+.content218 {
+  position: absolute;
+  top: 91px;
+  left: calc(50% - 600px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) 0;
+  gap: var(--gap-13xl);
+}
+.cad-design,
+.modeling-process,
+.practice {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.cad-design:hover {
+  color: var(--color-white);
+}
+.practice {
+  font-weight: 800;
+}
+.navigation-bar6 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-13xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.b-cad4 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 10005px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--sub-heading-size);
+  color: var(--font-color);
+  font-family: var(--text);
+}

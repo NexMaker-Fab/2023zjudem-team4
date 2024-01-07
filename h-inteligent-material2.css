@@ -1,0 +1,170 @@
+.materials-in-daily {
+    font-weight: 200;
+    backdrop-filter: blur(4px);
+    cursor: pointer;
+  }
+  .materials-in-daily:hover {
+    mix-blend-mode: color;
+    color: var(--color-white);
+  }
+  .final-project4,
+  .materials-in-daily {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 27px;
+  }
+  .menu-items8,
+  .navigation8 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-items8 {
+    gap: var(--gap-5xl);
+  }
+  .navigation8 {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gray-500);
+    width: 1440px;
+    flex-wrap: wrap;
+    padding: var(--padding-5xl) var(--padding-23xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--text1-size);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  .material-1-plywood {
+    position: relative;
+    font-size: var(--text-size);
+    text-transform: uppercase;
+    display: inline-block;
+    width: 950px;
+  }
+  .mm-thickness-plywood {
+    position: relative;
+    display: inline-block;
+    width: 954px;
+  }
+  .hmaterials-img14-icon {
+    position: relative;
+    width: 954px;
+    height: 611px;
+    object-fit: cover;
+  }
+  .plywood {
+    text-transform: uppercase;
+  }
+  .structural-material-manufactur {
+    font-size: var(--text1-size);
+  }
+  .plywood-structural-material-container {
+    position: relative;
+    display: inline-block;
+    width: 954px;
+    font-size: var(--text-size);
+  }
+  .plywood-sheet {
+    text-decoration: underline;
+  }
+  .plywood-sheet-panel-descri {
+    color: inherit;
+  }
+  .source-plywood-container {
+    position: relative;
+    font-weight: 300;
+    color: var(--color-gold);
+    display: inline-block;
+    width: 950px;
+  }
+  .hmaterials-img15-icon {
+    position: relative;
+    width: 954px;
+    height: 368px;
+    object-fit: cover;
+  }
+  .h-inteligentmaterial2-inner,
+  .material-1-plywood-parent {
+    width: 954px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .material-1-plywood-parent {
+    align-items: flex-start;
+    gap: var(--gap-lgi);
+  }
+  .h-inteligentmaterial2-inner {
+    position: absolute;
+    top: 107px;
+    left: calc(50% - 477px);
+    align-items: center;
+  }
+  .home8 {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 27px;
+    font-weight: 200;
+  }
+  .copyright16,
+  .home-button8,
+  .scroll-up-button8 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .home-button8 {
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+  .copyright16,
+  .scroll-up-button8 {
+    justify-content: center;
+  }
+  .scroll-up-button8 {
+    cursor: pointer;
+  }
+  .footer-section8,
+  .footer8 {
+    box-sizing: border-box;
+    display: flex;
+  }
+  .footer-section8 {
+    width: 1200px;
+    height: 91px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: var(--padding-13xl) var(--padding-61xl);
+    text-align: left;
+    font-size: var(--text1-size);
+    color: var(--font-color);
+    font-family: var(--font-poppins);
+  }
+  .footer8 {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 720px);
+    border-top: 0.5px solid var(--color-white);
+    width: 1440px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .h-inteligentmaterial2 {
+    position: relative;
+    background-color: var(--color-black);
+    width: 100%;
+    height: 2450px;
+    overflow: hidden;
+    text-align: justify;
+    font-size: var(--text1-size);
+    color: var(--font-color);
+    font-family: var(--text);
+  }
+  

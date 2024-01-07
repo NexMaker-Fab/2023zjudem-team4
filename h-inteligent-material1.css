@@ -1,0 +1,256 @@
+.final-project5,
+.materials-in-daily1 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+}
+.materials-in-daily1 {
+  backdrop-filter: blur(4px);
+}
+.materials-in-daily1:hover {
+  mix-blend-mode: color;
+  color: var(--color-white);
+}
+.final-project5 {
+  font-weight: 200;
+  cursor: pointer;
+}
+.menu-items9,
+.navigation9 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.menu-items9 {
+  gap: var(--gap-5xl);
+}
+.navigation9 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-500);
+  width: 1440px;
+  flex-wrap: wrap;
+  padding: var(--padding-5xl) var(--padding-23xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--text1-size);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.materials-are-the {
+  font-weight: 300;
+  width: 954px;
+}
+.around-95-of,
+.materials-are-the,
+.metallic-materials-in {
+  position: relative;
+  display: inline-block;
+}
+.metallic-materials-in {
+  font-size: var(--text-size);
+  text-transform: uppercase;
+  width: 950px;
+}
+.around-95-of {
+  font-weight: 300;
+  width: 955px;
+}
+.iron {
+  text-transform: uppercase;
+}
+.iron-is-a {
+  font-size: var(--text1-size);
+  font-weight: 300;
+}
+.iron-iron-is-container {
+  position: relative;
+  display: inline-block;
+  width: 954px;
+  font-size: var(--text-size);
+}
+.hmaterials-img1-icon {
+  position: relative;
+  width: 954px;
+  height: 368px;
+  object-fit: cover;
+}
+.iron-is-the {
+  text-decoration: underline;
+}
+.iron-is-the-future-part-thre {
+  color: inherit;
+}
+.image-source-iron-container {
+  position: relative;
+  font-weight: 300;
+  color: var(--color-gold);
+  display: inline-block;
+  width: 950px;
+}
+.major-uses-of-iron-include {
+  margin: 0;
+}
+.in-the-body {
+  font-weight: 300;
+}
+.as-a-supplement-in-medicine-i {
+  margin-bottom: 0;
+}
+.in-the-body-physiology-iron-i {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-4xl);
+}
+.major-uses-of-container {
+  position: relative;
+  display: inline-block;
+  width: 950px;
+}
+.copper1 {
+  font-size: var(--text-size);
+  text-transform: uppercase;
+}
+.copper {
+  font-family: var(--text);
+}
+.copper-copper-symbolized-container {
+  position: relative;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 955px;
+}
+.image-source-httpswwwbrit-container {
+  position: relative;
+  font-weight: 300;
+  color: var(--color-gold);
+  display: inline-block;
+  width: 954px;
+}
+.major-uses-of-container2 {
+  position: relative;
+  display: inline-block;
+  width: 955px;
+}
+.metallic-materials-in-daily-li-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.ceramics {
+  font-size: var(--text-size);
+  text-transform: uppercase;
+  font-family: var(--text);
+}
+.ceramics-ceramics-are-container {
+  position: relative;
+  display: inline-block;
+  width: 954px;
+}
+.rubber-is-a {
+  font-size: var(--text1-size);
+}
+.composite-materials-in-daily-l-parent {
+  width: 954px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.latest-innovations-in {
+  position: relative;
+  font-size: var(--text-size);
+  text-transform: uppercase;
+  display: inline-block;
+  width: 954px;
+}
+.hmaterials-img12-icon,
+.hmaterials-img13-icon {
+  position: relative;
+  width: 954px;
+  height: 527px;
+  object-fit: cover;
+}
+.hmaterials-img13-icon {
+  height: 312px;
+}
+.materials-parent {
+  position: absolute;
+  top: 107px;
+  left: calc(50% - 477px);
+  width: 954px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.home9 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 200;
+}
+.copyright18,
+.home-button9,
+.scroll-up-button9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-button9 {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.copyright18,
+.scroll-up-button9 {
+  justify-content: center;
+}
+.scroll-up-button9 {
+  cursor: pointer;
+}
+.footer-section9,
+.footer9 {
+  box-sizing: border-box;
+  display: flex;
+}
+.footer-section9 {
+  width: 1200px;
+  height: 91px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-61xl);
+  text-align: left;
+  font-size: var(--text1-size);
+  color: var(--font-color);
+  font-family: var(--font-poppins);
+}
+.footer9 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 720px);
+  border-top: 0.5px solid var(--color-white);
+  width: 1440px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.h-inteligentmaterial1 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 14797px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--text1-size);
+  color: var(--font-color);
+  font-family: var(--text);
+}

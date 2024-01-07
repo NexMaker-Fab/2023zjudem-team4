@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./h-inteligent-material2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Encode Sans:wght@100;300&display=swap"
+    />
+  </head>
+  <body>
+    <div class="h-inteligentmaterial2">
+      <nav class="navigation8" data-scroll-to="navigation">
+        <div class="menu-items8">
+          <div class="materials-in-daily" id="materialsInDaily">
+            Materials In daily life
+          </div>
+          <b class="final-project4">Final project</b>
+        </div>
+      </nav>
+      <div class="h-inteligentmaterial2-inner">
+        <div class="material-1-plywood-parent">
+          <b class="material-1-plywood">Material 1 Plywood</b>
+          <div class="mm-thickness-plywood">
+            2mm thickness plywood: We chose plywood for its flexibility,
+            aesthetic appearance, and ability to fulfill technical and
+            functional purposes in a scale model of a house.
+          </div>
+          <img
+            class="hmaterials-img14-icon"
+            alt=""
+            src="./public/hmaterials-img14@2x.png"
+          />
+
+          <div class="plywood-structural-material-container">
+            <b class="plywood">Plywood</b>
+            <span class="structural-material-manufactur"
+              >: structural material manufactured by gluing together thin sheets
+              of wood, called veneers or plies, with the grain of the layers
+              typically arranged at wide or perpendicular angles for strength.
+              Plywood is a panel product, like particleboard and fibreboard,
+              meaning it is produced in flat sheets from wood-based materials
+              and adhesive. Plywood has several advantages over natural wood,
+              especially its dimensional stability (the measure of how much a
+              material’s dimensions change due to temperature and humidity) and
+              resistance to splitting. For these reasons, it is one of the most
+              important wood products because wood is often used in environments
+              prone to atmospheric changes or exposure to moisture.</span
+            >
+          </div>
+          <div class="source-plywood-container">
+            Source:
+            <a
+              class="plywood-sheet-panel-descri"
+              href="https://www.britannica.com/technology/plywood"
+              target="_blank"
+            >
+              <span class="plywood-sheet"
+                >Plywood | Sheet, Panel, Description, & Facts | Britannica</span
+              >
+            </a>
+          </div>
+          <img
+            class="hmaterials-img15-icon"
+            alt=""
+            src="./public/hmaterials-img15@2x.png"
+          />
+
+          <div class="source-plywood-container">
+            Image source:
+            <a
+              class="plywood-sheet-panel-descri"
+              href="https://www.britannica.com/plant/cherry"
+              target="_blank"
+            >
+              <span class="plywood-sheet"
+                >Plywood | Sheet, Panel, Description, & Facts | Britannica</span
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+      <footer class="footer8">
+        <footer class="footer-section8">
+          <div class="home-button8" id="homeButtonContainer">
+            <div class="home8">Home</div>
+          </div>
+          <div class="copyright16">
+            <div class="home8">© | Designed by Team Novva | 2023</div>
+          </div>
+          <div class="scroll-up-button8" id="scrollUpButton">
+            <div class="home8">Scroll Up</div>
+          </div>
+        </footer>
+      </footer>
+    </div>
+
+    <script>
+      var materialsInDaily = document.getElementById("materialsInDaily");
+      if (materialsInDaily) {
+        materialsInDaily.addEventListener("click", function (e) {
+          window.location.href = "./h-inteligent-material1.html";
+        });
+      }
+      
+      var homeButtonContainer = document.getElementById("homeButtonContainer");
+      if (homeButtonContainer) {
+        homeButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./index1.html";
+        });
+      }
+      
+      var scrollUpButton = document.getElementById("scrollUpButton");
+      if (scrollUpButton) {
+        scrollUpButton.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='navigation']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

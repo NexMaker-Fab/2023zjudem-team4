@@ -1,0 +1,229 @@
+.home7 {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 27px;
+    font-weight: 200;
+  }
+  .copyright14,
+  .home-button7,
+  .scroll-up-button7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .home-button7 {
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+  .copyright14,
+  .scroll-up-button7 {
+    justify-content: center;
+  }
+  .scroll-up-button7 {
+    cursor: pointer;
+  }
+  .footer-section7,
+  .footer7 {
+    box-sizing: border-box;
+    display: flex;
+  }
+  .footer-section7 {
+    width: 1200px;
+    height: 91px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: var(--padding-13xl) var(--padding-61xl);
+    text-align: left;
+    font-size: var(--text1-size);
+    color: var(--font-color);
+    font-family: var(--font-poppins);
+  }
+  .footer7 {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 720px);
+    border-top: 0.5px solid var(--color-white);
+    width: 1440px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .laser-material-processing {
+    position: relative;
+    font-size: var(--text-size);
+    text-transform: uppercase;
+    display: inline-block;
+    width: 950px;
+  }
+  .httpswwwulsinccomlearnl1 {
+    text-decoration: underline;
+  }
+  .httpswwwulsinccomlearnl {
+    color: inherit;
+  }
+  .reference-httpswwwulsinc {
+    position: relative;
+    font-weight: 300;
+    color: var(--color-gold);
+    display: inline-block;
+    width: 953px;
+  }
+  .laser-energy- {
+    position: relative;
+    display: inline-block;
+    width: 950px;
+  }
+  .the-effects-produced {
+    margin: 0;
+  }
+  .the-effects-produced-container {
+    position: relative;
+    font-weight: 300;
+    display: inline-block;
+    width: 950px;
+  }
+  .dlaser-frame1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-lgi);
+  }
+  .dlaser-img1-icon {
+    position: relative;
+    width: 954px;
+    height: 328px;
+    object-fit: cover;
+  }
+  .image-source-httpswwwulsi-container {
+    position: relative;
+    font-weight: 300;
+    display: inline-block;
+    width: 953px;
+  }
+  .dlaser-frame2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-lgi);
+    color: var(--color-gold);
+  }
+  .material-ablation {
+    position: relative;
+    font-size: var(--sub-heading-size);
+    display: inline-block;
+    width: 950px;
+  }
+  .dlaser-img2-icon,
+  .dlaser-img3-icon {
+    position: relative;
+    width: 950px;
+    height: 599px;
+    object-fit: cover;
+  }
+  .dlaser-img3-icon {
+    width: 953px;
+    height: 536px;
+  }
+  .one-of-the {
+    margin: 0;
+    font-weight: 300;
+  }
+  .metals {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-4xl);
+  }
+  .laser-cutters-can {
+    font-weight: 300;
+  }
+  .aluminum-however-is-more-cha {
+    margin-bottom: 0;
+  }
+  .one-of-the-container {
+    position: relative;
+    display: inline-block;
+    width: 953px;
+  }
+  .the-best-laser {
+    font-family: var(--text);
+  }
+  .adobe-illustrator-httpssen-container {
+    position: relative;
+    display: inline-block;
+    color: var(--color-gold);
+    width: 950px;
+  }
+  .content109,
+  .dlaser-frame4 {
+    width: 953px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .content109 {
+    position: absolute;
+    top: 107px;
+    left: calc(50% - 477px);
+    align-items: center;
+  }
+  .laser-cutting-background3,
+  .tests3 {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 27px;
+  }
+  .laser-cutting-background3 {
+    backdrop-filter: blur(4px);
+  }
+  .laser-cutting-background3:hover {
+    mix-blend-mode: color;
+    color: var(--color-white);
+  }
+  .tests3 {
+    font-weight: 200;
+    cursor: pointer;
+  }
+  .menu-items7,
+  .navigation7 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .menu-items7 {
+    align-items: center;
+    gap: var(--gap-5xl);
+  }
+  .navigation7 {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 720px);
+    background-color: var(--color-gray-500);
+    width: 1440px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: var(--padding-5xl) var(--padding-23xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--text1-size);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  .d-lasercutting1 {
+    position: relative;
+    background-color: var(--color-black);
+    width: 100%;
+    height: 8164px;
+    overflow: hidden;
+    text-align: justify;
+    font-size: var(--text1-size);
+    color: var(--font-color);
+    font-family: var(--text);
+  }
+  

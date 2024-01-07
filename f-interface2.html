@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./f-interface2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Encode Sans:wght@100;300&display=swap"
+    />
+  </head>
+  <body>
+    <div class="f-interface2">
+      <div class="magic-boxes-parent">
+        <b class="magic-boxes">MAGIC BOXES</b>
+        <img
+          class="finterface-img7-icon"
+          alt=""
+          src="./public/finterface-img7@2x.png"
+        />
+
+        <b class="magic-boxes">Assessment objectives covered in this section</b>
+        <div class="do-one-demo-container">
+          <ul class="do-one-demo-in-processing-whic">
+            <li>
+              Do one demo in processing which can use mouse or keyboard to
+              interactive;
+            </li>
+          </ul>
+        </div>
+        <b class="magic-boxes">Contribution to SDG’s</b>
+        <div class="do-one-demo-container">
+          <ul class="do-one-demo-in-processing-whic">
+            <li class="goal-4-quality">Goal 4: Quality Education</li>
+          </ul>
+          <ul class="do-one-demo-in-processing-whic">
+            <li class="goal-4-quality">
+              Introduce educational elements within the game that require
+              problem-solving or critical thinking skills to navigate obstacles
+              and reach the green box. This promotes learning through gameplay.
+            </li>
+          </ul>
+          <ul class="do-one-demo-in-processing-whic">
+            <li class="goal-4-quality">
+              Goal 9: Industry, Innovation, and Infrastructure
+            </li>
+          </ul>
+          <ul class="do-one-demo-in-processing-whic">
+            <li class="goal-4-quality">
+              Showcase how technology (using mouse and keyboard inputs) can be
+              utilized for entertainment (gaming) while also fostering
+              problem-solving abilities and innovation.
+            </li>
+          </ul>
+          <ul class="do-one-demo-in-processing-whic">
+            <li class="goal-4-quality">Goal 13: Climate Action</li>
+          </ul>
+          <ul class="do-one-demo-in-processing-whic">
+            <li>
+              Use the game to promote environmental awareness. For instance, the
+              green box representing a safe destination could signify
+              sustainability, and the magic boxes could represent alternative,
+              low-impact modes of transportation.
+            </li>
+          </ul>
+        </div>
+        <div class="this-simple-project-container">
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="this-simple-project">
+            This simple project was created by using processing 4 (4.3). This is
+            a game which takes inputs from mouse and key board to change the
+            color of player and to move the player around. The goal of this game
+            is to move the player to green box. There are obstacles in the way
+            to green box. Other colored boxes are magic boxes which helps player
+            to avoid walls and other obstacles. They act as one way transporting
+            portals. Player can enter from one box and come out from the second
+            same colored box which appears in grid. After Reaching to the green
+            box player will receive a message saying “you win”.
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="this-simple-project">
+            Here is the detailed instruction to make this game step by step, to
+            help and understand the process easily it has braked down into
+            several key parts.
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="setting-up-the">01. Setting Up the Environment.</p>
+          <p class="setting-up-the">02. Understanding the Code Structure.</p>
+          <p class="setting-up-the">03. Customizing the game.</p>
+          <p class="setting-up-the">04. Complete game Code.</p>
+          <p class="setting-up-the">05. Run and Test the Game.</p>
+          <p class="setting-up-the">
+            06. Enhancements and further developments.
+          </p>
+        </div>
+        <b class="magic-boxes">
+          <ul class="setting-up-the-environment">
+            <li>Setting up the Environment.</li>
+          </ul>
+        </b>
+        <div class="do-one-demo-container">
+          Since I already have explained about how to install and set up the
+          processing in processing basics, I’ll not go to a detailed step by
+          step guide here. If you have any doubt you are welcome to Visit the
+          Processing basics page to get a detailed guide about how to download
+          and install processing.
+        </div>
+        <b class="magic-boxes">
+          <ul class="setting-up-the-environment">
+            <li>Understanding the Code Structure</li>
+          </ul>
+        </b>
+        <div class="this-simple-project-container">
+          <p class="this-simple-project">
+            There are five main parts of this code,
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <ul class="variable-initialization-revie">
+            <li>
+              <span class="variable-initialization"
+                >Variable Initialization:</span
+              >
+              <span class="review-and-understand">
+                Review and understand the variables used for player position,
+                target position, box positions, maze layout, and Boolean flags
+                for box interaction. In this code there are variables to
+                introduce the Player, Target, and Box Positions: Variables like
+              </span>
+              <span class="variable-initialization">playerX</span>
+              <span class="and-so-on">,</span>
+              <span class="variable-initialization"> playerY</span>
+              <span class="and-so-on">,</span>
+              <span class="variable-initialization">
+                targetX, targetY, box1X, box1Y,
+              </span>
+              <span class="and-so-on"
+                >and so on, store the coordinates for the player, target, and
+                various boxes in the maze.
+              </span>
+              <span class="variable-initialization">maze </span>
+              <span class="and-so-on">and</span>
+              <span class="variable-initialization"> tileSize</span>
+              <span class="and-so-on"
+                >: The maze array represents the layout of the maze with 1
+                indicating walls and 0 representing empty spaces. The tileSize
+                variable defines the size of each cell in the maze.
+              </span>
+              <span class="variable-initialization">playerColor</span>
+              <span class="and-so-on"> and</span>
+              <span class="variable-initialization"> boxColors</span>
+              <span class="and-so-on"
+                >: These two is responsible for the color of the player and the
+                color of the transporting portal boxes in the maze.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="finterfacecode12"></div>
+        <div class="this-simple-project-container">
+          <ul class="variable-initialization-revie">
+            <li>
+              <span class="variable-initialization">Setup Function:</span>
+              <span class="and-so-on"> </span>
+              <span class="variable-initialization">setup()</span>
+              <span class="review-and-understand">
+                function that initializes the canvas size and sets initial
+                positions for the player, target, and boxes. Sets up the canvas
+                size using
+              </span>
+              <span class="variable-initialization">size()</span>
+              <span class="and-so-on">
+                function. Initializes the starting positions of the player,
+                target, and each box.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="finterfacecode12"></div>
+        <div class="this-simple-project-container">
+          <ul class="variable-initialization-revie">
+            <li class="goal-4-quality">
+              <span class="variable-initialization">Draw Functions:</span>
+              <span class="and-so-on"> </span>
+              <span class="variable-initialization"
+                >drawMaze(), drawPlayer(), drawTarget(), drawBox()</span
+              >
+              <span class="and-so-on">, and </span>
+              <span class="variable-initialization">draw()</span>
+              <span class="review-and-understand">
+                functions to draw the maze, player, target, and boxes.
+              </span>
+            </li>
+          </ul>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="main-draw-loop-using-draw-b">
+            <span class="review-and-understand">3.1 Main Draw Loop using </span>
+            <span class="variable-initialization">draw()</span>
+            <span class="review-and-understand"
+              >: Background Rendering: Clears the screen with a white background
+              using background(255).
+            </span>
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="main-draw-loop-using-draw-b">
+            <span class="review-and-understand"
+              >3.2 Drawing Elements: Invokes functions to draw the maze, player,
+              target, and boxes.
+            </span>
+            <span class="variable-initialization">drawMaze()</span>
+            <span class="and-so-on"
+              >: Loops through the maze array and draws the maze walls based on
+              the values (1 or 0) present in the array.
+            </span>
+            <span class="variable-initialization"
+              >drawPlayer() and drawTarget()</span
+            >
+            <span class="and-so-on"
+              >: Render the player (red ellipse) and target (green rectangle)
+              respectively at their specified positions.
+            </span>
+            <span class="variable-initialization">drawBox()</span>
+            <span class="review-and-understand"
+              >: Draws different colored boxes at their specified positions in
+              the maze.
+            </span>
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="this-simple-project">
+            3.3 Using Logics: Win Condition Check: Checks if the player's
+            position matches the target position and displays a "You Win!"
+            message if they coincide. Box Interaction: Checks if the player
+            reaches specific boxes and updates the player's position
+            accordingly. The code checks the player's position against the
+            positions of various boxes (box1, box4, box6, box7). If the player's
+            position matches a box's position, it triggers an action: For
+            instance, when the player reaches box1, they get teleported to the
+            position of box2. Similarly, reaching box4 teleports the player to
+            the position of box3, and so on for other boxes. The relevant
+            section in the draw() function contains the logic for box
+            interaction.
+          </p>
+        </div>
+        <div class="finterfacecode14"></div>
+        <div class="this-simple-project-container">
+          <ul class="variable-initialization-revie">
+            <li>
+              <span class="variable-initialization">Key Press Handling: </span>
+              <span class="and-so-on">Using the </span>
+              <span class="variable-initialization">keyPressed()</span>
+              <span class="review-and-understand">
+                function responsible for handling player movements using arrow
+                keys. Detects player input using arrow keys (LEFT, RIGHT, UP,
+                DOWN). Checks the validity of the next move based on the maze
+                layout. Updates the player's position according to the arrow key
+                pressed and the maze structure.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="finterfacecode12"></div>
+        <div class="this-simple-project-container">
+          <ul class="variable-initialization-revie">
+            <li>
+              <span class="variable-initialization">Mouse press Handling:</span>
+              <span class="and-so-on"> Using the </span>
+              <span class="variable-initialization">mouseClicked()</span>
+              <span class="review-and-understand">
+                function responsible for handling player color changes using
+                mouse.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="finterfacecode16"></div>
+        <b class="magic-boxes">
+          <ul class="setting-up-the-environment">
+            <li>Customizing the game.</li>
+          </ul>
+        </b>
+        <div class="this-simple-project-container">
+          <p class="this-simple-project">Add New Boxes and Interactions:</p>
+          <p class="main-draw-loop-using-draw-b">
+            <span class="and-so-on"
+              >Define new box positions (boxX and boxY variables). Create new
+              conditional checks similar to existing ones in the
+            </span>
+            <span class="variable-initialization">draw()</span>
+            <span class="review-and-understand">
+              function to handle interactions when the player reaches these new
+              boxes.</span
+            >
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="this-simple-project">Change Box Interaction Actions:</p>
+          <p class="this-simple-project">
+            Instead of teleporting the player to another box, you can create
+            different actions, such as opening new paths, triggering events,
+            changing maze configurations, etc.
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="this-simple-project">Implement Conditional Events:</p>
+          <p class="this-simple-project">
+            Utilize boolean flags (like reachedBox1, reachedBox2, etc.) to track
+            which boxes the player has reached and implement conditional events
+            based on these states.
+          </p>
+          <p class="this-simple-project">&nbsp;</p>
+          <p class="this-simple-project">
+            Example Modification (Adding a New Box Interaction):
+          </p>
+        </div>
+        <div class="finterfacecode16"></div>
+        <b class="magic-boxes">
+          <ul class="setting-up-the-environment">
+            <li>Complete game Code.</li>
+          </ul>
+        </b>
+        <div class="do-one-demo-container">Final Code of the full game</div>
+        <div class="finterfacecode18"></div>
+        <div class="finterface-game"></div>
+        <b class="magic-boxes">
+          <ul class="setting-up-the-environment">
+            <li>Run and Test the Game.</li>
+          </ul>
+        </b>
+        <div class="do-one-demo-container">
+          <p class="main-draw-loop-using-draw-b">Running the Game:</p>
+          <p class="main-draw-loop-using-draw-b">
+            Click the "Play" button in the Processing IDE to execute the code
+            and run the game.
+          </p>
+          <p class="main-draw-loop-using-draw-b">
+            This action will display the maze, player, boxes, and target on the
+            canvas.
+          </p>
+          <p class="main-draw-loop-using-draw-b">&nbsp;</p>
+          <p class="main-draw-loop-using-draw-b">Testing Gameplay:</p>
+          <p class="main-draw-loop-using-draw-b">
+            Use the arrow keys to navigate the player through the maze.
+          </p>
+          <p class="main-draw-loop-using-draw-b">
+            Click on the player to see it’s color changing.
+          </p>
+          <p class="main-draw-loop-using-draw-b">
+            Reach the target position to trigger the "You Win!" message and
+            check if it functions correctly.
+          </p>
+          <p class="main-draw-loop-using-draw-b">
+            Interact with different boxes to understand their effects
+            (teleportation) on the player.
+          </p>
+          <p class="main-draw-loop-using-draw-b">
+            Test movement boundaries and collisions with walls to ensure they
+            work as intended.
+          </p>
+        </div>
+        <b class="magic-boxes">
+          <ul class="setting-up-the-environment">
+            <li>Enhancements and further developments.</li>
+          </ul>
+        </b>
+        <div class="do-one-demo-container">
+          <p class="main-draw-loop-using-draw-b">Modifying Maze Layout:</p>
+          <p class="main-draw-loop-using-draw-b">
+            Change the maze layout by altering the maze array to create
+            different maze structures or challenges.
+          </p>
+          <p class="main-draw-loop-using-draw-b">
+            Adjust the size, placement, and distribution of walls to make the
+            maze more complex or interesting.
+          </p>
+          <p class="main-draw-loop-using-draw-b">&nbsp;</p>
+          <p class="main-draw-loop-using-draw-b">
+            Adding Levels or Challenges:
+          </p>
+          <p class="main-draw-loop-using-draw-b">
+            Introduce multiple levels with varying maze structures or
+            difficulties.
+          </p>
+          <p class="main-draw-loop-using-draw-b">
+            Incorporate new obstacles, moving elements, or time-based challenges
+            to enhance gameplay complexity.
+          </p>
+          <p class="main-draw-loop-using-draw-b">&nbsp;</p>
+          <p class="main-draw-loop-using-draw-b">
+            Enhancing Visuals and User Interface:
+          </p>
+          <p class="main-draw-loop-using-draw-b">
+            Customize colors, shapes, or visual elements (player, boxes, walls)
+            to improve aesthetics.
+          </p>
+          <p class="main-draw-loop-using-draw-b">
+            Implement a more intuitive user interface with menus, scoreboards,
+            or instructions for a better user experience.
+          </p>
+          <p class="main-draw-loop-using-draw-b">&nbsp;</p>
+          <p class="main-draw-loop-using-draw-b">
+            Implementing Additional Features:
+          </p>
+          <p class="main-draw-loop-using-draw-b">
+            Add features like a scoring system, timer, sound effects, or
+            animations to make the game more immersive.
+          </p>
+          <p class="main-draw-loop-using-draw-b">
+            Include power-ups, special abilities, or collectibles to introduce
+            new dynamics and rewards.
+          </p>
+          <p class="main-draw-loop-using-draw-b">&nbsp;</p>
+          <p class="main-draw-loop-using-draw-b">
+            Scaling Difficulty or Rewards:
+          </p>
+          <p class="main-draw-loop-using-draw-b">
+            Adjust the difficulty curve by altering maze complexity, increasing
+            challenge, or providing rewards for completion.
+          </p>
+          <p class="main-draw-loop-using-draw-b">
+            Balance the game's difficulty to offer a challenging yet enjoyable
+            experience.
+          </p>
+          <p class="main-draw-loop-using-draw-b">&nbsp;</p>
+          <p class="main-draw-loop-using-draw-b">Collecting User Feedback:</p>
+          <p class="main-draw-loop-using-draw-b">
+            Gather feedback from playtesting or user input to identify areas for
+            improvement or features players would like to see.
+          </p>
+          <p class="main-draw-loop-using-draw-b">
+            Incorporate feedback to refine and optimize the game further.
+          </p>
+        </div>
+        <div class="reference-wrapper">
+          <b class="reference1">Reference</b>
+        </div>
+        <div class="do-one-demo-container">
+          <ul class="do-one-demo-in-processing-whic">
+            <li class="goal-4-quality">
+              <a
+                class="inspired-by-different-kind-of2"
+                href="https://openprocessing.org/sketch/2042562"
+                target="_blank"
+              >
+                <span class="inspired-by-different"
+                  >Inspired by different kind of platformer on
+                  openprocessing.org</span
+                >
+              </a>
+            </li>
+            <li class="goal-4-quality">
+              <a
+                class="inspired-by-different-kind-of2"
+                href="https://processing.org/"
+                target="_blank"
+              >
+                <span class="inspired-by-different">Official Website</span>
+              </a>
+            </li>
+            <li class="goal-4-quality">
+              <a
+                class="inspired-by-different-kind-of2"
+                href="https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw"
+                target="_blank"
+              >
+                <span class="inspired-by-different">The Coding Train </span>
+              </a>
+            </li>
+            <li class="goal-4-quality">
+              <a
+                class="inspired-by-different-kind-of2"
+                href="https://hello.processing.org/"
+                target="_blank"
+              >
+                <span class="inspired-by-different">Hello Processing</span>
+              </a>
+            </li>
+            <li class="goal-4-quality">
+              <a
+                class="inspired-by-different-kind-of2"
+                href="https://www.oreilly.com/library/view/programming-interactivity-2nd/9781449321482/"
+                target="_blank"
+              >
+                <span class="inspired-by-different"
+                  >Programming Interactivity
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="inspired-by-different-kind-of2"
+                href="https://openprocessing.org/"
+                target="_blank"
+              >
+                <span class="inspired-by-different">Open Processing</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navigation2" data-scroll-to="navigation">
+        <div class="menu-items2">
+          <div class="processing-basics1" id="processingBasicsText">
+            Processing Basics
+          </div>
+          <b class="processing-project1" id="processingProjectText"
+            >Processing Project
+          </b>
+          <div class="processing-with-ardunio1" id="processingWithArdunio">
+            Processing with Ardunio
+          </div>
+          <div class="processing-with-ardunio1" id="iOTGUI">IOT & GUI</div>
+        </div>
+      </nav>
+      <footer class="footer2">
+        <footer class="footer-section2">
+          <div class="home-button2" id="homeButtonContainer">
+            <div class="home2">Home</div>
+          </div>
+          <div class="copyright4">
+            <div class="home2">© | Designed by Team Novva | 2023</div>
+          </div>
+          <div class="scroll-up-button2" id="scrollUpButton">
+            <div class="home2">Scroll Up</div>
+          </div>
+        </footer>
+      </footer>
+    </div>
+
+    <script>
+      var processingBasicsText = document.getElementById("processingBasicsText");
+      if (processingBasicsText) {
+        processingBasicsText.addEventListener("click", function (e) {
+          window.location.href = "./f-interface1.html";
+        });
+      }
+      
+      var processingProjectText = document.getElementById("processingProjectText");
+      if (processingProjectText) {
+        processingProjectText.addEventListener("click", function (e) {
+          window.location.href = "./f-interface2.html";
+        });
+      }
+      
+      var processingWithArdunio = document.getElementById("processingWithArdunio");
+      if (processingWithArdunio) {
+        processingWithArdunio.addEventListener("click", function (e) {
+          window.location.href = "./f-interface3.html";
+        });
+      }
+      
+      var iOTGUI = document.getElementById("iOTGUI");
+      if (iOTGUI) {
+        iOTGUI.addEventListener("click", function (e) {
+          window.location.href = "./f-interface4.html";
+        });
+      }
+      
+      var homeButtonContainer = document.getElementById("homeButtonContainer");
+      if (homeButtonContainer) {
+        homeButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./index1.html";
+        });
+      }
+      
+      var scrollUpButton = document.getElementById("scrollUpButton");
+      if (scrollUpButton) {
+        scrollUpButton.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='navigation']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

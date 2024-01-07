@@ -1,0 +1,179 @@
+.home5 {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 27px;
+    font-weight: 200;
+  }
+  .copyright10,
+  .home-button5,
+  .scroll-up-button5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .home-button5 {
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+  .copyright10,
+  .scroll-up-button5 {
+    justify-content: center;
+  }
+  .scroll-up-button5 {
+    cursor: pointer;
+  }
+  .footer-section5,
+  .footer5 {
+    box-sizing: border-box;
+    display: flex;
+  }
+  .footer-section5 {
+    width: 1200px;
+    height: 91px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: var(--padding-13xl) var(--padding-61xl);
+    text-align: left;
+    font-size: var(--text1-size);
+    color: var(--font-color);
+    font-family: var(--font-poppins);
+  }
+  .footer5 {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 720px);
+    border-top: 0.5px solid var(--color-white);
+    width: 1440px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .laser-cutting-a {
+    position: relative;
+    font-size: var(--text-size);
+    text-transform: uppercase;
+    display: inline-block;
+    width: 950px;
+  }
+  .https3axiscolaser-cut-cot1 {
+    text-decoration: underline;
+  }
+  .https3axiscolaser-cut-cot {
+    color: inherit;
+  }
+  .open-source-https3axisco-container {
+    position: relative;
+    font-weight: 300;
+    color: var(--color-gold);
+    display: inline-block;
+    width: 950px;
+  }
+  .dlaser-img50-icon {
+    position: relative;
+    width: 954px;
+    height: 370px;
+    object-fit: cover;
+  }
+  .material {
+    font-family: var(--text);
+  }
+  .material-2mm-thickness-plywoo {
+    margin: 0;
+  }
+  .material-2mm-thickness-container {
+    position: relative;
+    display: inline-block;
+    width: 950px;
+  }
+  .dlaser-img51-icon,
+  .dlaser-img52-icon {
+    position: relative;
+    width: 950px;
+    height: 611px;
+    object-fit: cover;
+  }
+  .dlaser-img52-icon {
+    width: 955px;
+    height: 431px;
+  }
+  .the-silhouettes-and {
+    margin: 0;
+    font-weight: 300;
+  }
+  .dlaser-videoframe3 {
+    position: relative;
+    width: 956px;
+    height: 458px;
+  }
+  .content2 {
+    position: absolute;
+    top: 107px;
+    left: calc(50% - 477px);
+    width: 954px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .laser-cutting-background1 {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 27px;
+    backdrop-filter: blur(4px);
+  }
+  .laser-cutting-background1:hover {
+    mix-blend-mode: color;
+    color: var(--color-white);
+  }
+  .laser-cutting-background1,
+  .tests1 {
+    font-weight: 200;
+    cursor: pointer;
+  }
+  .final-project1,
+  .tests1 {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 27px;
+  }
+  .menu-items5,
+  .navigation5 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .menu-items5 {
+    align-items: center;
+    gap: var(--gap-5xl);
+  }
+  .navigation5 {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 720px);
+    background-color: var(--color-gray-500);
+    width: 1440px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: var(--padding-5xl) var(--padding-23xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--text1-size);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  .d-lasercutting4 {
+    position: relative;
+    background-color: var(--color-black);
+    width: 100%;
+    height: 6891px;
+    overflow: hidden;
+    text-align: justify;
+    font-size: var(--text1-size);
+    color: var(--font-color);
+    font-family: var(--text);
+  }
+  

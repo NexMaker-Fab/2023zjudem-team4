@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./f-interface4.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Encode Sans:wght@100;300&display=swap"
+    />
+  </head>
+  <body>
+    <div class="f-interface4">
+      <div class="gui-development-parent">
+        <b class="gui-development">GUI Development</b>
+        <img
+          class="finterface-img10-icon"
+          alt=""
+          src="./public/finterface-img10@2x.png"
+        />
+
+        <b class="gui-development"
+          >Assessment objectives covered in this section</b
+        >
+        <div class="begin-by-installing">
+          <ul class="try-to-communicate-with-kinect">
+            <li class="try-to-communicate">
+              Try to communicate with Kinect,Leapmotion or IOT platform.
+            </li>
+            <li>
+              Interpret and implement design and programming protocols to create
+              a Graphic User Interface (GUI).
+            </li>
+          </ul>
+        </div>
+        <div class="this-interactive-project-container">
+          <p class="this-interactive-project">
+            This interactive project harnesses the power of Processing 4
+            (version 4.3) to create a dynamic graphical user interface (GUI).
+            Unlike conventional games, this project revolves around crafting a
+            visual interface using mouse and keyboard inputs. The primary aim is
+            to construct a user-friendly environment for manipulating shapes and
+            colors, fostering an engaging experience.
+          </p>
+          <p class="this-interactive-project">
+            The fundamental objective of this GUI project is to design an
+            interface that allows users to modify graphical elements and their
+            attributes. It empowers users to control shapes, sizes, and colors
+            while visualizing changes in real-time. The ultimate goal is to
+            facilitate an intuitive interface that provides an enjoyable,
+            interactive experience.
+          </p>
+          <p class="this-interactive-project">&nbsp;</p>
+          <p class="customizing-the-gui">01. Setting Up the Environment.</p>
+          <p class="customizing-the-gui">
+            02. Understanding the Code Structure.
+          </p>
+          <p class="customizing-the-gui">03. Customizing the GUI.</p>
+          <p class="customizing-the-gui">04. Complete GUI Code.</p>
+          <p class="customizing-the-gui">05. Run and Test the GUI.</p>
+          <p class="customizing-the-gui">
+            06. Enhancements and further developments.
+          </p>
+        </div>
+        <b class="gui-development">
+          <ul class="run-and-test-the-gui">
+            <li>Setting up the Environment.</li>
+          </ul>
+        </b>
+        <div class="begin-by-installing">
+          Begin by installing Processing 4.3 and configuring the Integrated
+          Development Environment (IDE). Familiarize yourself with the
+          Processing environment, including the canvas dimensions and necessary
+          settings. This involves setting up libraries such as ControlP5, a
+          graphical user interface library, if needed. Ensure that the
+          development environment is ready for coding and execution.
+        </div>
+        <b class="gui-development">
+          <ul class="run-and-test-the-gui">
+            <li>Understanding the Code Structure</li>
+          </ul>
+        </b>
+        <div class="this-interactive-project-container">
+          <p class="controlp5-library-integration">
+            <b>ControlP5 Library Integration: </b>
+          </p>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span
+                >ControlP5 is an essential library in Processing used for
+                creating graphical user interfaces. It offers a suite of tools
+                to easily implement and manage various UI elements such as
+                checkboxes, sliders, buttons, text fields, and more. This
+                library simplifies the process of designing interactive elements
+                within a Processing sketch.</span
+              >
+            </li>
+          </ul>
+          <p class="controlp5-library-integration">
+            <b>&nbsp;</b>
+          </p>
+          <p class="controlp5-library-integration">
+            <b>Initialization in Setup():</b>
+            <span class="the-setup-function"> </span>
+          </p>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >The setup() function is where the Processing sketch initializes
+                necessary components. This includes defining the canvas size
+                using size(), initializing the ControlP5 library with new
+                ControlP5(this), and setting up various interface elements like
+                checkboxes, sliders, and buttons using ControlP5's
+                methods.</span
+              >
+            </li>
+          </ul>
+          <p class="this-interactive-project">&nbsp;</p>
+          <p class="controlp5-library-integration">
+            <b class="draw-loop-in">Draw Loop in Draw():</b>
+            <span class="the-setup-function"> </span>
+          </p>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >The draw() function continuously redraws the canvas, updating
+                the interface elements and shapes. It includes essential
+                commands like background() to refresh the canvas with a
+                specified color (backgroundColor), stroke() to set the outline
+                color of shapes, and conditional statements (if-else) to draw
+                either rectangles or ellipses based on the value of the
+                drawRectangle boolean variable.</span
+              >
+            </li>
+          </ul>
+          <p class="this-interactive-project">&nbsp;</p>
+          <p class="controlp5-library-integration">
+            <b class="draw-loop-in">Shape Drawing Functions:</b>
+            <span class="the-setup-function"> </span>
+          </p>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >The drawRectangle() and drawEllipse() functions define how
+                shapes (rectangles and ellipses) are drawn. These functions
+                utilize Processing's shape-drawing commands like rect() and
+                ellipse(), positioning them at the center of the canvas (width /
+                2, height / 2) and using the shapeSize variable for
+                dimensions.</span
+              >
+            </li>
+          </ul>
+          <p class="this-interactive-project">&nbsp;</p>
+          <p class="controlp5-library-integration">
+            <b class="draw-loop-in">Event Handling Functions:</b>
+            <span class="the-setup-function"> </span>
+          </p>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >controlEvent(ControlEvent theEvent) handles interactions with
+                ControlP5 elements. It specifically listens for events from the
+                "toggleShape" checkbox, updating the drawRectangle boolean
+                variable based on the checkbox state (checked or
+                unchecked).</span
+              >
+            </li>
+          </ul>
+          <p class="this-interactive-project">&nbsp;</p>
+          <p class="controlp5-library-integration">
+            <b class="draw-loop-in">Slider and Button Functions:</b>
+            <span class="the-setup-function"> </span>
+          </p>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >adjustSize(float newSize) adjusts the shapeSize variable based
+                on the slider's value. The changeColor() function randomly
+                generates a new background color upon clicking the "Change
+                Background Color" button using random().</span
+              >
+            </li>
+          </ul>
+          <p class="this-interactive-project">&nbsp;</p>
+          <p class="controlp5-library-integration">
+            <b class="draw-loop-in">Variable Declarations:</b>
+            <span class="the-setup-function"> </span>
+          </p>
+          <ul class="controlp5-is-an-essential-libr">
+            <li>
+              <span class="the-setup-function"
+                >Declarations like boolean drawRectangle, int shapeSize, and int
+                backgroundColor are positioned outside the functions to maintain
+                their state across the sketch. These variables control the
+                drawing behavior, shape size, and background color,
+                respectively.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <b class="gui-development">
+          <ul class="run-and-test-the-gui">
+            <li>Customizing the GUI.</li>
+          </ul>
+        </b>
+        <div class="begin-by-installing">
+          Embark on customizing the graphical user interface. Experiment with
+          modifying shapes, sizes, colors, and positions of GUI components.
+          Explore ControlP5's extensive customization options to tailor the
+          checkboxes, sliders, and buttons to suit specific interface
+          aesthetics. Adjust the positioning, sizes, and appearance of these
+          elements to create an intuitive and visually appealing user interface.
+        </div>
+        <b class="gui-development">
+          <ul class="run-and-test-the-gui">
+            <li>Complete GUI Code.</li>
+          </ul>
+        </b>
+        <div class="begin-by-installing">Final Code of the full GUI</div>
+        <div class="finterfacecode31"></div>
+        <div class="finterface-gui"></div>
+        <b class="gui-development">
+          <ul class="run-and-test-the-gui">
+            <li>Run and Test the GUI.</li>
+          </ul>
+        </b>
+        <div class="begin-by-installing">
+          Execute the code and meticulously test the graphical user interface.
+          Interact with the checkboxes, sliders, and buttons to verify their
+          responsiveness and functionality. Test different scenarios to ensure
+          that the interface behaves as expected, responding accurately to user
+          inputs. Debug any issues encountered during testing and refine the
+          interface for optimal performance.
+        </div>
+        <b class="gui-development">
+          <ul class="run-and-test-the-gui">
+            <li>Enhancements and further developments.</li>
+          </ul>
+        </b>
+        <div class="begin-by-installing">
+          <p class="controlp5-library-integration">
+            Explore opportunities to enhance the GUI. Consider adding new
+            features or functionalities to expand its capabilities. Experiment
+            with incorporating animations, transitions, or additional ControlP5
+            elements to elevate the user experience. Solicit feedback from
+            potential users or peers to gather insights for further
+            improvements. Continuously iterate and refine the interface based on
+            the received feedback and innovative ideas.
+          </p>
+          <p class="controlp5-library-integration">
+            By methodically following these steps, aspiring GUI developers in
+            Processing can gain comprehensive proficiency in crafting dynamic
+            and user-friendly graphical interfaces. This comprehensive approach
+            encourages a deeper understanding of GUI development while fostering
+            creativity and innovation in design and interaction paradigms.
+          </p>
+        </div>
+        <b class="gui-development">Connecting to IOT</b>
+        <div class="requirements-adafruit-io-container">
+          <p class="controlp5-library-integration">
+            <span class="requirements1">Requirements </span>
+          </p>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span>Adafruit IO Account: Sign up at </span>
+              <a
+                class="adafruit-io"
+                href="https://io.adafruit.com/"
+                target="_blank"
+              >
+                <span>
+                  <span class="adafruit-io1">Adafruit IO</span>
+                </span>
+              </a>
+              <span>. </span>
+            </li>
+            <li class="try-to-communicate">
+              <span
+                >Username and Key: You'll need your Adafruit IO username and an
+                active AIO Key.
+              </span>
+            </li>
+            <li class="try-to-communicate">
+              <span
+                >Feed: Create a feed on Adafruit IO to send data and receive.
+              </span>
+            </li>
+            <li>
+              <span
+                >Dashboard: Using a toggle button you can send data to your
+                feed.
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div class="finterface-gui"></div>
+        <b class="connect-processing-code"
+          >Connect processing Code to Adafruit IO (IOT).</b
+        >
+        <div class="this-interactive-project-container">
+          <p class="controlp5-library-integration">
+            <b>Initialization:</b>
+          </p>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span
+                >ioUsername, ioKey, and feed variables hold your Adafruit IO
+                username, AIO Key, and feed name, respectively.</span
+              >
+            </li>
+            <li class="try-to-communicate">
+              <span
+                >adafruitIOUrl constructs the URL to fetch data from the
+                specified Adafruit IO feed using your username and feed
+                name.</span
+              >
+            </li>
+          </ul>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span class="data-retrieval-from">setup() Function:</span>
+            </li>
+          </ul>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >setup() is a function in Processing that runs once at the
+                beginning of the program.</span
+              >
+            </li>
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >It sets the canvas size to 200x200 pixels and sets the
+                background color to dark gray (background(50)).</span
+              >
+            </li>
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >fill(200) sets the fill color to a lighter gray for text
+                display.</span
+              >
+            </li>
+          </ul>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span class="data-retrieval-from"
+                >Data Retrieval from Adafruit IO:</span
+              >
+            </li>
+          </ul>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >loadStrings() is a Processing function used to load data from a
+                URL as an array of strings.</span
+              >
+            </li>
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >It fetches data from the constructed adafruitIOUrl by appending
+                the AIO Key as a query parameter x-aio-key.</span
+              >
+            </li>
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >The data fetched from Adafruit IO is stored in the lines
+                array.</span
+              >
+            </li>
+          </ul>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span class="data-retrieval-from"
+                >Processing the Retrieved Data:</span
+              >
+            </li>
+          </ul>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >The code then checks if the lines array is not null.</span
+              >
+            </li>
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >If data is successfully fetched (lines != null), it enters a
+                loop (for (String line : lines)) to iterate through each line in
+                the retrieved data.</span
+              >
+            </li>
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >Inside the loop, it prints each line of the data to the console
+                using println().</span
+              >
+            </li>
+          </ul>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span class="data-retrieval-from">Handling Failure:</span>
+            </li>
+          </ul>
+          <ul class="controlp5-is-an-essential-libr">
+            <li>
+              <span class="the-setup-function"
+                >If the data retrieval fails (lines == null), it prints a
+                message to the console indicating the failure to retrieve data
+                from Adafruit IO.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="finterfacecode32"></div>
+        <div class="requirements-adafruit-io-container">
+          <p class="controlp5-library-integration">
+            <b>Output (JSON)</b>
+          </p>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >"ResponsefromAdafruitIO:
+                [{"id":"0FG1E1DHMNRRC0MEFZE90VN93N","value":"1","feed_id":2709298,"feed_key":"led","created_at":"2024-01-04T19:45:22Z","created_epoch":1704397522,"expiration":"2024-02-03T19:45:22Z"},{"id":"0FG1E0WH5Q581P1N0PJBB9VWS0","value":"0","feed_id":2709298,"feed_key":"led","created_at":"2024-0</span
+              >
+            </li>
+          </ul>
+          <p class="controlp5-library-integration">
+            <span class="the-setup-function">
+              ...............................etc
+            </span>
+            <b class="draw-loop-in"> </b>
+          </p>
+        </div>
+        <div class="this-interactive-project-container">
+          <p class="controlp5-library-integration">
+            <b
+              >JSON Processing Library to process the receiving data from
+              adafruit IO</b
+            >
+          </p>
+          <ul class="controlp5-is-an-essential-libr">
+            <li class="try-to-communicate">
+              <span class="the-setup-function"
+                >code uses functions related to JSON parsing (parseJSONArray()
+                and parseJSONObject()) to handle data received in JSON
+                format.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <b class="this-interactive-project-container">FINAL CODE </b>
+        <div class="finterfacecode33"></div>
+        <div class="finterface-gui"></div>
+        <div class="reference-container">
+          <b class="reference3">Reference</b>
+        </div>
+        <div class="begin-by-installing">
+          <ul class="try-to-communicate-with-kinect">
+            <li class="try-to-communicate">
+              <a
+                class="adafruit-io"
+                href="https://openprocessing.org/sketch/2042562"
+                target="_blank"
+              >
+                <span class="adafruit-io1"
+                  >Inspired by different kind of platformer on
+                  openprocessing.org</span
+                >
+              </a>
+            </li>
+            <li class="try-to-communicate">
+              <a
+                class="adafruit-io"
+                href="https://processing.org/"
+                target="_blank"
+              >
+                <span class="adafruit-io1">Official Website</span>
+              </a>
+            </li>
+            <li class="try-to-communicate">
+              <a
+                class="adafruit-io"
+                href="https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw"
+                target="_blank"
+              >
+                <span class="adafruit-io1">The Coding Train </span>
+              </a>
+            </li>
+            <li class="try-to-communicate">
+              <a
+                class="adafruit-io"
+                href="https://hello.processing.org/"
+                target="_blank"
+              >
+                <span class="adafruit-io1">Hello Processing</span>
+              </a>
+            </li>
+            <li class="try-to-communicate">
+              <a
+                class="adafruit-io"
+                href="https://www.oreilly.com/library/view/programming-interactivity-2nd/9781449321482/"
+                target="_blank"
+              >
+                <span class="adafruit-io1">Programming Interactivity </span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="adafruit-io"
+                href="https://openprocessing.org/"
+                target="_blank"
+              >
+                <span class="adafruit-io1">Open Processing</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navigation4" data-scroll-to="navigation">
+        <div class="menu-items4">
+          <div class="processing-basics3" id="processingBasicsText">
+            Processing Basics
+          </div>
+          <div class="processing-project3" id="processingProjectText">
+            Processing Project
+          </div>
+          <div class="processing-project3" id="processingWithArdunio">
+            Processing with Ardunio
+          </div>
+          <b class="iot-gui3" id="iOTGUI">IOT & GUI</b>
+        </div>
+      </nav>
+      <footer class="footer4">
+        <footer class="footer-section4">
+          <div class="home-button4" id="homeButtonContainer">
+            <div class="home4">Home</div>
+          </div>
+          <div class="copyright8">
+            <div class="home4">© | Designed by Team Novva | 2023</div>
+          </div>
+          <div class="scroll-up-button4" id="scrollUpButton">
+            <div class="home4">Scroll Up</div>
+          </div>
+        </footer>
+      </footer>
+    </div>
+
+    <script>
+      var processingBasicsText = document.getElementById("processingBasicsText");
+      if (processingBasicsText) {
+        processingBasicsText.addEventListener("click", function (e) {
+          window.location.href = "./f-interface1.html";
+        });
+      }
+      
+      var processingProjectText = document.getElementById("processingProjectText");
+      if (processingProjectText) {
+        processingProjectText.addEventListener("click", function (e) {
+          window.location.href = "./f-interface2.html";
+        });
+      }
+      
+      var processingWithArdunio = document.getElementById("processingWithArdunio");
+      if (processingWithArdunio) {
+        processingWithArdunio.addEventListener("click", function (e) {
+          window.location.href = "./f-interface3.html";
+        });
+      }
+      
+      var iOTGUI = document.getElementById("iOTGUI");
+      if (iOTGUI) {
+        iOTGUI.addEventListener("click", function (e) {
+          window.location.href = "./f-interface4.html";
+        });
+      }
+      
+      var homeButtonContainer = document.getElementById("homeButtonContainer");
+      if (homeButtonContainer) {
+        homeButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./index1.html";
+        });
+      }
+      
+      var scrollUpButton = document.getElementById("scrollUpButton");
+      if (scrollUpButton) {
+        scrollUpButton.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='navigation']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

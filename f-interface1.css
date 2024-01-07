@@ -1,0 +1,281 @@
+.home1 {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 27px;
+    font-weight: 200;
+  }
+  .copyright2,
+  .home-button1,
+  .scroll-up-button1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .home-button1 {
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+  .copyright2,
+  .scroll-up-button1 {
+    justify-content: center;
+  }
+  .scroll-up-button1 {
+    cursor: pointer;
+  }
+  .footer-section1,
+  .footer1 {
+    box-sizing: border-box;
+    display: flex;
+  }
+  .footer-section1 {
+    width: 1200px;
+    height: 91px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: var(--padding-13xl) var(--padding-61xl);
+    text-align: left;
+    font-size: var(--text1-size);
+    color: var(--font-color);
+    font-family: var(--font-poppins);
+  }
+  .footer1 {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 720px);
+    border-top: 0.5px solid var(--color-white);
+    width: 1440px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .what-is-processing {
+    position: relative;
+    font-size: var(--sub-heading-size);
+    display: inline-block;
+    width: 950px;
+  }
+  .finterface-img1-icon {
+    position: relative;
+    width: 388px;
+    height: 371px;
+    object-fit: cover;
+  }
+  .processing-is-an {
+    margin: 0;
+  }
+  .processingorg3 {
+    text-decoration: underline;
+  }
+  .processingorg {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-4xl);
+  }
+  .processing-is-an-container {
+    position: relative;
+    font-weight: 300;
+    display: inline-block;
+    width: 950px;
+  }
+  .finterface-img2-icon,
+  .finterface-img3-icon {
+    position: relative;
+    width: 954px;
+    height: 384px;
+    object-fit: cover;
+  }
+  .finterface-img3-icon {
+    width: 952px;
+    height: 468px;
+  }
+  .processing-ide-has {
+    font-weight: 300;
+    font-family: var(--text);
+  }
+  .area-is-where {
+    font-weight: 300;
+  }
+  .the-code-window {
+    font-family: var(--text);
+  }
+  .processing-ide-has-container {
+    position: relative;
+    display: inline-block;
+    width: 950px;
+  }
+  .finterface-img6-icon {
+    position: relative;
+    width: 953px;
+    height: 824px;
+    object-fit: cover;
+  }
+  .processing-application-has-container {
+    position: relative;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 950px;
+  }
+  .finterfacecode1 {
+    width: 954px;
+    height: 200px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .for-drawing-examples {
+    margin: 0;
+    font-weight: 300;
+  }
+  .finterfacecode3 {
+    width: 954px;
+    height: 600px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .finterface-draw {
+    position: relative;
+    background-color: var(--color-silver);
+    width: 955px;
+    height: 424px;
+  }
+  .using-styles-examples-container {
+    position: relative;
+    font-weight: 300;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 950px;
+  }
+  .finterfacecode6,
+  .finterfacecode8,
+  .finterfacecode9 {
+    width: 954px;
+    height: 300px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .finterfacecode8,
+  .finterfacecode9 {
+    height: 700px;
+  }
+  .finterfacecode9 {
+    height: 400px;
+  }
+  .p5js {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-4xl);
+  }
+  .there-are-two {
+    font-weight: 600;
+    font-family: var(--text);
+  }
+  .use-the-online-editor {
+    margin-bottom: 0;
+  }
+  .httpsp5jsorg {
+    color: inherit;
+  }
+  .finterface-p51 {
+    position: relative;
+    background-color: var(--color-silver);
+    width: 953px;
+    height: 400px;
+  }
+  .your-first-sketch {
+    margin: 0;
+    font-weight: 600;
+  }
+  .official-website-the-container,
+  .reference {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 950px;
+  }
+  .official-website-the-container {
+    top: 39px;
+    font-size: var(--text1-size);
+    text-decoration: underline;
+    font-weight: 300;
+  }
+  .reference-parent {
+    position: relative;
+    width: 950px;
+    height: 144px;
+    font-size: var(--sub-heading-size);
+  }
+  .content1 {
+    position: absolute;
+    top: 105px;
+    left: calc(50% - 462px);
+    width: 955px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-lgi);
+  }
+  .iot-gui,
+  .processing-basics,
+  .processing-project {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 27px;
+  }
+  .processing-basics {
+    backdrop-filter: blur(4px);
+  }
+  .iot-gui:hover,
+  .processing-basics:hover {
+    mix-blend-mode: color;
+    color: var(--color-white);
+  }
+  .iot-gui,
+  .processing-project {
+    font-weight: 200;
+    cursor: pointer;
+  }
+  .iot-gui {
+    backdrop-filter: blur(4px);
+  }
+  .menu-items1,
+  .navigation1 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .menu-items1 {
+    align-items: center;
+    gap: var(--gap-5xl);
+  }
+  .navigation1 {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 720px);
+    background-color: var(--color-gray-500);
+    width: 1440px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: var(--padding-5xl) var(--padding-23xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--text1-size);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  .f-interface1 {
+    position: relative;
+    background-color: var(--color-black);
+    width: 100%;
+    height: 21167px;
+    overflow: hidden;
+    text-align: justify;
+    font-size: var(--text1-size);
+    color: var(--font-color);
+    font-family: var(--text);
+  }
+  

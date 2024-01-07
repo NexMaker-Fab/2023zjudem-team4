@@ -1,0 +1,395 @@
+.home20 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 200;
+}
+.copyright40,
+.home-button20,
+.scroll-up-button20 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-button20 {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.copyright40,
+.scroll-up-button20 {
+  justify-content: center;
+}
+.scroll-up-button20 {
+  cursor: pointer;
+}
+.footer-section20,
+.footer20 {
+  box-sizing: border-box;
+  display: flex;
+}
+.footer-section20 {
+  width: 1200px;
+  height: 91px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-61xl);
+  text-align: left;
+  font-size: var(--text1-size);
+  color: var(--font-color);
+  font-family: var(--font-poppins);
+}
+.footer20 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 720px);
+  border-top: 0.5px solid var(--color-white);
+  width: 1440px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.what-is-3d {
+  font-size: var(--text-size);
+  text-transform: uppercase;
+}
+.d-printing-is,
+.reference-my3dconcepts,
+.what-is-3d {
+  position: relative;
+  display: inline-block;
+  width: 950px;
+}
+.reference-my3dconcepts {
+  text-decoration: underline;
+  color: var(--color-gold);
+}
+.d-printing-is {
+  font-weight: 300;
+}
+.httpswwwbcn3dcomthe-hist {
+  color: inherit;
+}
+.reference-httpswwwbcn3dc {
+  position: relative;
+  color: var(--color-gold);
+  display: inline-block;
+  width: 950px;
+}
+.s {
+  margin: 0;
+}
+.in-the-early {
+  margin: 0;
+  font-weight: 300;
+}
+.s-in-the-container {
+  position: relative;
+  display: inline-block;
+  width: 950px;
+}
+.cp-imgfront1-icon {
+  position: relative;
+  width: 954px;
+  height: 454px;
+  object-fit: cover;
+}
+.reprapbcn-in-the {
+  font-weight: 300;
+  font-family: var(--text);
+}
+.machine-innovation1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.reference-stanford-news-container {
+  position: relative;
+  font-weight: 300;
+  color: var(--color-gold);
+  display: inline-block;
+  width: 950px;
+}
+.cp-imgfront2-icon {
+  position: relative;
+  width: 954px;
+  height: 316px;
+  object-fit: cover;
+}
+.stanford-news3 {
+  text-decoration: underline;
+  font-weight: 300;
+}
+.formlabs-launches-automation-container {
+  position: relative;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 950px;
+}
+.mainstream-consumer-technologi {
+  color: var(--color-yellow);
+}
+.reference-mainstream-consumer-container {
+  position: relative;
+  text-decoration: underline;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 950px;
+  color: var(--color-gold);
+}
+.cp-imgfront3-icon {
+  position: relative;
+  width: 954px;
+  height: 332px;
+  object-fit: cover;
+}
+.launches-at-kokini {
+  font-family: var(--text);
+}
+.took-the-opportunity-to-launch {
+  font-weight: 300;
+}
+.cp-imgfront4-icon {
+  position: relative;
+  width: 954px;
+  height: 451px;
+  object-fit: cover;
+}
+.cp-imgfront20-icon,
+.cp-imgfront21-icon,
+.cp-imgfront22-icon {
+  position: relative;
+  width: 310.8px;
+  height: 318.7px;
+  object-fit: cover;
+}
+.cp-imgfront21-icon,
+.cp-imgfront22-icon {
+  width: 300.6px;
+}
+.cp-imgfront22-icon {
+  width: 334.4px;
+}
+.cp-imgfront5 {
+  width: 950px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.the-golden-age {
+  text-decoration: underline;
+}
+.new-materials1 {
+  font-size: var(--text-size);
+  text-transform: uppercase;
+  font-family: var(--text);
+  color: var(--font-color);
+}
+.recycled-paper-3d-printing-te {
+  margin: 0;
+  color: var(--font-color);
+}
+.new-materials-reference-container {
+  position: relative;
+  display: inline-block;
+  width: 954px;
+  color: var(--color-gold);
+}
+.cp-imgfront6-icon {
+  position: relative;
+  width: 954px;
+  height: 245px;
+  object-fit: cover;
+}
+.research-paper-publications {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.research-paper-publications-container {
+  position: relative;
+  font-size: var(--sub-heading-size);
+  display: inline-block;
+  width: 950px;
+}
+.here-are-some-academic-papers1 {
+  color: var(--font-color);
+}
+.d-printing-and-electronic-pack1 {
+  margin-bottom: 0;
+}
+.d-printing-and-electronic-pack {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-4xl);
+}
+.here-are-some-container2 {
+  position: relative;
+  display: inline-block;
+  width: 950px;
+  color: var(--color-gold);
+}
+.cp-imgfront10-icon,
+.cp-imgfront7-icon,
+.cp-imgfront9-icon {
+  position: relative;
+  width: 950px;
+  height: 482px;
+  object-fit: cover;
+}
+.cp-imgfront10-icon,
+.cp-imgfront9-icon {
+  height: 496px;
+}
+.cp-imgfront10-icon {
+  width: 959px;
+  height: 524px;
+}
+.cp-imgfront11-icon,
+.cp-imgfront12-icon {
+  position: relative;
+  width: 953px;
+  height: 530px;
+  object-fit: cover;
+}
+.cp-imgfront12-icon {
+  height: 579px;
+}
+.cp-imgfront13-icon,
+.cp-imgfront14-icon {
+  position: relative;
+  width: 950px;
+  height: 475px;
+  object-fit: cover;
+}
+.cp-imgfront14-icon {
+  width: 952px;
+  height: 340px;
+}
+.ebm-the-electron-container {
+  position: relative;
+  display: inline-block;
+  width: 955px;
+}
+.image-source-the-container9 {
+  position: relative;
+  color: var(--color-gold);
+}
+.content217,
+.ebm-the-electron-beam-melting-parent {
+  width: 954px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.content217 {
+  position: absolute;
+  top: 1120px;
+  left: calc(50% - 477px);
+  align-items: center;
+  padding: var(--padding-61xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.apm-background {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(81, 129, 227, 0.5),
+    rgba(63, 180, 151, 0.3)
+  );
+  height: 840px;
+  overflow: hidden;
+}
+.cp-imgtop-icon {
+  position: absolute;
+  top: 584px;
+  left: calc(50% - 600px);
+  border-radius: var(--br-xl);
+  width: 1200px;
+  height: 511px;
+  object-fit: cover;
+}
+.d-printing {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.05em;
+}
+.as-our-third-container,
+.in-this-blog1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--sub-heading-size);
+}
+.as-our-third-container {
+  font-size: var(--paragraph-size);
+  letter-spacing: 0.05em;
+}
+.description {
+  position: absolute;
+  top: 91px;
+  left: calc(50% - 470px);
+  width: 940px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-poppins);
+}
+.introduction5,
+.slice-software5 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 800;
+}
+.introduction5:hover {
+  color: var(--color-white);
+}
+.slice-software5 {
+  font-weight: 300;
+  cursor: pointer;
+}
+.navigation-bar5 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-13xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.c-printing1 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 14749px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--text1-size);
+  color: var(--font-color);
+  font-family: var(--text);
+}

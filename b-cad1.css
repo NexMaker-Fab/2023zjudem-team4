@@ -1,0 +1,279 @@
+.home24 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 200;
+}
+.copyright48,
+.home-button24,
+.scroll-up-button24 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-button24 {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.copyright48,
+.scroll-up-button24 {
+  justify-content: center;
+}
+.scroll-up-button24 {
+  cursor: pointer;
+}
+.footer-section24,
+.footer24 {
+  box-sizing: border-box;
+  display: flex;
+}
+.footer-section24 {
+  width: 1200px;
+  height: 91px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-61xl);
+  text-align: left;
+  font-size: var(--text1-size);
+  color: var(--font-color);
+  font-family: var(--font-poppins);
+}
+.footer24 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 720px);
+  border-top: 0.5px solid var(--color-white);
+  width: 1440px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.cad-stands-for {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 1200px;
+}
+.cad-software-can {
+  margin: 0;
+}
+.it-can-improve {
+  margin-bottom: 0;
+}
+.it-can-improve-the-quality-and {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.cad-software-can-container {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 1200px;
+  height: 113px;
+  flex-shrink: 0;
+}
+.opensource-cad-software-container {
+  position: relative;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 1200px;
+}
+.bcad-img1-icon {
+  position: relative;
+  border-radius: var(--br-21xl);
+  width: 500px;
+  height: 281px;
+  object-fit: cover;
+}
+.bcad-opensource1 {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-61xl);
+}
+.a-3d-parametric-container {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 500px;
+  flex-shrink: 0;
+}
+.bcad-opensource2 {
+  width: 1200px;
+  box-sizing: border-box;
+}
+.bcad-opensource2,
+.bcad-opensource4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-41xl);
+  gap: var(--gap-61xl);
+}
+.cad-design-with-container {
+  position: relative;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  display: inline-block;
+  width: 1200px;
+}
+.bcad-img5-icon {
+  position: relative;
+  border-radius: var(--br-21xl);
+  width: 500px;
+  height: 281.3px;
+  object-fit: cover;
+}
+.bcad-imginventoricon {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.advantages-of-inventor-container,
+.direct-modeling,
+.parametric-modeling {
+  position: relative;
+  display: inline-block;
+  width: 1200px;
+}
+.advantages-of-inventor-container,
+.direct-modeling {
+  font-weight: 600;
+}
+.advantages-of-inventor-container {
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+}
+.get-a-autodesk {
+  text-decoration: underline;
+}
+.autodesk-inventor-get-started {
+  color: inherit;
+}
+.we-hope-this-container {
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  display: inline-block;
+  width: 1200px;
+}
+.content220 {
+  position: absolute;
+  top: 1011px;
+  left: calc(50% - 600px);
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.apm-background1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(81, 129, 227, 0.5),
+    rgba(63, 180, 151, 0.3)
+  );
+  height: 640px;
+  overflow: hidden;
+}
+.bcad-imgtop-icon {
+  position: absolute;
+  top: 500px;
+  left: calc(50% - 600px);
+  border-radius: var(--br-xl);
+  width: 1200px;
+  height: 511px;
+  object-fit: cover;
+}
+.cad-design3 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.05em;
+}
+.as-our-second-container,
+.in-this-blog3 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--sub-heading-size);
+}
+.as-our-second-container {
+  font-size: var(--paragraph-size);
+  letter-spacing: 0.05em;
+}
+.description1 {
+  position: absolute;
+  top: 91px;
+  left: calc(50% - 470px);
+  width: 940px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-poppins);
+}
+.cad-design4,
+.fusion-36010 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 800;
+}
+.cad-design4:hover {
+  color: var(--color-white);
+}
+.fusion-36010 {
+  font-weight: 300;
+  cursor: pointer;
+}
+.navigation-bar9 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-13xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.b-cad1 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 5840px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--paragraph-size);
+  color: var(--font-color);
+  font-family: var(--text);
+}

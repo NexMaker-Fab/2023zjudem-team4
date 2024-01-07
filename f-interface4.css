@@ -1,0 +1,234 @@
+.gui-development {
+    position: relative;
+    font-size: var(--sub-heading-size);
+    display: inline-block;
+    width: 950px;
+  }
+  .finterface-img10-icon {
+    position: relative;
+    width: 709px;
+    height: 371px;
+    object-fit: cover;
+  }
+  .try-to-communicate {
+    margin-bottom: 0;
+  }
+  .try-to-communicate-with-kinect {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-4xl);
+  }
+  .this-interactive-project {
+    margin: 0;
+    font-weight: 300;
+  }
+  .customizing-the-gui {
+    margin: 0;
+    font-weight: 600;
+  }
+  .begin-by-installing,
+  .this-interactive-project-container {
+    position: relative;
+    display: inline-block;
+    width: 950px;
+  }
+  .begin-by-installing {
+    font-weight: 300;
+  }
+  .controlp5-library-integration {
+    margin: 0;
+  }
+  .controlp5-is-an-essential-libr {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-4xl);
+  }
+  .the-setup-function {
+    font-weight: 300;
+  }
+  .draw-loop-in {
+    font-family: var(--text);
+  }
+  .finterfacecode31 {
+    width: 954px;
+    overflow: hidden;
+  }
+  .finterface-gui {
+    position: relative;
+    background-color: var(--color-silver);
+    width: 955px;
+    height: 424px;
+  }
+  .run-and-test-the-gui {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-13xl);
+  }
+  .requirements1 {
+    font-weight: 600;
+    font-family: var(--text);
+  }
+  .adafruit-io1 {
+    text-decoration: underline;
+  }
+  .adafruit-io {
+    color: inherit;
+  }
+  .connect-processing-code,
+  .requirements-adafruit-io-container {
+    position: relative;
+    display: inline-block;
+    white-space: pre-wrap;
+    width: 950px;
+  }
+  .data-retrieval-from {
+    font-weight: 600;
+  }
+  .finterfacecode32,
+  .finterfacecode33 {
+    width: 954px;
+    height: 400px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .finterfacecode33 {
+    height: 1200px;
+  }
+  .reference3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 950px;
+  }
+  .reference-container {
+    position: relative;
+    width: 950px;
+    height: 29px;
+    font-size: var(--sub-heading-size);
+  }
+  .gui-development-parent {
+    position: absolute;
+    top: 107px;
+    left: calc(50% - 477px);
+    width: 955px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-lgi);
+  }
+  .processing-basics3 {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 27px;
+    font-weight: 200;
+    backdrop-filter: blur(4px);
+    cursor: pointer;
+  }
+  .processing-basics3:hover {
+    mix-blend-mode: color;
+    color: var(--color-white);
+  }
+  .processing-project3 {
+    font-weight: 200;
+  }
+  .iot-gui3,
+  .processing-project3 {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 27px;
+    cursor: pointer;
+  }
+  .menu-items4,
+  .navigation4 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .menu-items4 {
+    align-items: center;
+    gap: var(--gap-5xl);
+  }
+  .navigation4 {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 720px);
+    background-color: var(--color-gray-500);
+    width: 1440px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: var(--padding-5xl) var(--padding-23xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--text1-size);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  .home4 {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 27px;
+    font-weight: 200;
+  }
+  .copyright8,
+  .home-button4,
+  .scroll-up-button4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .home-button4 {
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+  .copyright8,
+  .scroll-up-button4 {
+    justify-content: center;
+  }
+  .scroll-up-button4 {
+    cursor: pointer;
+  }
+  .footer-section4,
+  .footer4 {
+    box-sizing: border-box;
+    display: flex;
+  }
+  .footer-section4 {
+    width: 1200px;
+    height: 91px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: var(--padding-13xl) var(--padding-61xl);
+    text-align: left;
+    font-size: var(--text1-size);
+    color: var(--font-color);
+    font-family: var(--font-poppins);
+  }
+  .footer4 {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 720px);
+    border-top: 0.5px solid var(--color-white);
+    width: 1440px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .f-interface4 {
+    position: relative;
+    background-color: var(--color-black);
+    width: 100%;
+    height: 10222px;
+    overflow: hidden;
+    text-align: justify;
+    font-size: var(--text1-size);
+    color: var(--font-color);
+    font-family: var(--text);
+  }
+  

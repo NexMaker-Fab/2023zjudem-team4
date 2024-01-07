@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./f-interface3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Encode Sans:wght@100;300&display=swap"
+    />
+  </head>
+  <body>
+    <div class="f-interface3">
+      <nav class="navigation3" data-scroll-to="navigation">
+        <div class="menu-items3">
+          <div class="processing-basics2" id="processingBasicsText">
+            Processing Basics
+          </div>
+          <div class="processing-project2" id="processingProjectText">
+            processing Project
+          </div>
+          <b class="processing-with-ardunio2">processing with Ardunio</b>
+          <div class="processing-project2" id="iOTGUI">IOT & GUI</div>
+        </div>
+      </nav>
+      <div class="two-player-waste-pop-game-parent">
+        <b class="two-player-">TWO PLAYER - WASTE POP GAME</b>
+        <img
+          class="finterface-img8-icon"
+          alt=""
+          src="./public/finterface-img8@2x.png"
+        />
+
+        <b class="two-player-">Assessment objectives covered in this section</b>
+        <div class="sdg-4-quality-container">
+          <ul class="do-one-demo-in-processing-and">
+            <li>
+              Do one demo in processing and arduino ,which can communicate with
+              each other.
+            </li>
+          </ul>
+        </div>
+        <b class="two-player-">Contribution to SDG’s</b>
+        <div class="sdg-4-quality-container">
+          <ul class="do-one-demo-in-processing-and">
+            <li class="sdg-4-quality">SDG 4: Quality Education</li>
+          </ul>
+          <ul class="do-one-demo-in-processing-and">
+            <li class="sdg-4-quality">
+              This game serves as an educational tool by raising awareness about
+              waste management. Players engage with the topic in an interactive
+              way, contributing to better understanding and knowledge.
+            </li>
+          </ul>
+          <ul class="do-one-demo-in-processing-and">
+            <li class="sdg-4-quality">
+              SDG 11: Sustainable Cities and Communities
+            </li>
+          </ul>
+          <ul class="do-one-demo-in-processing-and">
+            <li class="sdg-4-quality">
+              The game encourages players to think about waste management,
+              promoting sustainable practices. This aligns with the goal of
+              creating inclusive, safe, and sustainable cities.
+            </li>
+          </ul>
+          <ul class="do-one-demo-in-processing-and">
+            <li class="sdg-4-quality">
+              SDG 12: Responsible Consumption and Production
+            </li>
+          </ul>
+          <ul class="do-one-demo-in-processing-and">
+            <li class="sdg-4-quality">
+              The game fosters awareness about waste, encouraging responsible
+              consumption and production patterns. It emphasizes the importance
+              of managing waste properly.
+            </li>
+          </ul>
+          <ul class="do-one-demo-in-processing-and">
+            <li class="sdg-4-quality">SDG 13: Climate Action</li>
+          </ul>
+          <ul class="do-one-demo-in-processing-and">
+            <li>
+              Proper waste management is crucial for reducing greenhouse gas
+              emissions. By educating players on waste management, your game
+              indirectly contributes to climate action.
+            </li>
+          </ul>
+        </div>
+        <div class="this-project-was-container">
+          <p class="this-project-was">
+            This project was created by using processing 4 (4.3) combined with
+            the Arduino. This is a interactive two player game that helps to
+            spread knowledge about waste management while playing a game.
+          </p>
+          <p class="this-project-was">&nbsp;</p>
+          <p class="this-project-was">
+            Using Processing where the one of the players press keys ('R', 'G',
+            or 'B') to match the letter with circle color. It utilizes serial
+            communication to receive signals from an Arduino to change the
+            circle's color. The game tracks points and missed, if you miss three
+            in a raw you will loose the game. In the end you will receive a
+            short message to influence the player to manage waste properly.
+          </p>
+        </div>
+        <b class="two-player-">Components Needed:</b>
+        <div class="hardware-arduino-uno-container">
+          <p class="hardware">Hardware:</p>
+          <p class="ultrasonic-distance-sensor">Arduino Uno</p>
+          <p class="ultrasonic-distance-sensor">Ultrasonic distance sensor</p>
+          <p class="ultrasonic-distance-sensor">Regular LEDs</p>
+          <p class="ultrasonic-distance-sensor">Resistors (330-500 ohms)</p>
+          <p class="ultrasonic-distance-sensor">Breadboard</p>
+          <p class="ultrasonic-distance-sensor">Jumper wires</p>
+          <p class="ultrasonic-distance-sensor">&nbsp;</p>
+          <p class="hardware">Software:</p>
+          <p class="ultrasonic-distance-sensor">Arduino</p>
+          <p class="ultrasonic-distance-sensor">Processing</p>
+        </div>
+        <img
+          class="finterface-img9-icon"
+          alt=""
+          src="./public/apm_finterface-img9@2x.png"
+        />
+
+        <b class="two-player-">Wiring Instructions:</b>
+        <div class="connect-ultrasonic-sensor-container">
+          <p class="this-project-was">
+            1. Connect Ultrasonic Sensor to Arduino:
+          </p>
+          <p class="this-project-was">VCC -&gt; 5V on Arduino</p>
+          <p class="this-project-was">Trig -&gt; Digital Pin 2 on Arduino</p>
+          <p class="this-project-was">Echo -&gt; Digital Pin 3 on Arduino</p>
+          <p class="this-project-was">GND -&gt; GND on Arduino</p>
+          <p class="this-project-was">2. Connect Regular LEDs to Arduino:</p>
+          <p class="this-project-was">
+            Connect the anode (+) of each LED to a digital pin on the Arduino
+            through a resistor (330-500 ohms).
+          </p>
+          <p class="this-project-was">
+            Connect the cathode (-) of each LED to GND on the Arduino.
+          </p>
+          <p class="this-project-was">
+            Ensure to use appropriate resistors to limit current flow and
+            protect the LEDs.
+          </p>
+          <p class="this-project-was">
+            Use breadboard as the base to connect different components and jump
+            wires to connect them.
+          </p>
+        </div>
+        <b class="two-player-">Developing the Arduino Code</b>
+        <div class="variable-initialization-unsig-container">
+          <p class="this-project-was">
+            <b>Variable Initialization:</b>
+          </p>
+          <ul class="unsigned-long-previousmillis">
+            <li class="sdg-4-quality">
+              <span class="unsigned-long-elapsedtime"
+                >unsigned long previousMillis = 0;
+              </span>
+            </li>
+          </ul>
+          <p class="ultrasonic-distance-sensor">
+            This variable is used to store the previously recorded time in
+            milliseconds. It's initialized to 0 at the start of the program.
+          </p>
+          <ul class="unsigned-long-previousmillis">
+            <li class="sdg-4-quality">
+              <span class="unsigned-long-elapsedtime"
+                >unsigned long currentMillis = 0;
+              </span>
+            </li>
+          </ul>
+          <p class="ultrasonic-distance-sensor">
+            Similar to previousMillis, this variable of type unsigned long is
+            used to store the current time in milliseconds. It's also
+            initialized to 0.
+          </p>
+          <ul class="unsigned-long-previousmillis">
+            <li class="sdg-4-quality">
+              <span class="unsigned-long-elapsedtime"
+                >unsigned long elapsedTime = 0;
+              </span>
+            </li>
+          </ul>
+          <p class="ultrasonic-distance-sensor">
+            This variable is utilized to calculate the elapsed time between
+            measurements. It's initialized to 0 at the beginning of the program.
+          </p>
+          <ul class="unsigned-long-previousmillis">
+            <li class="sdg-4-quality">
+              <span class="unsigned-long-elapsedtime"
+                >long duration, distance;
+              </span>
+            </li>
+          </ul>
+          <p class="ultrasonic-distance-sensor">
+            These variables are used to hold the duration (the time it takes for
+            the ultrasonic signal to travel and return) and the calculated
+            distance in centimeters, respectively. They are declared but not
+            initialized explicitly at the beginning because their values will be
+            assigned later in the code based on the sensor readings.
+          </p>
+        </div>
+        <div class="finterfacecode19"></div>
+        <div class="variable-initialization-unsig-container">
+          <p class="this-project-was">
+            <b>Setup Function:</b>
+          </p>
+          <p class="ultrasonic-distance-sensor">
+            Initializes serial communication.
+          </p>
+          <p class="ultrasonic-distance-sensor">
+            Sets the pin modes for the sensor trigger and echo pins as well as
+            for the LED pins.
+          </p>
+        </div>
+        <div class="finterfacecode19"></div>
+        <div class="variable-initialization-unsig-container">
+          <p class="this-project-was">
+            <b>Loop Function: </b>
+          </p>
+          <p class="ultrasonic-distance-sensor">
+            Measures the distance using the ultrasonic sensor.
+          </p>
+          <p class="ultrasonic-distance-sensor">
+            Calculates the elapsed time since the previous measurement.
+          </p>
+          <p class="ultrasonic-distance-sensor">
+            Based on the elapsed time, it adjusts delays to change the frequency
+            of sensor readings.
+          </p>
+          <p class="this-project-was">
+            Prints the waste type detected on the Serial Monitor for debugging
+            purposes.
+          </p>
+        </div>
+        <div class="finterfacecode21"></div>
+        <div class="variable-initialization-unsig-container">
+          <p class="this-project-was">
+            <b>Distance Measurement and LED Activation: </b>
+          </p>
+          <p class="ultrasonic-distance-sensor">
+            Determines the distance measured by the ultrasonic sensor and
+            activates the appropriate LED based on the distance thresholds set
+            (activategreen(), activatered(), activateblue()).
+          </p>
+        </div>
+        <div class="finterfacecode21"></div>
+        <b class="full-code-ardunio">FULL CODE ARDUNIO :</b>
+        <div class="finterfacecode23"></div>
+        <b class="two-player-">Developing the Processing Code</b>
+        <div class="variable-initialization-unsig-container">
+          <p class="serial-communication-setup">
+            Serial Communication Setup and Variables
+          </p>
+          <p class="this-project-was">
+            <b>&nbsp;</b>
+          </p>
+          <ul class="unsigned-long-previousmillis">
+            <li class="sdg-4-quality">
+              <b>Serial Communication Setup :</b>
+            </li>
+          </ul>
+          <p class="this-project-was">
+            <span class="import">import</span>
+            <b class="processingserial-"> processing.serial.* -</b>
+            <span class="unsigned-long-elapsedtime">
+              Imports the serial library to facilitate communication with
+              external devices.</span
+            >
+          </p>
+          <p class="ultrasonic-distance-sensor">&nbsp;</p>
+          <ul class="unsigned-long-previousmillis">
+            <li class="sdg-4-quality">
+              <b>Variable Initialization :</b>
+            </li>
+          </ul>
+          <p class="this-project-was">
+            <b>myPort</b>
+            <span class="unsigned-long-elapsedtime"
+              >: Declares a variable for serial communication.</span
+            >
+          </p>
+          <p class="this-project-was">
+            <b class="processingserial-">circleFillColor</b>
+            <span class="unsigned-long-elapsedtime"
+              >: Sets the default color for the circle.</span
+            >
+          </p>
+          <p class="this-project-was">
+            <b class="processingserial-">colorKeys</b>
+            <span class="unsigned-long-elapsedtime"
+              >: Defines an array containing characters ('R', 'G', 'B') as keys
+              for colors.</span
+            >
+          </p>
+          <p class="this-project-was">
+            <b class="processingserial-">points</b>
+            <span class="unsigned-long-elapsedtime"
+              >: Tracks the player's points.</span
+            >
+          </p>
+          <p class="this-project-was">
+            <b class="processingserial-">missedColors</b>
+            <span class="unsigned-long-elapsedtime"
+              >: Counts the number of missed colors.</span
+            >
+          </p>
+          <p class="this-project-was">
+            <b class="processingserial-">gameStarted</b>
+            <span class="unsigned-long-elapsedtime"
+              >: Boolean flag to indicate if the game has begun.</span
+            >
+          </p>
+          <p class="this-project-was">
+            <b class="processingserial-">circleSize</b>
+            <span class="unsigned-long-elapsedtime"
+              >: Initial size for the displayed circle.</span
+            >
+          </p>
+        </div>
+        <div class="finterfacecode19"></div>
+        <div class="variable-initialization-unsig-container">
+          <p class="serial-communication-setup">Setup Function</p>
+          <p class="ultrasonic-distance-sensor">setup() - Function</p>
+          <p class="ultrasonic-distance-sensor">
+            size(800, 600) - Sets the dimensions of the window to 800x600
+            pixels.
+          </p>
+          <p class="ultrasonic-distance-sensor">
+            myPort = new Serial(this, "COM3", 9600) - Initializes serial
+            communication with the specified port ("COM3") and baud rate (9600).
+          </p>
+        </div>
+        <div class="finterfacecode19"></div>
+        <div class="hardware-arduino-uno-container">
+          <p class="serial-communication-setup">Draw Function</p>
+          <p class="this-project-was">
+            <b>&nbsp;</b>
+          </p>
+          <p class="this-project-was">
+            <b>draw()</b>
+            <span> - Function</span>
+          </p>
+          <p class="this-project-was">
+            <b class="processingserial-">background(220)</b>
+            <span>
+              - Clears the window and sets the background color to light gray.
+            </span>
+          </p>
+          <p class="this-project-was">
+            <b class="processingserial-">if (gameStarted) { ... }</b>
+            <span> - Displays the circle if the game has started. </span>
+          </p>
+          <p class="this-project-was">
+            <b class="processingserial-">textAlign(CENTER) </b>
+            <span
+              >- Sets the text alignment to center for score, missed count, and
+              instructions.
+            </span>
+          </p>
+          <p class="this-project-was">
+            <b class="processingserial-"
+              >displayInfo1();, displayInfo2();, displayInstructions();</b
+            >
+            <span>
+              - Calls functions to display score, missed count, and game
+              instructions.
+            </span>
+          </p>
+          <p class="this-project-was">
+            <b class="processingserial-"
+              >if (missedColors &gt;= 3) { gameOver(); }
+            </b>
+            <span
+              >- Checks if the player has missed three colors and triggers the
+              game over function.
+            </span>
+          </p>
+          <p class="this-project-was">
+            <b>while (myPort.available() &gt; 0) { ... }</b>
+            <span class="processingserial-">
+              - Reads data from the serial port.
+            </span>
+          </p>
+          <p class="this-project-was">
+            <b class="processingserial-"
+              >wasteType = myPort.readStringUntil('\n');</b
+            >
+            <span>
+              - Reads a string from the serial port until a newline character is
+              encountered.
+            </span>
+          </p>
+          <p class="this-project-was">
+            Processes the received data to change the circle's color based on
+            the signals ("GREEN" "RED" or "BLUE") received from an external
+            device (Arduino).
+          </p>
+        </div>
+        <div class="finterfacecode21"></div>
+        <div class="variable-initialization-unsig-container">
+          <p class="serial-communication-setup">Key Press Handling</p>
+          <p class="this-project-was">
+            <b>&nbsp;</b>
+          </p>
+          <p class="this-project-was">
+            <b>keyPressed() Function:</b>
+          </p>
+          <p class="ultrasonic-distance-sensor">
+            Handles keyboard inputs from the player.
+          </p>
+          <p class="ultrasonic-distance-sensor">
+            Checks if the game has started and compares the pressed key to the
+            expected color keys.
+          </p>
+          <p class="ultrasonic-distance-sensor">
+            Updates points, missed colors, and triggers functions to change
+            color and size or end the game based on player input.
+          </p>
+        </div>
+        <div class="finterfacecode21"></div>
+        <div class="variable-initialization-unsig-container">
+          <p class="serial-communication-setup">Display Functions</p>
+          <p class="hardware">
+            Display Functions (displayInfo1(), displayInfo2(),
+            displayInstructions()):
+          </p>
+          <p class="ultrasonic-distance-sensor">
+            displayInfo1(): Displays the player's points.
+          </p>
+          <p class="ultrasonic-distance-sensor">
+            displayInfo2(): Displays the count of missed colors.
+          </p>
+          <p class="ultrasonic-distance-sensor">
+            displayInstructions(): Displays game instructions including how to
+            play and the consequences of missing colors.
+          </p>
+        </div>
+        <div class="finterfacecode21"></div>
+        <div class="variable-initialization-unsig-container">
+          <p class="this-project-was">
+            <b>Game Logic Functions </b>
+          </p>
+          <p class="this-project-was">
+            <b>&nbsp;</b>
+          </p>
+          <p class="hardware">pickRandomColor():</p>
+          <p class="ultrasonic-distance-sensor">
+            Randomly selects a color ('R', 'G', or 'B') and changes the
+            displayed circle's color accordingly.
+          </p>
+          <p class="hardware">getColorChar():</p>
+          <p class="ultrasonic-distance-sensor">
+            Determines the character corresponding to the current circle's
+            color.
+          </p>
+          <p class="hardware">randomizeSize():</p>
+          <p class="ultrasonic-distance-sensor">
+            Randomly changes the size of the displayed circle within a defined
+            range to add variation to the game.
+          </p>
+          <p class="hardware">gameOver():</p>
+          <p class="ultrasonic-distance-sensor">
+            Displays a "Game Over!" message and stops the game loop when the
+            game ends due to missing colors.
+          </p>
+        </div>
+        <div class="finterfacecode21"></div>
+        <b class="full-code-ardunio">FULL CODE PROCESSING</b>
+        <div class="finterfacecode30"></div>
+        <div class="finterface-nothing"></div>
+        <div class="reference-group">
+          <b class="reference2">Reference</b>
+          <div class="official-website-the-container1">
+            <ul class="do-one-demo-in-processing-and">
+              <li class="sdg-4-quality">
+                <a
+                  class="official-website7"
+                  href="https://processing.org/"
+                  target="_blank"
+                  >Official Website</a
+                >
+              </li>
+              <li class="sdg-4-quality">
+                <a
+                  class="official-website7"
+                  href="https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw"
+                  target="_blank"
+                  >The Coding Train
+                </a>
+              </li>
+              <li class="sdg-4-quality">
+                <a
+                  class="official-website7"
+                  href="https://hello.processing.org/"
+                  target="_blank"
+                  >Hello Processing</a
+                >
+              </li>
+              <li class="sdg-4-quality">
+                <a
+                  class="official-website7"
+                  href="https://www.oreilly.com/library/view/programming-interactivity-2nd/9781449321482/"
+                  target="_blank"
+                  >Programming Interactivity
+                </a>
+              </li>
+              <li>
+                <a
+                  class="official-website7"
+                  href="https://openprocessing.org/"
+                  target="_blank"
+                  >Open Processing</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer class="footer3">
+        <footer class="footer-section3">
+          <div class="home-button3" id="homeButtonContainer">
+            <div class="home3">Home</div>
+          </div>
+          <div class="copyright6">
+            <div class="home3">© | Designed by Team Novva | 2023</div>
+          </div>
+          <div class="scroll-up-button3" id="scrollUpButton">
+            <div class="home3">Scroll Up</div>
+          </div>
+        </footer>
+      </footer>
+    </div>
+
+    <script>
+      var processingBasicsText = document.getElementById("processingBasicsText");
+      if (processingBasicsText) {
+        processingBasicsText.addEventListener("click", function (e) {
+          window.location.href = "./f-interface1.html";
+        });
+      }
+      
+      var processingProjectText = document.getElementById("processingProjectText");
+      if (processingProjectText) {
+        processingProjectText.addEventListener("click", function (e) {
+          window.location.href = "./f-interface2.html";
+        });
+      }
+      
+      var iOTGUI = document.getElementById("iOTGUI");
+      if (iOTGUI) {
+        iOTGUI.addEventListener("click", function (e) {
+          window.location.href = "./f-interface4.html";
+        });
+      }
+      
+      var homeButtonContainer = document.getElementById("homeButtonContainer");
+      if (homeButtonContainer) {
+        homeButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./index1.html";
+        });
+      }
+      
+      var scrollUpButton = document.getElementById("scrollUpButton");
+      if (scrollUpButton) {
+        scrollUpButton.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='navigation']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>
