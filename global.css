@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-encode-sans: "Encode Sans";
+  --sub-heading: Inter;
+
+  /* font sizes */
+  --font-size-mid: 1.06rem;
+  --sub-heading-size: 1.5rem;
+  --font-size-29xl: 3rem;
+  --font-size-xl: 1.25rem;
+  --paragraph-size: 1rem;
+  --font-size-xs: 0.75rem;
+  --font-size-17xl: 2.25rem;
+  --font-size-13xl: 2rem;
+
+  /* Colors */
+  --color-gray-100: #101013;
+  --color-gray-200: rgba(255, 255, 255, 0.05);
+  --color-gray-300: rgba(255, 255, 255, 0);
+  --color-white: #fff;
+  --font-color: #eeecec;
+  --color-black: #000;
+  --color-cornflowerblue-300: #5181e3;
+  --color-cornflowerblue-100: rgba(81, 129, 227, 0.8);
+  --color-cornflowerblue-200: rgba(81, 129, 227, 0.5);
+  --color-darkslategray: #363636;
+  --color-dimgray: #5b5b5b;
+  --color-gold: #f7de3f;
+  --color-yellow: #fff93f;
+
+  /* Gaps */
+  --gap-3xs: 0.63rem;
+  --gap-base: 1rem;
+  --gap-31xl: 3.13rem;
+  --gap-xl: 1.25rem;
+  --gap-21xl: 2.5rem;
+  --gap-281xl: 18.75rem;
+  --gap-5xl: 1.5rem;
+  --gap-13xl: 2rem;
+  --gap-61xl: 5rem;
+
+  /* Paddings */
+  --padding-13xl: 2rem;
+  --padding-61xl: 5rem;
+  --padding-21xl: 2.5rem;
+  --padding-2xl: 1.31rem;
+  --padding-3xs: 0.63rem;
+  --padding-xs: 0.75rem;
+  --padding-81xl: 6.25rem;
+  --padding-xl: 1.25rem;
+  --padding-4xl: 1.44rem;
+  --padding-41xl: 3.75rem;
+  --padding-5xl: 1.5rem;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-21xl: 40px;
+  --br-xl: 20px;
+}

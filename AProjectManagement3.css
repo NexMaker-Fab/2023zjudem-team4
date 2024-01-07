@@ -1,0 +1,277 @@
+.home8 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 1.69rem;
+  font-weight: 200;
+}
+.copyright14,
+.home-button7,
+.scroll-up-button7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-button7 {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.copyright14,
+.scroll-up-button7 {
+  justify-content: center;
+}
+.scroll-up-button7 {
+  cursor: pointer;
+}
+.footer-section7,
+.footer7 {
+  box-sizing: border-box;
+  display: flex;
+}
+.footer-section7 {
+  width: 75rem;
+  height: 5.69rem;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-61xl);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--font-color);
+  font-family: var(--font-poppins);
+}
+.footer7 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-top: 0.5px solid var(--color-white);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.step-1-define {
+  position: relative;
+  font-size: var(--heading-size);
+  letter-spacing: 0.1em;
+  display: inline-block;
+  width: 75rem;
+}
+.before-starting-the {
+  font-weight: 300;
+  display: inline-block;
+}
+.apm-img4-icon,
+.before-starting-the,
+.in-figma-it {
+  position: relative;
+  width: 75rem;
+}
+.in-figma-it {
+  font-weight: 300;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.apm-img4-icon {
+  height: 42.19rem;
+  object-fit: cover;
+}
+.here-you-can {
+  margin: 0;
+}
+.apm-imgfigmalogo-icon {
+  position: relative;
+  width: 12.5rem;
+  height: 12.5rem;
+  object-fit: cover;
+}
+.figma-logo {
+  width: 75rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.figmacom {
+  color: inherit;
+}
+.apm-img9-icon {
+  height: 14.63rem;
+  object-fit: cover;
+}
+.apm-img11-icon,
+.apm-img9-icon,
+.toolbar {
+  position: relative;
+  width: 75rem;
+}
+.toolbar {
+  font-size: var(--heading-size);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  display: inline-block;
+}
+.apm-img11-icon {
+  height: 24.44rem;
+  object-fit: cover;
+}
+.switch-between-tools {
+  margin: 0;
+  font-weight: 300;
+}
+.tools-switch-between-container {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  width: 17.25rem;
+  flex-shrink: 0;
+}
+.actions {
+  margin: 0;
+  font-weight: 600;
+}
+.collaboration1 {
+  font-weight: 600;
+  font-family: var(--heading);
+}
+.span7 {
+  font-weight: 300;
+}
+.tools {
+  width: 75rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  text-align: left;
+}
+.apm-img12-icon {
+  position: relative;
+  width: 36.5rem;
+  height: 41.56rem;
+  object-fit: cover;
+}
+.sidebar {
+  width: 75rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-13xl);
+}
+.layers-here-you-container {
+  position: relative;
+  display: inline-block;
+  width: 36.5rem;
+  flex-shrink: 0;
+}
+.apm-img14-icon {
+  position: relative;
+  width: 36.5rem;
+  height: 52.04rem;
+  object-fit: cover;
+}
+.canvas {
+  width: 75rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.view-only-access-container {
+  flex: 1;
+  position: relative;
+}
+.edit-access-design-container {
+  flex: 1;
+  position: relative;
+  text-align: justify;
+}
+.canvas3 {
+  width: 75rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.figma-learn {
+  margin-bottom: false;
+}
+.tools-shapes-and {
+  text-decoration: underline;
+}
+.figma-learn-tools-shapes-and {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.if-you-would-container {
+  position: relative;
+  font-weight: 300;
+}
+.content5 {
+  position: absolute;
+  top: 5.88rem;
+  left: calc(50% - 603px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) 0;
+  gap: var(--gap-xl);
+}
+.character-development2,
+.design2,
+.introduction2 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 1.69rem;
+}
+.character-development2,
+.introduction2 {
+  font-weight: 300;
+  cursor: pointer;
+}
+.introduction2:hover {
+  color: var(--color-white);
+}
+.design2 {
+  font-weight: 800;
+}
+.navigation-bar6 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 90rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-13xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.a-projectmanagement3 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 650rem;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--paragraph-size);
+  color: var(--font-color);
+  font-family: var(--heading);
+}
