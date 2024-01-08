@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./g-iot3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Encode Sans:wght@100;300&display=swap"
+    />
+  </head>
+  <body>
+    <div class="g-iot3">
+      <footer class="footer1">
+        <footer class="footer-section1">
+          <div class="home-button1" id="homeButtonContainer">
+            <div class="home1">Home</div>
+          </div>
+          <div class="copyright2">
+            <div class="home1">© | Designed by Team Novva | 2023</div>
+          </div>
+          <div class="scroll-up-button1" id="scrollUpButton">
+            <div class="home1">Scroll Up</div>
+          </div>
+        </footer>
+      </footer>
+      <div class="content1">
+        <div class="iot-data-management">IOT Data Management</div>
+        <div class="our-project-is">
+          IoT data management is the process of collecting, storing, processing,
+          and analyzing data from IoT devices. IoT data management can help
+          businesses improve efficiency, productivity, and profitability by
+          automating and optimizing processes, generating insights from data,
+          and reducing costs. However, IoT data management also poses unique
+          challenges, such as coping with scale and storage, ensuring secure
+          data transfer, and transforming raw data into actionable solutions.
+        </div>
+        <div class="giot-img26">
+          <img
+            class="giot-img26-icon"
+            alt=""
+            src="./public/giot-img26@2x.png"
+          />
+        </div>
+        <div class="iot-data-management">
+          Assessment objectives covered in this section
+        </div>
+        <b class="use-iot-to"
+          >Use IOT to get NodeMcu information and then control NodeMcu;</b
+        >
+        <div class="iot-data-management">Contribution to SDG’s</div>
+        <div class="environmental-monitoring-unsd-container">
+          <ul class="environmental-monitoring-unsd">
+            <li class="esp32-nodemcu">
+              <b>Environmental Monitoring (UNSDG 13 - Climate Action)</b>
+            </li>
+          </ul>
+          <p class="monitoring-temperature-and">&nbsp;</p>
+          <p class="monitoring-temperature-and">
+            Monitoring temperature and humidity levels can aid in climate
+            observation, especially in projects related to climate monitoring or
+            indoor environmental control.
+          </p>
+          <p class="monitoring-temperature-and">&nbsp;</p>
+          <p class="monitoring-temperature-and">&nbsp;</p>
+          <ul class="environmental-monitoring-unsd">
+            <li class="esp32-nodemcu">
+              <b>Innovation & Education (UNSDG 4 - Quality Education)</b>
+            </li>
+          </ul>
+          <p class="monitoring-temperature-and">&nbsp;</p>
+          <p class="monitoring-temperature-and">
+            This code can serve as an educational tool, teaching IoT concepts,
+            sensor integration, and MQTT communication, fostering innovation and
+            learning.
+          </p>
+          <p class="monitoring-temperature-and">&nbsp;</p>
+          <p class="blank-line16">
+            <b>&nbsp;</b>
+          </p>
+          <ul class="environmental-monitoring-unsd">
+            <li class="esp32-nodemcu">
+              <b
+                >Remote Data Collection (UNSDG 9 - Industry, Innovation, &
+                Infrastructure)</b
+              >
+            </li>
+          </ul>
+          <p class="monitoring-temperature-and">&nbsp;</p>
+          <p class="monitoring-temperature-and">
+            Facilitates remote data collection, which is crucial for
+            infrastructure development, research, and decision-making in various
+            fields.
+          </p>
+          <p class="monitoring-temperature-and">&nbsp;</p>
+          <p class="monitoring-temperature-and">&nbsp;</p>
+          <ul class="environmental-monitoring-unsd">
+            <li class="esp32-nodemcu">
+              <b
+                >Resource Efficiency (UNSDG 12 - Responsible Consumption &
+                Production)</b
+              >
+            </li>
+          </ul>
+          <p class="monitoring-temperature-and">&nbsp;</p>
+          <p class="monitoring-temperature-and">
+            By enabling remote monitoring of environmental parameters, it can
+            contribute to efficient resource utilization, like energy for
+            climate control systems based on real-time data.
+          </p>
+        </div>
+        <div class="our-project-is">
+          Our Project is a remote environmental monitoring system that utilizes
+          an ESP32 microcontroller board along with a DHT11 sensor for
+          temperature and humidity measurements and two LESs. This project
+          leverages Wi-Fi connectivity and MQTT communication to interact with
+          the Adafruit IO platform.
+        </div>
+        <div class="our-project-is">
+          "IoT EnviroMonitor" enables users to remotely monitor temperature and
+          humidity levels in a designated area. The system connects to the
+          Adafruit IO MQTT broker over Wi-Fi, allowing real-time data
+          transmission and reception. Users can control the state of the DHT11
+          sensor remotely through incoming messages from the Adafruit IO
+          platform.Also LEDs indicate the Sensor activity for physical users.
+          Red Indicates the OFF mode of sensor. and GREEN light indicates the
+          sensoris active.
+        </div>
+        <div class="our-project-is">
+          This project not only facilitates the collection of environmental data
+          but also offers the capability to remotely manage the sensor's
+          operational state. By integrating IoT technologies, it contributes to
+          applications in climate monitoring, indoor environmental control, and
+          remote sensing, aligning with initiatives related to environmental
+          sustainability and technological innovation.
+        </div>
+        <div class="required-components">Required Components</div>
+        <div class="our-project-is">
+          <ul class="esp32-nodemcu-2-le">
+            <li class="esp32-nodemcu">ESP32 - NODEMCU</li>
+            <li class="esp32-nodemcu">2 - LEDs.</li>
+            <li class="esp32-nodemcu">2 - 220 ohm Resistors.</li>
+            <li class="esp32-nodemcu">Jump Wires.</li>
+            <li class="esp32-nodemcu">
+              DHT11 temperature and humidity sensor.
+            </li>
+            <li class="esp32-nodemcu">Bread Board.</li>
+            <li>IOT Cloud Account ( in this case Adafruit IO)</li>
+          </ul>
+        </div>
+        <div class="required-components">Wire Diagram</div>
+        <img class="giot-img27-icon" alt="" src="./public/giot-img27@2x.png" />
+
+        <div class="required-components">CODE DEVELOPMENT</div>
+        <b class="environmental-monitoring-unsd-container"
+          >Libraries and Definitions</b
+        >
+        <div class="our-project-is">
+          This section includes the inclusion of necessary libraries (WiFi.h,
+          Adafruit_MQTT.h, AdafruitIO_WiFi.h, DHT.h) and defines several
+          constants such as Wi-Fi credentials (WLAN_SSID, WLAN_PASS), Adafruit
+          IO server details (AIO_SERVER, AIO_SERVERPORT, AIO_USERNAME, AIO_KEY),
+          DHT sensor pin (DHTPIN), type (DHTTYPE), and LED pins (RED_LED_PIN,
+          GREEN_LED_PIN).
+        </div>
+        <div class="giot-code25">
+          <iframe src="https://www.thiscodeworks.com/embed/659c4d34284adf0014707d7d" style="width: 100%; height: 333px;" frameborder="0"></iframe>
+        </div>
+        <b class="environmental-monitoring-unsd-container"
+          >Global Object Initialization</b
+        >
+        <div class="our-project-is">
+          This part initializes global objects and variables required for the
+          Wi-Fi client, MQTT client, MQTT publishing instances for temperature
+          and humidity, Adafruit IO connection, DHT sensor, and Adafruit IO feed
+          named "wdb".
+        </div>
+        <div class="giot-code26">
+          <iframe src="https://www.thiscodeworks.com/embed/659c4d8d284adf0014707e10" style="width: 100%; height: 229px;" frameborder="0"></iframe>
+        </div>
+        <b class="environmental-monitoring-unsd-container"
+          >Wi-Fi and MQTT Connection Setup</b
+        >
+        <div class="our-project-is">
+          These functions (connectWiFi(), MQTT_connect(), and setup()) establish
+          the Wi-Fi connection, MQTT connection to Adafruit IO, and initialize
+          hardware settings. connectWiFi() connects to Wi-Fi using provided
+          credentials, MQTT_connect() maintains the MQTT connection to Adafruit
+          IO, and setup() initializes pins, connects to Wi-Fi and Adafruit IO,
+          and subscribes to the "wdb" feed.
+        </div>
+        <div class="giot-code26">
+          <iframe src="https://www.thiscodeworks.com/embed/659c4dd4284adf0014707eb0" style="width: 100%; height: 229px;" frameborder="0"></iframe>
+        </div>
+        <b class="environmental-monitoring-unsd-container"
+          >Handling Incoming Messages</b
+        >
+        <div class="our-project-is">
+          handleWdbMessage() is a callback function that is triggered upon
+          receiving messages on the "wdb" feed from Adafruit IO. This function
+          processes the incoming data to control the state of the DHT sensor and
+          LEDs. The loop() function maintains the MQTT connection, checks for
+          incoming MQTT messages, reads sensor data, and publishes it to
+          Adafruit IO feeds.
+        </div>
+        <div class="giot-code28">
+          <iframe src="https://www.thiscodeworks.com/embed/659c4e13284adf0014707f06" style="width: 100%; height: 177px;" frameborder="0"></iframe>
+        </div>
+        <div class="required-components">Data Handling</div>
+        <img class="giot-img28-icon" alt="" src="./public/giot-img28@2x.png" />
+
+        <img class="giot-img28-icon" alt="" src="./public/giot-img29@2x.png" />
+
+        <img class="giot-img28-icon" alt="" src="./public/giot-img30@2x.png" />
+
+        <img class="giot-img28-icon" alt="" src="./public/giot-img31@2x.png" />
+
+        <div class="giot-video4">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/WNzE-K4sknQ?si=nSaoKpZKxtkiTSCV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="giot-video4">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/yDBoHWeV2sE?si=LqL_ZrZouPRpPJbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <b class="physical">Physical</b>
+      <nav class="navigation-bar" data-scroll-to="navigationBar">
+        <div class="iot-basics" id="iOTBasicsText">IOT Basics</div>
+        <div class="connect-with-iot" id="connectWithIOT">Connect with IOT</div>
+        <div class="iot-data-management2" id="iOTDataManagement1">
+          IOT Data Management
+        </div>
+      </nav>
+    </div>
+
+    <script>
+      var homeButtonContainer = document.getElementById("homeButtonContainer");
+      if (homeButtonContainer) {
+        homeButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var scrollUpButton = document.getElementById("scrollUpButton");
+      if (scrollUpButton) {
+        scrollUpButton.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='navigationBar']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var iOTBasicsText = document.getElementById("iOTBasicsText");
+      if (iOTBasicsText) {
+        iOTBasicsText.addEventListener("click", function (e) {
+          window.location.href = "./g-iot1.html";
+        });
+      }
+      
+      var connectWithIOT = document.getElementById("connectWithIOT");
+      if (connectWithIOT) {
+        connectWithIOT.addEventListener("click", function (e) {
+          window.location.href = "./g-iot2.html";
+        });
+      }
+      
+      var iOTDataManagement1 = document.getElementById("iOTDataManagement1");
+      if (iOTDataManagement1) {
+        iOTDataManagement1.addEventListener("click", function (e) {
+          window.location.href = "./a-project-management3.html";
+        });
+      }
+      </script>
+  </body>
+</html>

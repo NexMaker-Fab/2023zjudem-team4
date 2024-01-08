@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./g-iot1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Encode Sans:wght@100;300&display=swap"
+    />
+  </head>
+  <body>
+    <div class="g-iot1">
+      <footer class="footer3">
+        <footer class="footer-section3">
+          <div class="home-button3" id="homeButtonContainer">
+            <div class="home3">Home</div>
+          </div>
+          <div class="copyright6">
+            <div class="home3">© | Designed by Team Novva | 2023</div>
+          </div>
+          <div class="scroll-up-button3" id="scrollUpButton">
+            <div class="home3">Scroll Up</div>
+          </div>
+        </footer>
+      </footer>
+      <div class="content3">
+        <div class="what-is-iot">What is IOT?</div>
+        <div class="giot-img1">
+          <img class="giot-img1-icon" alt="" src="./public/giot-img1@2x.png" />
+        </div>
+        <div class="iot-stands-for">
+          IOT stands for Internet of Things, which is a network of physical
+          devices that can collect and share data using sensors and software.
+        </div>
+        <div class="iot-stands-for">
+          IOT devices can communicate with each other and with other
+          internet-enabled devices, creating a vast network of interconnected
+          devices that can perform a variety of tasks autonomously.
+        </div>
+        <div class="iot-stands-for">
+          IOT has many applications in different industries and domains, such as
+          smart homes, wearable technologies, personal medical devices,
+          autonomous vehicles, and more.
+        </div>
+        <div class="iot-stands-for">
+          IOT can help businesses improve efficiency, productivity, and
+          profitability by automating and optimizing processes, generating
+          insights from data, and reducing costs.
+        </div>
+        <div class="what-is-iot">
+          Assessment objectives covered in this section
+        </div>
+        <b class="use-arduino-to"
+          >Use arduino to program NodeMcu and control LED</b
+        >
+        <div class="esp32-pinout">Required Components</div>
+        <div class="esp32-nodemcu-container2">
+          <ul class="this-code-control-a-set-of-4-l">
+            <li class="begins-communication-with">ESP32 - NODEMCU</li>
+            <li class="begins-communication-with">4 LEDs.</li>
+            <li class="begins-communication-with">4 220 ohm Resistors.</li>
+            <li class="begins-communication-with">Jump Wires.</li>
+            <li class="begins-communication-with">
+              DHT11 temperature and humidity sensor.
+            </li>
+            <li>Bread Board.</li>
+          </ul>
+        </div>
+        <div class="esp32-pinout">ESP32 PINOUT</div>
+        <div class="iot-stands-for">
+          ESP 32 WROOM pinout (
+          <a
+            class="httpswwwupesycomblogstu"
+            href="https://www.upesy.com/blogs/tutorials/esp32-pinout-reference-gpio-pins-ultimate-guide"
+            target="_blank"
+          >
+            <span class="httpswwwupesycomblogstu1"
+              >https://www.upesy.com/blogs/tutorials/esp32-pinout-reference-gpio-pins-ultimate-guide</span
+            > </a
+          >)
+        </div>
+        <img class="giot-img2-icon" alt="" src="./public/giot-img2@2x.png" />
+
+        <div class="esp32-pinout">
+          Setting up the Arduino IDE to connect with ESP32
+        </div>
+        <div class="iot-stands-for">
+          Open the Arduino interface --&gt; click on file --&gt; go to
+          preferences
+        </div>
+        <img class="giot-img3-icon" alt="" src="./public/giot-img3@2x.png" />
+
+        <div class="esp32-pinout">ADDITIONAL BOARD URL</div>
+        <div class="iot-stands-for">
+          If you are using esp32 copy and paste below links to additional board
+          manager URL .
+        </div>
+        <img class="giot-img4-icon" alt="" src="./public/giot-img4@2x.png" />
+
+        <div class="esp32-pinout">BOARD MANAGER</div>
+        <div class="go-to-tools">
+          go to Tools --&gt; Boards --&gt; Boards Manager
+        </div>
+        <img class="giot-img5-icon" alt="" src="./public/giot-img5@2x.png" />
+
+        <div class="esp32-pinout">INSTALLING BOARDS</div>
+        <div class="go-to-tools">
+          Search Esp32 --&gt; install library according to your board. in this
+          case library by espressif
+        </div>
+        <img class="giot-img6-icon" alt="" src="./public/giot-img6@2x.png" />
+
+        <div class="esp32-pinout">CHOOSE BOARD</div>
+        <div class="iot-stands-for">
+          Go to Tools --&gt; Board --&gt; ESP32 Arduino --&gt; ESP32 Dev Module
+        </div>
+        <img class="giot-img7-icon" alt="" src="./public/giot-img7@2x.png" />
+
+        <div class="esp32-pinout">PORT</div>
+        <div class="go-to-tools2">
+          Go to tools --&gt; Port and your communication Port
+        </div>
+        <img class="giot-img8-icon" alt="" src="./public/giot-img8@2x.png" />
+
+        <div class="esp32-pinout">INSTALLING ADDITTIONAL LIBRARIES</div>
+        <div class="iot-stands-for">
+          Open the Arduino interface --&gt; click on file --&gt; go to
+          preferences
+        </div>
+        <img class="giot-img8-icon" alt="" src="./public/giot-img9@2x.png" />
+
+        <img class="giot-img8-icon" alt="" src="./public/giot-img10@2x.png" />
+
+        <div class="esp32-pinout">CIRCUIT DIAGRAM</div>
+        <div class="iot-stands-for">
+          Open the Arduino interface --&gt; click on file --&gt; go to
+          preferences
+        </div>
+        <img class="giot-img11-icon" alt="" src="./public/giot-img11@2x.png" />
+
+        <div class="esp32-pinout">Code Breakdown</div>
+        <b class="overview">Overview</b>
+        <div class="iot-stands-for">
+          <ul class="this-code-control-a-set-of-4-l">
+            <li>
+              This code control a set of 4 LEDs using an ESP32 microcontroller.
+              It employs the DHT11 sensor to measure humidity and temperature
+              and prints this data to the serial monitor. The LED control is
+              based on predefined patterns that are cycled through at specific
+              time intervals.
+            </li>
+          </ul>
+        </div>
+        <b class="overview">Setup Function</b>
+        <div class="iot-stands-for">
+          <ul class="this-code-control-a-set-of-4-l">
+            <li class="begins-communication-with">
+              Initializes serial communication at 9600 baud rate.
+            </li>
+            <li class="begins-communication-with">
+              Begins communication with the DHT11 sensor.
+            </li>
+            <li>
+              Sets up the GPIO pins connected to the LEDs as output and
+              initializes them as LOW (turned off).
+            </li>
+          </ul>
+        </div>
+        <div class="giot-code1">
+          <iframe src="https://www.thiscodeworks.com/embed/659c2e2a284adf0014704623" style="width: 100%; height: 203px;" frameborder="0"></iframe>
+        </div>
+        <b class="overview">Loop Function</b>
+        <div class="iot-stands-for">
+          <ul class="this-code-control-a-set-of-4-l">
+            <li class="begins-communication-with">
+              Retrieves the current time in milliseconds (currentMillis).
+            </li>
+            <li class="begins-communication-with">
+              Tracks the start time of the LED pattern (patternStartTime) and
+              LED off time (offTime).
+            </li>
+            <li class="begins-communication-with">
+              Defines the durations for the LED patterns (patternDuration) and
+              LED-off periods (offDuration).
+            </li>
+            <li class="begins-communication-with">
+              Checks if it's time to execute the pattern or turn off LEDs based
+              on the defined durations.
+            </li>
+            <li>
+              Calls functions to execute LED patterns and read sensor data.
+            </li>
+          </ul>
+        </div>
+        <div class="giot-code2">
+          <iframe src="https://www.thiscodeworks.com/embed/659c2ed6284adf0014704741" style="width: 100%; height: 502px;" frameborder="0"></iframe>
+        </div>
+        <b class="overview">Pattern Execution Function (executePattern)</b>
+        <div class="iot-stands-for">
+          <p class="chooses-the-appropriate">
+            Chooses the appropriate LED pattern based on patternIndex:
+          </p>
+          <ul class="this-code-control-a-set-of-4-l">
+            <li class="begins-communication-with">
+              allOn: Turns all LEDs ON simultaneously.
+            </li>
+            <li class="begins-communication-with">
+              alternate: Alternates between turning ON and OFF every other LED.
+            </li>
+            <li class="begins-communication-with">
+              blink: Blinks all LEDs together in a synchronized manner.
+            </li>
+            <li>sequence: Lights up LEDs in sequence, one after the other.</li>
+          </ul>
+        </div>
+        <div class="giot-code3">
+          <iframe src="https://www.thiscodeworks.com/embed/659c2f48284adf0014704825" style="width: 100%; height: 294px;" frameborder="0"></iframe>
+        </div>
+        <b class="overview">Sensor Reading Function (readSensorData)</b>
+        <div class="iot-stands-for">
+          <ul class="this-code-control-a-set-of-4-l">
+            <li class="begins-communication-with">
+              Reads humidity and temperature data from the DHT11 sensor.
+            </li>
+            <li class="begins-communication-with">
+              Prints the humidity and temperature values to the Serial Monitor.
+            </li>
+          </ul>
+        </div>
+        <div class="giot-code3">
+          <iframe src="https://www.thiscodeworks.com/embed/659c2fc3284adf00147048f7" style="width: 100%; height: 294px;" frameborder="0"></iframe>
+        </div>
+        <b class="overview"
+          >LED Pattern Functions (allOn, alternate, blink, sequence)</b
+        >
+        <div class="iot-stands-for">
+          <ul class="this-code-control-a-set-of-4-l">
+            <li class="begins-communication-with">allOn: Turns all LEDs ON.</li>
+            <li class="begins-communication-with">
+              alternate: Alternates LEDs ON and OFF in pairs.
+            </li>
+            <li class="begins-communication-with">blink: Blinks all LEDs.</li>
+            <li>sequence: Lights up LEDs one after another in sequence.</li>
+          </ul>
+        </div>
+        <div class="giot-code5">
+          <iframe src="https://www.thiscodeworks.com/embed/659c300e284adf0014704992" style="width: 100%; height: 541px;" frameborder="0"></iframe>
+        </div>
+        <b class="overview"
+          >LED Pattern Functions (allOn, alternate, blink, sequence)</b
+        >
+        <div class="iot-stands-for">
+          <ul class="this-code-control-a-set-of-4-l">
+            <li>Turns off all the LEDs.</li>
+          </ul>
+        </div>
+        <div class="giot-code1">
+          <iframe src="https://www.thiscodeworks.com/embed/659c3061284adf0014704a62" style="width: 100%; height: 151px;" frameborder="0"></iframe>
+        </div>
+        <div class="esp32-pinout">Full Code</div>
+        <div class="giot-code7">
+          <iframe src="https://www.thiscodeworks.com/embed/659c3094284adf0014704ad9" style="width: 100%; height: 1828px;" frameborder="0"></iframe>
+        </div>
+        <div class="esp32-pinout">Uploading the code to IDE</div>
+        <div class="iot-stands-for">
+          After completing code click on the upload button. and wait for code to
+          get uploaded.
+        </div>
+        <img class="giot-img12-icon" alt="" src="./public/giot-img12@2x.png" />
+
+        <div class="esp32-pinout">Uploading the code to IDE</div>
+        <b class="overview">Serial Monitor</b>
+        <div class="giot-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/WNzE-K4sknQ?si=DQ_GPjahf2z6kvSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <b class="overview">Physical</b>
+        <div class="giot-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/WNzE-K4sknQ?si=DQ_GPjahf2z6kvSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <nav class="navigation-bar2" data-scroll-to="navigationBar">
+        <div class="iot-basics2">IOT Basics</div>
+        <div class="connect-with-iot3" id="connectWithIOT">
+          Connect with IOT
+        </div>
+        <div class="connect-with-iot3" id="iOTDataManagement">
+          IOT Data Management
+        </div>
+      </nav>
+    </div>
+
+    <script>
+      var homeButtonContainer = document.getElementById("homeButtonContainer");
+      if (homeButtonContainer) {
+        homeButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var scrollUpButton = document.getElementById("scrollUpButton");
+      if (scrollUpButton) {
+        scrollUpButton.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='navigationBar']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var connectWithIOT = document.getElementById("connectWithIOT");
+      if (connectWithIOT) {
+        connectWithIOT.addEventListener("click", function (e) {
+          window.location.href = "./g-iot2.html";
+        });
+      }
+      
+      var iOTDataManagement = document.getElementById("iOTDataManagement");
+      if (iOTDataManagement) {
+        iOTDataManagement.addEventListener("click", function (e) {
+          window.location.href = "./g-iot3.html";
+        });
+      }
+      </script>
+  </body>
+</html>

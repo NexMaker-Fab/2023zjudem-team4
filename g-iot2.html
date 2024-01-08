@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./g-iot2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Encode Sans:wght@100;300&display=swap"
+    />
+  </head>
+  <body>
+    <div class="g-iot2">
+      <footer class="footer2">
+        <footer class="footer-section2">
+          <div class="home-button2" id="homeButtonContainer">
+            <div class="home2">Home</div>
+          </div>
+          <div class="copyright4">
+            <div class="home2">© | Designed by Team Novva | 2023</div>
+          </div>
+          <div class="scroll-up-button2" id="scrollUpButton">
+            <div class="home2">Scroll Up</div>
+          </div>
+        </footer>
+      </footer>
+      <div class="content2">
+        <div class="sending-data-from">Connect with IOT</div>
+        <div class="iot-devices-can">
+          IoT devices can communicate with each other and with other
+          internet-enabled devices, creating a vast network of interconnected
+          devices that can perform a variety of tasks autonomously.
+        </div>
+        <div class="iot-devices-can">
+          In this blog, we will explore how to connect with IoT devices using a
+          laptop and a cloud service.
+        </div>
+        <div class="giot-img13">
+          <img
+            class="giot-img13-icon"
+            alt=""
+            src="./public/giot-img13@2x.png"
+          />
+        </div>
+        <div class="sending-data-from">
+          Assessment objectives covered in this section
+        </div>
+        <b class="connect-nodemcu-with">Connect NodeMcu with IOT</b>
+        <div class="creating-adafruit-io">Required Components</div>
+        <div class="iot-devices-can">
+          <ul class="esp32-nodemcu-4-leds">
+            <li class="esp32-nodemcu1">ESP32 - NODEMCU</li>
+            <li class="esp32-nodemcu1">4 LEDs.</li>
+            <li class="esp32-nodemcu1">4 220 ohm Resistors.</li>
+            <li class="esp32-nodemcu1">Jump Wires.</li>
+            <li class="esp32-nodemcu1">
+              DHT11 temperature and humidity sensor.
+            </li>
+            <li class="esp32-nodemcu1">Bread Board.</li>
+            <li>IOT Cloud Account ( in this case Adafruit IO)</li>
+          </ul>
+        </div>
+        <div class="creating-adafruit-io">Creating adafruit IO Account</div>
+        <div class="iot-devices-can">
+          Go to Adafruit IO and click on get started for free.
+        </div>
+        <img class="giot-img14-icon" alt="" src="./public/giot-img14@2x.png" />
+
+        <img class="giot-img14-icon" alt="" src="./public/giot-img15@2x.png" />
+
+        <div class="fill-your-information">
+          Fill Your Information and click on create account
+        </div>
+        <img class="giot-img16-icon" alt="" src="./public/giot-img16@2x.png" />
+
+        <div class="creating-adafruit-io">Adafruit IO Home</div>
+        <div class="after-signing-up-container">
+          <p class="after-signing-up">
+            After signing up you will receive a screen like this. if you dont
+            see the same screen , click on the IO on the top bar. We are going
+            to use feeds and dash boards.
+          </p>
+          <p class="after-signing-up">&nbsp;</p>
+          <ul class="feeds">
+            <li class="esp32-nodemcu1">
+              <b class="feeds2">Feeds:</b>
+              <span class="span"> </span>
+            </li>
+          </ul>
+          <p class="after-signing-up">&nbsp;</p>
+          <p class="after-signing-up">
+            Feeds are like data channels where devices can publish information
+            or subscribe to receive data. They serve as a way to send and
+            receive data to and from connected devices.
+          </p>
+          <p class="after-signing-up">&nbsp;</p>
+          <ul class="feeds">
+            <li class="esp32-nodemcu1">
+              <b class="feeds2">Dashboard:</b>
+              <span class="span"> </span>
+            </li>
+          </ul>
+          <p class="after-signing-up">&nbsp;</p>
+          <p class="after-signing-up">
+            The Adafruit IO dashboard is a customizable interface that allows
+            users to visualize and control their connected devices. It provides
+            widgets that display real-time data from feeds, enabling users to
+            monitor and interact with their IoT projects.
+          </p>
+        </div>
+        <img class="giot-img17-icon" alt="" src="./public/giot-img17@2x.png" />
+
+        <div class="creating-adafruit-io">Creating a feed</div>
+        <div class="iot-devices-can">
+          First go to feeds --&gt; Click on New Feed --&gt; fill the details in
+          pop up box --&gt; and click Create.
+        </div>
+        <img class="giot-img18-icon" alt="" src="./public/giot-img18@2x.png" />
+
+        <div class="fill-your-information">Creating a Dashboard</div>
+        <div class="iot-devices-can">
+          Click on Dashboard --&gt; Click on New Dashboard --&gt; Fill up the
+          pop up feed --&gt; Click Create
+        </div>
+        <img class="giot-img19-icon" alt="" src="./public/giot-img19@2x.png" />
+
+        <div class="creating-adafruit-io">Adding Blocks to the dash board</div>
+        <div class="go-to-dashboards">
+          GO to Dashboards --&gt; Click on the dash board that you want to edit
+          --&gt; Click on the gear Icon to get the dash board settings --&gt;
+          Click on create new Block --&gt; Choose a block --&gt; Connect a feed
+          or feeds to your block --&gt; edit block parameters accordingly --&gt;
+          Click finish
+        </div>
+        <img class="giot-img20-icon" alt="" src="./public/giot-img20@2x.png" />
+
+        <img class="giot-img21-icon" alt="" src="./public/giot-img21@2x.png" />
+
+        <img class="giot-img21-icon" alt="" src="./public/giot-img22@2x.png" />
+
+        <img class="giot-img21-icon" alt="" src="./public/giot-img23@2x.png" />
+
+        <img class="giot-img21-icon" alt="" src="./public/giot-img24@2x.png" />
+
+        <img class="giot-img21-icon" alt="" src="./public/giot-img25@2x.png" />
+
+        <div class="sending-data-from">
+          Sending Data From ESP32 to Adafruit IO
+        </div>
+        <div class="creating-adafruit-io">CODE Breakdown</div>
+        <b class="after-signing-up-container">Libraries</b>
+        <div class="giot-code8">
+          <iframe src="https://www.thiscodeworks.com/embed/659c4175284adf0014706918" style="width: 100%; height: 125px;" frameborder="0"></iframe>
+        </div>
+        <b class="after-signing-up-container"
+          >WiFi and Adafruit IO Configuration</b
+        >
+        <div class="giot-code8">
+          <iframe src="https://www.thiscodeworks.com/embed/659c41c4284adf00147069b4" style="width: 100%; height: 177px;" frameborder="0"></iframe>
+        </div>
+        <b class="after-signing-up-container">MQTT Client Initialization</b>
+        <div class="giot-code8">
+          <iframe src="https://www.thiscodeworks.com/embed/659c41f0284adf00147069f6" style="width: 100%; height: 112px;" frameborder="0"></iframe>
+        </div>
+        <b class="after-signing-up-container">Function to Connect to WiFi</b>
+        <div class="giot-code8">
+          <iframe src="https://www.thiscodeworks.com/embed/659c422f284adf0014706a6b" style="width: 100%; height: 125px;" frameborder="0"></iframe>
+        </div>
+        <b class="after-signing-up-container"
+          >Function to Connect to MQTT Broker (Adafruit IO)</b
+        >
+        <div class="giot-code8">
+          <iframe src="https://www.thiscodeworks.com/embed/659c4261284adf0014706adc" style="width: 100%; height: 125px;" frameborder="0"></iframe>
+        </div>
+        <b class="after-signing-up-container">setup() Function</b>
+        <div class="iot-devices-can">
+          This function is called once when the device boots up and contains the
+          setup code, including initializing the serial communication,
+          connecting to WiFi, and any other necessary setup.
+        </div>
+        <div class="giot-code8">
+          <iframe src="https://www.thiscodeworks.com/embed/659c4294284adf0014706b27" style="width: 100%; height: 125px;" frameborder="0"></iframe>
+        </div>
+        <b class="after-signing-up-container">loop() Function</b>
+        <div class="iot-devices-can">
+          This function is continuously executed in a loop after the setup()
+          function. Here, the program checks for the MQTT connection, obtains
+          data (or generates some sample data), and publishes it to an Adafruit
+          IO feed.
+        </div>
+        <div class="giot-code8">
+          <iframe src="https://www.thiscodeworks.com/embed/659c4315284adf0014706c27" style="width: 100%; height: 125px;" frameborder="0"></iframe>
+        </div>
+        <b class="after-signing-up-container">Sending Data to Adafruit IO</b>
+        <div class="giot-code8">
+          <iframe src="https://www.thiscodeworks.com/embed/659c4361284adf0014706cb1" style="width: 100%; height: 125px;" frameborder="0"></iframe>
+        </div>
+        <div class="creating-adafruit-io">Full Code</div>
+        <div class="giot-code16">
+          <iframe src="https://www.thiscodeworks.com/embed/659c43ac284adf0014706d6a" style="width: 100%; height: 931px;" frameborder="0"></iframe>
+        </div>
+        <div class="giot-video2">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/MkvVUyMWK7Y?si=rKdWwMnBB2rB4eeP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="sending-data-from">
+          Receiveing Data From Adafruit IO to ESP32
+        </div>
+        <div class="creating-adafruit-io">CODE Breakdown</div>
+        <b class="after-signing-up-container">Libraries</b>
+        <div class="giot-code8">
+          <iframe src="https://www.thiscodeworks.com/embed/659c44d3284adf0014707003" style="width: 100%; height: 112px;" frameborder="0"></iframe>
+        </div>
+        <b class="after-signing-up-container"
+          >WiFi and Adafruit IO Configuration</b
+        >
+        <div class="giot-code8">
+          <iframe src="https://www.thiscodeworks.com/embed/659c4500284adf001470704b" style="width: 100%; height: 138px;" frameborder="0"></iframe>
+        </div>
+        <b class="after-signing-up-container">Adafruit IO Initialization</b>
+        <div class="giot-code8">
+          <iframe src="https://www.thiscodeworks.com/embed/659c4548284adf00147070f4" style="width: 100%; height: 112px;" frameborder="0"></iframe>
+        </div>
+        <b class="after-signing-up-container">setup() Function</b>
+        <div class="iot-devices-can">
+          This function is called once when the device boots up. It initializes
+          the serial communication, connects to WiFi, and connects to Adafruit
+          IO.
+        </div>
+        <div class="giot-code8">
+          <iframe src="https://www.thiscodeworks.com/embed/659c457c284adf0014707139" style="width: 100%; height: 125px;" frameborder="0"></iframe>
+        </div>
+        <b class="after-signing-up-container"
+          >Connecting to WiFi and Adafruit IO</b
+        >
+        <div class="this-line-initiates">
+          This line initiates the connection to the Adafruit IO service using
+          the provided credentials.
+        </div>
+        <div class="giot-code8">
+          <iframe src="https://www.thiscodeworks.com/embed/659c45b6284adf001470717a" style="width: 100%; height: 99px;" frameborder="0"></iframe>
+        </div>
+        <b class="after-signing-up-container">Sending Data to Adafruit IO</b>
+        <div class="giot-code8">
+          <iframe src="https://www.thiscodeworks.com/embed/659c45e0284adf00147071c7" style="width: 100%; height: 99px;" frameborder="0"></iframe>
+        </div>
+        <div class="creating-adafruit-io">Full Code</div>
+        <div class="giot-code16">
+          <iframe src="https://www.thiscodeworks.com/embed/659c4627284adf001470722c" style="width: 100%; height: 684px;" frameborder="0"></iframe>
+        </div>
+        <div class="giot-video2">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/jlrjAQAzMY8?si=kfBmG7n5rEHE4Jr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <nav class="navigation-bar1" data-scroll-to="navigationBar">
+        <div class="iot-basics1" id="iOTBasicsText">IOT Basics</div>
+        <div class="connect-with-iot2" id="connectWithIOT1">
+          Connect with IOT
+        </div>
+        <div class="iot-data-management3" id="iOTDataManagement">
+          IOT Data Management
+        </div>
+      </nav>
+    </div>
+
+    <script>
+      var homeButtonContainer = document.getElementById("homeButtonContainer");
+      if (homeButtonContainer) {
+        homeButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var scrollUpButton = document.getElementById("scrollUpButton");
+      if (scrollUpButton) {
+        scrollUpButton.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='navigationBar']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var iOTBasicsText = document.getElementById("iOTBasicsText");
+      if (iOTBasicsText) {
+        iOTBasicsText.addEventListener("click", function (e) {
+          window.location.href = "./g-iot1.html";
+        });
+      }
+      
+      var connectWithIOT1 = document.getElementById("connectWithIOT1");
+      if (connectWithIOT1) {
+        connectWithIOT1.addEventListener("click", function (e) {
+          window.location.href = "./a-project-management2.html";
+        });
+      }
+      
+      var iOTDataManagement = document.getElementById("iOTDataManagement");
+      if (iOTDataManagement) {
+        iOTDataManagement.addEventListener("click", function (e) {
+          window.location.href = "./g-iot3.html";
+        });
+      }
+      </script>
+  </body>
+</html>

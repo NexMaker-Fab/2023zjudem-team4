@@ -1,0 +1,280 @@
+.home3 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 200;
+}
+.copyright6,
+.home-button3,
+.scroll-up-button3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-button3 {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.copyright6,
+.scroll-up-button3 {
+  justify-content: center;
+}
+.scroll-up-button3 {
+  cursor: pointer;
+}
+.footer-section3,
+.footer3 {
+  box-sizing: border-box;
+  display: flex;
+}
+.footer-section3 {
+  width: 1200px;
+  height: 91px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-61xl);
+  text-align: left;
+  font-size: var(--text1-size);
+  color: var(--font-color);
+  font-family: var(--font-poppins);
+}
+.footer3 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 720px);
+  border-top: 0.5px solid var(--color-white);
+  width: 1440px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.what-is-iot {
+  position: relative;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  display: inline-block;
+  width: 1200px;
+}
+.giot-img1-icon {
+  position: relative;
+  width: 940px;
+  height: 631.1px;
+  object-fit: cover;
+}
+.giot-img1 {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.iot-stands-for,
+.use-arduino-to {
+  position: relative;
+  display: inline-block;
+  width: 1200px;
+}
+.iot-stands-for {
+  font-weight: 300;
+}
+.use-arduino-to {
+  font-size: var(--font-size-17xl);
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.esp32-nodemcu-container2,
+.esp32-pinout {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 1139px;
+}
+.esp32-pinout {
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  width: 1200px;
+}
+.httpswwwupesycomblogstu1 {
+  text-decoration: underline;
+}
+.httpswwwupesycomblogstu {
+  color: inherit;
+}
+.giot-img2-icon {
+  position: relative;
+  width: 1200px;
+  height: 620.8px;
+  object-fit: cover;
+}
+.giot-img3-icon {
+  height: 660.9px;
+  object-fit: cover;
+}
+.giot-img3-icon,
+.giot-img4-icon,
+.go-to-tools {
+  position: relative;
+  width: 1200px;
+}
+.giot-img4-icon {
+  height: 681.5px;
+  object-fit: cover;
+}
+.go-to-tools {
+  font-weight: 300;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.giot-img5-icon,
+.giot-img6-icon,
+.giot-img7-icon {
+  position: relative;
+  width: 1200px;
+  height: 667.3px;
+  object-fit: cover;
+}
+.giot-img6-icon,
+.giot-img7-icon {
+  height: 652.1px;
+}
+.giot-img7-icon {
+  height: 665.6px;
+}
+.go-to-tools2 {
+  position: relative;
+  font-weight: 300;
+  text-align: left;
+  display: inline-block;
+  width: 1200px;
+}
+.giot-img11-icon,
+.giot-img8-icon {
+  position: relative;
+  width: 1200px;
+  height: 653.7px;
+  object-fit: cover;
+}
+.giot-img11-icon {
+  width: 1214px;
+  height: 536px;
+}
+.overview {
+  position: relative;
+  display: inline-block;
+  width: 1200px;
+}
+.this-code-control-a-set-of-4-l {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.begins-communication-with {
+  margin-bottom: 0;
+}
+.giot-code1,
+.giot-code2 {
+  position: relative;
+  width: 1200px;
+  height: 240px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.giot-code2 {
+  height: 540px;
+}
+.chooses-the-appropriate {
+  margin: 0;
+}
+.giot-code3 {
+  position: relative;
+  width: 1200px;
+  height: 340px;
+}
+.giot-code3,
+.giot-code5,
+.giot-code7 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.giot-code5 {
+  position: relative;
+  width: 1200px;
+  height: 640px;
+}
+.giot-code7 {
+  height: 1940px;
+}
+.giot-code7,
+.giot-img12-icon,
+.giot-video {
+  position: relative;
+  width: 1200px;
+}
+.giot-img12-icon {
+  height: 629.5px;
+  object-fit: cover;
+}
+.giot-video {
+  height: 800px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.content3 {
+  position: absolute;
+  top: 91px;
+  left: calc(50% - 600px);
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.connect-with-iot3,
+.iot-basics2 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 800;
+}
+.iot-basics2:hover {
+  color: var(--color-white);
+}
+.connect-with-iot3 {
+  font-weight: 300;
+  cursor: pointer;
+}
+.navigation-bar2 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-13xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.g-iot1 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 18700px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--paragraph-size);
+  color: var(--font-color);
+  font-family: var(--text);
+}
