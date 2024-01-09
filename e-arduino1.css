@@ -1,0 +1,268 @@
+.arduino-basics4 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 800;
+}
+.arduino-basics4:hover {
+  color: var(--color-white);
+}
+.arduino-output4 {
+  font-weight: 300;
+}
+.arduino-output4,
+.open-source-projects4 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  cursor: pointer;
+}
+.navigation-bar4 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-13xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.what-is-arduino {
+  position: relative;
+  font-size: var(--text-size);
+  text-transform: uppercase;
+  display: inline-block;
+  width: 1200px;
+}
+.eard-img1-icon {
+  position: relative;
+  width: 940px;
+  height: 385.9px;
+  object-fit: cover;
+}
+.eard-img1-wrapper {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.official-website {
+  color: inherit;
+}
+.image-source-official-container {
+  position: relative;
+  font-weight: 300;
+  color: var(--color-gold);
+  display: inline-block;
+  width: 1200px;
+}
+.arduino-is-a {
+  margin: 0;
+}
+.arduino-is-a-container {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 1200px;
+}
+.eard-img2-icon {
+  position: relative;
+  width: 600px;
+  height: 454.7px;
+  object-fit: cover;
+}
+.our-team-will-container {
+  position: relative;
+  font-weight: 300;
+  color: var(--color-white);
+  display: inline-block;
+  width: 1200px;
+}
+.arduino-uno7 {
+  text-decoration: underline;
+}
+.reference-arduino-uno-container {
+  position: relative;
+  display: inline-block;
+  width: 1200px;
+}
+.eard-img3-icon,
+.eard-img4-icon {
+  position: relative;
+  width: 600px;
+  height: 267px;
+  object-fit: cover;
+}
+.eard-img4-icon {
+  height: 349.3px;
+}
+.arduino-due {
+  position: relative;
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+.eard-img5-icon,
+.eard-img6-icon {
+  position: relative;
+  width: 600px;
+  height: 354.7px;
+  object-fit: cover;
+}
+.eard-img6-icon {
+  border-radius: var(--br-21xl);
+  width: 300px;
+  height: 300px;
+}
+.eard-img6 {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.eard-img8-icon {
+  position: relative;
+  border-radius: var(--br-21xl);
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+.you-can-download {
+  position: relative;
+  text-decoration: underline;
+  color: var(--color-gold);
+  display: inline-block;
+  width: 1200px;
+}
+.eard-img9-icon {
+  position: relative;
+  width: 1200px;
+  height: 483px;
+  object-fit: cover;
+}
+.menu-bar-file {
+  margin-bottom: 0;
+}
+.menu-bar-file-menu-edit-menu {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.eard-img10-icon {
+  position: relative;
+  width: 1200px;
+  height: 505.7px;
+  object-fit: cover;
+}
+.now-you-are,
+.reference-httpsdocsarduin {
+  position: relative;
+  display: inline-block;
+  width: 1200px;
+}
+.now-you-are {
+  font-size: var(--text1-size);
+}
+.reference-httpsdocsarduin {
+  color: var(--color-gold);
+}
+.eard-img11-icon,
+.eard-img12-icon {
+  position: relative;
+  width: 1200px;
+  height: 338.4px;
+  object-fit: cover;
+}
+.eard-img12-icon {
+  height: 318.2px;
+}
+.content {
+  position: absolute;
+  top: 91px;
+  left: calc(50% - 600px);
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+}
+.home5 {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 200;
+}
+.copyright10,
+.home-button5,
+.scroll-up-button5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-button5 {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.copyright10,
+.scroll-up-button5 {
+  justify-content: center;
+}
+.scroll-up-button5 {
+  cursor: pointer;
+}
+.footer-section5,
+.footer5 {
+  box-sizing: border-box;
+  display: flex;
+}
+.footer-section5 {
+  width: 1200px;
+  height: 91px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-61xl);
+  text-align: left;
+  font-size: var(--text1-size);
+  color: var(--font-color);
+  font-family: var(--font-poppins);
+}
+.footer5 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 720px);
+  border-top: 0.5px solid var(--color-white);
+  width: 1440px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.e-arduino1 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 10572px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--paragraph-size);
+  color: var(--font-color);
+  font-family: var(--text);
+}

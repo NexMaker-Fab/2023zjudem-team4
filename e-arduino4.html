@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./e-arduino4.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Encode Sans:wght@100;300&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="e-arduino4">
+      <nav class="navigation-bar" data-scroll-to="navigationBar">
+        <div class="arduino-basics" id="arduinoBasicsText">Arduino Basics</div>
+        <div class="arduino-output" id="arduinoOutputText">Arduino Output</div>
+        <div class="arduino-output" id="arduinoInputText">Arduino Input</div>
+        <div class="open-source-projects" id="openSourceProjects">
+          Open Source Projects
+        </div>
+        <div class="arduino-output" id="ourOwnProjects">Our Own Projects</div>
+      </nav>
+      <div class="esp32-s3-7-display-wireless-parent">
+        <b class="esp32-s3-7-display"
+          >ESP32-S3 7" Display, Wireless Relay Controller With Integrated LVGL
+          and Home Assistant</b
+        >
+        <div class="references-home-assistant-container">
+          References:
+          <a
+            class="home-assistant"
+            href="https://www.instructables.com/ESP32-S3-7-Display-Wireless-Relay-Controller-With-/"
+            target="_blank"
+          >
+            <span class="home-assistant1">Home Assistant</span>
+          </a>
+        </div>
+        <img class="eard-img23-icon" alt="" src="./public/eard-img23@2x.png" />
+
+        <div class="this-project-is-container">
+          <p class="this-project-is">
+            This project is about a system that uses an ESP32-S3 7" display, a
+            wireless relay controller, and a combination of LVGL and Home
+            Assistant (HA) to create a smart home device.
+          </p>
+          <p class="this-project-is">&nbsp;</p>
+          <p class="here-is-a-brief-explanation-of">
+            <b class="here-is-a"
+              >Here is a brief explanation of the main components and steps of
+              the project:
+            </b>
+          </p>
+          <p class="p">
+            <span>
+              <span class="span"> </span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <b class="esp32-s3-7-display2">ESP32-S3 7" display</b>
+              <span class="span">: </span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span class="span">&nbsp;</span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span class="span"
+                >This is a touch screen display module that is based on the
+                ESP32-S3 microcontroller, which has a dual-core CPU, 8M PSRAM,
+                and 16M Flash. The display has a resolution of 800*480 or
+                1024*600, depending on the version, and supports parallel
+                RGB-565 interface. The display also has an I2S audio output, an
+                SD card slot, and an expansion cable for connecting external
+                devices.
+              </span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span class="span">&nbsp;</span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <b class="esp32-s3-7-display2">Wireless relay controller</b>
+              <span class="span">: </span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span class="span">&nbsp;</span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span class="span"
+                >This is a device that can switch on or off electrical circuits
+                remotely, using wireless signals. The project uses an 8-channel
+                relay module that can be controlled by Home Assistant via
+                webhooks.
+              </span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span class="span">&nbsp;</span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <b>LVGL: </b>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span class="span">&nbsp;</span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span class="span"
+                >This is a graphics library that allows creating user interfaces
+                with widgets, animations, and events. The project uses a
+                software called SquareLine to design the UI scenes and add
+                events for each button. The UI library is then exported to the
+                Arduino IDE and modified to enable the HTTP requests to Home
+                Assistant.
+              </span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span class="span">&nbsp;</span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <b class="esp32-s3-7-display2">Home Assistant:</b>
+              <span class="span"> </span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span class="span">&nbsp;</span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span class="span"
+                >This is an open-source software that allows creating and
+                managing a smart home system. The project uses a Raspberry Pi to
+                install and run Home Assistant, and configures the relay module
+                as an ESPHome device. The project also sets up automation rules
+                to trigger the relay actions based on the webhooks received from
+                the ESP32-S3 display.
+              </span>
+            </span>
+          </p>
+        </div>
+        <div class="the-key-technologies-container">
+          <p class="p">
+            <b>
+              <span class="here-is-a"
+                >The key technologies and advantages and disadvantages of
+                integrating these technologies in a personal project are:
+              </span>
+            </b>
+          </p>
+          <p class="p1">
+            <span>
+              <b> </b>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <b>ESP32-S3:</b>
+              <span> </span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span>&nbsp;</span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span
+                >This is a microcontroller that supports Wi-Fi and Bluetooth
+                connectivity, and has a powerful CPU and GPU. It can drive a
+                high-resolution TFT display and handle touch input. The
+                advantages of using ESP32-S3 are its low cost, high performance,
+                and versatility. The disadvantages are its limited memory,
+                complex configuration, and lack of official support.</span
+              >
+              <b> </b>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <b>&nbsp;</b>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <b>LVG:</b>
+              <span> </span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span>&nbsp;</span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span
+                >This is a user interface library that provides various widgets
+                and graphics for creating interactive and responsive GUIs. It
+                can run on embedded devices with limited resources, such as
+                ESP32-S3. The advantages of using LVGL are its ease of use,
+                customization, and portability. The disadvantages are its
+                dependency on external drivers, limited documentation, and steep
+                learning curve.
+              </span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <span>&nbsp;</span>
+            </span>
+          </p>
+          <p class="p">
+            <span>
+              <b class="esp32-s3-7-display2">Home Assistant:</b>
+              <span>
+                This is an open-source software that allows users to control and
+                automate their smart home devices. It can integrate with various
+                platforms and services, such as ESPHome, Webhooks, and MQTT. The
+                advantages of using Home Assistant are its flexibility,
+                compatibility, and community support. The disadvantages are its
+                installation complexity, security risks, and frequent updates.
+              </span>
+            </span>
+          </p>
+        </div>
+        <div class="how-to-build-an-arduino-powere-parent">
+          <b class="esp32-s3-7-display"
+            >How to build an Arduino powered smart home</b
+          >
+          <div class="references-how-to-container">
+            References:
+            <a
+              class="home-assistant"
+              href="https://www.codeproject.com/Articles/855501/How-to-build-an-Arduino-powered-smart-home"
+              target="_blank"
+            >
+              <span class="home-assistant1"
+                >How to build an arduino powered smart home with PubNub</span
+              >
+            </a>
+          </div>
+          <img
+            class="eard-img24-icon"
+            alt=""
+            src="./public/eard-img24@2x.png"
+          />
+
+          <div class="the-key-technologies-container">
+            <p class="p">
+              <b class="here-is-a"
+                >The project described in this article is about building an
+                IoT-controlled smart house using Arduino, PubNub, and a laser
+                cutter. Here are some key points:
+              </b>
+            </p>
+            <p class="p1">
+              <span>
+                <span> </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <b>IoT (Internet of Things): </b>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>&nbsp;</span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span
+                  >This is a term that refers to the interconnection of devices
+                  and objects over the internet, enabling them to communicate
+                  and exchange data. IoT devices can be controlled remotely or
+                  autonomously, and can perform various functions such as
+                  sensing, actuating, or processing information.
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>&nbsp;</span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <b>Arduino: </b>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>&nbsp;</span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span
+                  >This is an open-source platform that consists of a
+                  microcontroller board and a software environment that allows
+                  users to program and upload code to the board. Arduino can be
+                  used to create interactive projects that interface with
+                  sensors, LEDs, motors, servos, and other components.
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>&nbsp;</span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <b>PubNub: </b>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>&nbsp;</span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span
+                  >This is a cloud service that provides real-time communication
+                  and data streaming capabilities for web and mobile
+                  applications. PubNub enables users to publish and subscribe to
+                  messages on different channels, and also offers features such
+                  as security, storage, and analytics.
+                </span>
+              </span>
+            </p>
+          </div>
+          <div class="the-key-technologies-container">
+            <p class="p">
+              <span>
+                <b class="here-is-a"
+                  >The key technologies and advantages and disadvantages of
+                  integrating these technologies in a personal project are:
+                </b>
+              </span>
+            </p>
+            <p class="p1">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>
+                  <b>Arduino: </b>
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>
+                  <span
+                    >This is a popular open-source platform for building
+                    electronic projects using a microcontroller board and a
+                    software environment. It can be programmed to interact with
+                    various sensors, actuators, and components to create
+                    interactive and responsive devices.
+                  </span>
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="advantages">
+              <span>
+                <b>Advantages</b>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>&nbsp;</span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span
+                  >Arduino is easy to use, inexpensive, widely available, and
+                  compatible with many libraries and shields. It can support a
+                  variety of applications and projects, from simple to complex,
+                  and can be customized to suit different needs and preferences.
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>&nbsp;</span>
+              </span>
+            </p>
+            <p class="advantages">
+              <span>
+                <b>Disadvantages</b>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>
+                  <span
+                    >Arduino has limited memory, processing power, and
+                    functionality compared to some other microcontrollers. It
+                    may not be able to handle high-performance or demanding
+                    tasks, or integrate well with some advanced technologies or
+                    protocols.
+                  </span>
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>
+                  <b>&nbsp;</b>
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>
+                  <b>PubNub: </b>
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>
+                  <span
+                    >This is a cloud-based service that provides real-time
+                    communication and data streaming capabilities for web and
+                    mobile applications. It uses a publish/subscribe model to
+                    enable bidirectional data exchange between devices over the
+                    internet.
+                  </span>
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="advantages1">
+              <span>
+                <b class="advantages2">Advantages</b>
+                <span>
+                  <span> </span>
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>
+                  <span
+                    >PubNub is scalable, reliable, secure, and easy to
+                    implement. It can support a large number of concurrent
+                    connections and messages, and handle various data types and
+                    formats. It can also provide features such as encryption,
+                    authentication, storage, analytics, etc.
+                  </span>
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="advantages">
+              <span>
+                <b>Disadvantages</b>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span>&nbsp;</span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span
+                  >PubNub requires an internet connection and a subscription
+                  plan to use. It may incur additional costs or limitations
+                  depending on the usage and requirements. It may also depend on
+                  the availability and performance of the PubNub network and
+                  servers.</span
+                >
+              </span>
+            </p>
+          </div>
+          <b class="esp32-s3-7-display">Particles Detector for Air Quality</b>
+          <div class="references-how-to-container">
+            References:
+            <a
+              class="home-assistant"
+              href="https://projecthub.arduino.cc/yvesmorele/particles-detector-for-air-quality-548f69"
+              target="_blank"
+            >
+              <span class="home-assistant1"
+                >Particles Detector for air quality</span
+              >
+            </a>
+          </div>
+          <img
+            class="eard-img25-icon"
+            alt=""
+            src="./public/eard-img25@2x.png"
+          />
+
+          <div class="this-is-a3">
+            This is a project called **Particles Detector for Air Quality** by
+            **yvesmorele**. The project shows how to build a device that can
+            measure the concentration of fine particles (PM2.5 and PM10) in the
+            air using an Arduino board, a PMS5003 sensor, a ST7735 screen, a SD
+            card module, and a BME280 sensor. The device can display the data on
+            the screen, save the data on the SD card, and send the data to an
+            Android application via Bluetooth.
+          </div>
+          <div class="the-user-interaction-container">
+            <p class="p">
+              <b>
+                <span
+                  >The user interaction approach of this project is based on the
+                  following principles:
+                </span>
+              </b>
+            </p>
+            <p class="p3">
+              <span>
+                <b> </b>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span class="span"
+                  >The project uses a text-based interface that allows users to
+                  enter commands and receive feedback on a TFT display.
+                </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span class="span">&nbsp;</span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span class="span"
+                  >The project follows the user-centered design (UCD) process,
+                  which involves understanding the users and their needs,
+                  specifying the requirements, designing and evaluating the
+                  solutions.</span
+                >
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span class="span"> </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span class="span"
+                  >The project aims to provide a meaningful and relevant user
+                  experience (UX) that includes aspects of branding, design,
+                  usability and function.</span
+                >
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span class="span"> </span>
+              </span>
+            </p>
+            <p class="p">
+              <span>
+                <span class="span"
+                  >The project leverages the five dimensions of interaction
+                  design, which are words, visual representation, physical
+                  objects or space, time and behavior, to create interactive
+                  experiences that are user friendly, efficient and enjoyable.
+                </span>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer class="footer1">
+        <footer class="footer-section1">
+          <div class="home-button1" id="homeButtonContainer">
+            <div class="home1">Home</div>
+          </div>
+          <div class="copyright2">
+            <div class="home1">© | Designed by Team Novva | 2023</div>
+          </div>
+          <div class="scroll-up-button1" id="scrollUpButton">
+            <div class="home1">Scroll Up</div>
+          </div>
+        </footer>
+      </footer>
+    </div>
+
+    <script>
+      var arduinoBasicsText = document.getElementById("arduinoBasicsText");
+      if (arduinoBasicsText) {
+        arduinoBasicsText.addEventListener("click", function (e) {
+          window.location.href = "./e-arduino1.html";
+        });
+      }
+      
+      var arduinoOutputText = document.getElementById("arduinoOutputText");
+      if (arduinoOutputText) {
+        arduinoOutputText.addEventListener("click", function (e) {
+          window.location.href = "./e-arduino2.html";
+        });
+      }
+      
+      var arduinoInputText = document.getElementById("arduinoInputText");
+      if (arduinoInputText) {
+        arduinoInputText.addEventListener("click", function (e) {
+          window.location.href = "./e-arduino3.html";
+        });
+      }
+      
+      var openSourceProjects = document.getElementById("openSourceProjects");
+      if (openSourceProjects) {
+        openSourceProjects.addEventListener("click", function (e) {
+          window.location.href = "./a-project-management4.html";
+        });
+      }
+      
+      var ourOwnProjects = document.getElementById("ourOwnProjects");
+      if (ourOwnProjects) {
+        ourOwnProjects.addEventListener("click", function (e) {
+          window.location.href = "./e-arduino5.html";
+        });
+      }
+      
+      var homeButtonContainer = document.getElementById("homeButtonContainer");
+      if (homeButtonContainer) {
+        homeButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./index1.html";
+        });
+      }
+      
+      var scrollUpButton = document.getElementById("scrollUpButton");
+      if (scrollUpButton) {
+        scrollUpButton.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='navigationBar']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

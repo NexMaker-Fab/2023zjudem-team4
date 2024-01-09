@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./e-arduino5.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Encode Sans:wght@100;300&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="e-arduino5">
+      <nav class="navigation-bar1" data-scroll-to="navigationBar">
+        <div class="arduino-basics1" id="arduinoBasicsText">Arduino Basics</div>
+        <div class="arduino-output1" id="arduinoOutputText">Arduino Output</div>
+        <div class="arduino-output1" id="arduinoInputText">Arduino Input</div>
+        <div class="arduino-output1" id="openSourceProjects">
+          Open Source Projects
+        </div>
+        <div class="our-own-projects1" id="ourOwnProjects">
+          Our Own Projects
+        </div>
+      </nav>
+      <div class="frame-parent">
+        <div class="arduino-project-related-with-f-parent">
+          <b class="arduino-project-related"
+            >Arduino project related with final project</b
+          >
+          <div class="a-voltmeter-is-container">
+            <p class="a-voltmeter-is">
+              A Voltmeter is a voltage measuring device that is used to measure
+              the voltage on certain points in an electrical circuit. Voltage is
+              the potential difference that is created between two points in an
+              electrical circuit. There are two types of voltmeters. Some
+              voltmeters are designed to measure the voltage of DC circuits and
+              other voltmeters are intended to measure the voltage in AC
+              circuits. These voltmeters are further characterized into two
+              categories. One is digital voltmeter which shows the measurements
+              on a digital screen and the other is an analog voltmeter that uses
+              a needle to point on the scale to show us the exact reading.
+            </p>
+            <p class="a-voltmeter-is">&nbsp;</p>
+            <p class="a-voltmeter-is">
+              In this project, we are going to make a voltmeter using Arduino
+              Uno. We will explain two configurations of a digital voltmeter in
+              this article. In the first configuration, the microcontroller will
+              be able to measure voltage in the range of 0 – 5V. 
+            </p>
+          </div>
+          <div class="list-of-components-parent">
+            <b class="list-of-components">List of components</b>
+            <div class="quantity-parent">
+              <div class="quantity">Quantity</div>
+              <div class="quantity">Component</div>
+            </div>
+            <div class="frame-group">
+              <div class="wrapper">
+                <div class="quantity">
+                  <p class="a-voltmeter-is">1</p>
+                  <p class="a-voltmeter-is">&nbsp;</p>
+                  <p class="a-voltmeter-is">1</p>
+                  <p class="a-voltmeter-is">&nbsp;</p>
+                  <p class="a-voltmeter-is">1</p>
+                  <p class="a-voltmeter-is">&nbsp;</p>
+                  <p class="a-voltmeter-is">4</p>
+                </div>
+              </div>
+              <div class="arduino-uno-10k-ohm-container">
+                <p class="a-voltmeter-is">Arduino Uno</p>
+                <p class="a-voltmeter-is">&nbsp;</p>
+                <p class="a-voltmeter-is">10k-ohm potentiometer</p>
+                <p class="a-voltmeter-is">&nbsp;</p>
+                <p class="a-voltmeter-is">16*2 LCD</p>
+                <p class="a-voltmeter-is">&nbsp;</p>
+                <p class="a-voltmeter-is">*1.5v battery</p>
+              </div>
+            </div>
+          </div>
+          <b class="list-of-components">Simulation Circuit</b>
+          <div class="the-working-of-container">
+            <p class="a-voltmeter-is">
+              The working of this project of Arduino based digital DC voltmeter
+              is explained here. In the digital voltmeter, the voltage that is
+              measured in the analog form will be converted to its corresponding
+              digital value using an Analog to Digital Converter.
+            </p>
+            <p class="a-voltmeter-is">&nbsp;</p>
+            <p class="a-voltmeter-is">In the first circuit</p>
+            <p class="a-voltmeter-is">
+              whose measurement range is from 0 to 5V, the input will be taken
+              on Analog pin0. The analog pin will read any value from 0 to 1024.
+              Then this analog value will be converted to digital by multiplying
+              it by total voltage, which is 5V and dividing it by total
+              resolution, which is 1024.
+            </p>
+          </div>
+          <img
+            class="eard-img26-icon"
+            alt=""
+            src="./public/eard-img26@2x.png"
+          />
+
+          <b class="list-of-components">Arduino IDE Code</b>
+          <div class="eard-code10"></div>
+          <b class="list-of-components">Runing the system.</b>
+          <img
+            class="eard-img27-icon"
+            alt=""
+            src="./public/eard-img27@2x.png"
+          />
+
+          <div class="eard-code10"></div>
+        </div>
+        <div class="relevance-to-the-container">
+          <p class="a-voltmeter-is">
+            <b class="relevance-to-the-final-project1">
+              <span class="relevance-to-the"
+                >Relevance to the Final Project</span
+              >
+              <span class="span6"> </span>
+            </b>
+          </p>
+          <p class="a-voltmeter-is">
+            <span>
+              <span class="span7">
+                <span class="your-voltmeter-project"> </span>
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span>
+              <span class="span7">
+                <b class="your-voltmeter-project">Data Acquisition</b>
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span>
+              <span class="span7">
+                <span class="your-voltmeter-project">&nbsp;</span>
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span>
+              <span class="span7">
+                <span class="your-voltmeter-project"
+                  >Your voltmeter project involves measuring voltage, which is a
+                  fundamental aspect of energy consumption. Voltage readings can
+                  be crucial in understanding the power requirements of devices
+                  and contributing to the overall data collected by your energy
+                  management system.
+                </span>
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span>
+              <span class="span7">
+                <span class="your-voltmeter-project"> </span>
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span>
+              <span class="span7">
+                <b class="your-voltmeter-project">Sensor Integration</b>
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span>
+              <span class="span7">
+                <span class="your-voltmeter-project">&nbsp;</span>
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span>
+              <span class="span7">
+                <span class="your-voltmeter-project"
+                  >The voltmeter project introduces the concept of integrating
+                  sensors with Arduino (Uno). This experience is valuable as
+                  your energy consumption management system also involves sensor
+                  integration, such as ADAFRUIT INA 219 sensors.
+                </span>
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span>
+              <span class="span7">
+                <span class="your-voltmeter-project"> </span>
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span>
+              <span class="span7">
+                <b class="your-voltmeter-project">Microcontroller Knowledge</b>
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span>
+              <span class="span7">
+                <span class="your-voltmeter-project">&nbsp;</span>
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span>
+              <span class="span7">
+                <span class="your-voltmeter-project"
+                  >Building a voltmeter with Arduino Uno enhances your
+                  familiarity with microcontroller programming and usage. This
+                  knowledge will be beneficial when working on the ESP32 WiFi
+                  module for data transmission in your final project.
+                </span>
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span>
+              <span class="span7">
+                <span class="your-voltmeter-project">&nbsp;</span>
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span>
+              <b>
+                <span class="key-differences-between"> </span>
+              </b>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <b>
+              <span class="advantages-of-the"
+                >Advantages of the Voltmeter Project</span
+              >
+            </b>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project">&nbsp;</span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <b class="your-voltmeter-project">Skill Development</b>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project">&nbsp;</span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project"
+                >Building a voltmeter enhances your skills in electronics,
+                sensor interfacing, and microcontroller programming, which are
+                essential for your overall project.
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project"> </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <b class="your-voltmeter-project">Foundational Understanding</b>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project">&nbsp;</span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project"
+                >Measuring voltage is a foundational skill in electronics. It
+                provides insights into the power requirements of devices,
+                serving as a basis for more complex energy consumption
+                calculations in your final project.
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project"> </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <b class="your-voltmeter-project">Hardware Testing</b>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project">&nbsp;</span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project"
+                >The voltmeter project allows you to test the hardware
+                components, ensuring that sensors and the Arduino are
+                functioning correctly. This experience is valuable in
+                troubleshooting and ensuring the reliability of your final
+                energy management system.
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project"> </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project">&nbsp;</span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <b class="disadvantagesconsiderations1"
+              >Disadvantages/Considerations</b
+            >
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project">&nbsp;</span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <b class="your-voltmeter-project">Limited Range</b>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project">&nbsp;</span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project"
+                >The first configuration of the voltmeter has a limited range of
+                0 – 5V. Consider whether this range is sufficient for the
+                voltage levels you expect to encounter in your energy
+                consumption management project.
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project"> </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <b class="your-voltmeter-project">Single Parameter</b>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project">&nbsp;</span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project"
+                >A voltmeter measures voltage, which is just one parameter in
+                the broader context of energy consumption. Ensure that your
+                final project accounts for other factors like current, power,
+                and energy usage to provide a comprehensive view.
+              </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project"> </span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <b class="your-voltmeter-project">Scalability</b>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project">&nbsp;</span>
+            </span>
+          </p>
+          <p class="a-voltmeter-is">
+            <span class="blank-line59">
+              <span class="your-voltmeter-project"
+                >While the voltmeter project is a valuable learning experience,
+                ensure that your final energy management system is scalable and
+                can handle multiple sensors simultaneously, offering a more
+                holistic approach to data collection.</span
+              >
+            </span>
+          </p>
+        </div>
+        <div class="pyserial-with-ardunio-uno-r3-parent">
+          <b class="arduino-project-related">Pyserial with Ardunio UNO R3</b>
+          <div class="a-voltmeter-is-container">
+            The goal of this project is to establish a serial communication link
+            between your computer (running Python) and an Arduino Uno R3. This
+            two-way communication enables data transfer, enabling you to control
+            and monitor the Arduino from your computer.
+          </div>
+          <div class="list-of-components-parent">
+            <b class="list-of-components">List of components</b>
+            <div class="quantity-parent">
+              <div class="quantity">Quantity</div>
+              <div class="quantity">Component</div>
+            </div>
+            <div class="frame-group">
+              <div class="wrapper">
+                <div class="quantity">
+                  <p class="a-voltmeter-is">1</p>
+                  <p class="a-voltmeter-is">&nbsp;</p>
+                  <p class="a-voltmeter-is">1</p>
+                  <p class="a-voltmeter-is">&nbsp;</p>
+                  <p class="a-voltmeter-is">1</p>
+                  <p class="a-voltmeter-is">&nbsp;</p>
+                  <p class="a-voltmeter-is">1</p>
+                  <p class="a-voltmeter-is">&nbsp;</p>
+                  <p class="a-voltmeter-is">1</p>
+                </div>
+              </div>
+              <div class="arduino-uno-10k-ohm-container">
+                <p class="a-voltmeter-is">Ardunio Uno R3</p>
+                <p class="a-voltmeter-is">&nbsp;</p>
+                <p class="a-voltmeter-is">Adafruit INA219</p>
+                <p class="a-voltmeter-is">&nbsp;</p>
+                <p class="a-voltmeter-is">LED</p>
+                <p class="a-voltmeter-is">&nbsp;</p>
+                <p class="a-voltmeter-is">DC Motor</p>
+                <p class="a-voltmeter-is">&nbsp;</p>
+                <p class="a-voltmeter-is">220ohm Resistor</p>
+              </div>
+            </div>
+          </div>
+          <b class="list-of-components">Simulation Circuit</b>
+          <div class="a-voltmeter-is-container">
+            <p class="a-voltmeter-is">
+              Ensure PySerial is installed on your computer.
+            </p>
+            <p class="a-voltmeter-is">&nbsp;</p>
+            <p class="a-voltmeter-is">
+              Write a Python script that uses the PySerial library to establish
+              a serial connection with the Arduino.
+            </p>
+          </div>
+          <b class="list-of-components">Arduino IDE Code</b>
+          <div class="eard-code11"></div>
+          <b class="list-of-components">Runing the system.</b>
+          <div class="earad-video9"></div>
+          <div class="relevance-to-the-container">
+            <p class="a-voltmeter-is">
+              <span class="key-differences-between">
+                <span>Relevance to the Final Project: </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span class="key-differences-between">
+                <span>&nbsp;</span>
+              </span>
+            </p>
+            <p class="relevance">
+              <span class="key-differences-between">
+                <b>Relevance </b>
+              </span>
+            </p>
+            <p class="p24">
+              <span>
+                <span> </span>
+              </span>
+            </p>
+            <p class="remote-control">
+              <span>
+                <span>
+                  <b>Remote Control</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span class="with-this-setup">&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span class="with-this-setup"
+                    >With this setup, you can remotely control and monitor your
+                    Arduino from your computer.
+                  </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span class="with-this-setup"> </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>Data Transfer</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span class="with-this-setup">&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span class="with-this-setup"
+                    >Establishing serial communication allows for the seamless
+                    transfer of data between the Arduino and Python script.
+                  </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span class="with-this-setup"> </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>Integration with Sensors/Actuators</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span class="with-this-setup">&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span class="with-this-setup"
+                    >This project serves as a foundation for more complex
+                    applications, enabling you to integrate sensors, actuators,
+                    and other devices controlled by the Arduino.</span
+                  >
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span class="with-this-setup">&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span class="with-this-setup">&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="relevance">
+              <b class="key-differences-between"
+                >key differences between Arduino Uno and ESP32 in the context of
+                our project</b
+              >
+            </p>
+            <p class="p24">
+              <span>
+                <span>
+                  <span> </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span class="key-differences-between">Arduino Uno</span>
+                </span>
+              </span>
+            </p>
+            <p class="p24">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>Microcontroller</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span
+                    >Arduino Uno is based on the ATmega328P microcontroller.
+                  </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>Processing Power</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span> </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span
+                    >The ATmega328P on Arduino Uno has lower processing power
+                    compared to ESP32.</span
+                  >
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>Connectivity</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span> </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span
+                    >Arduino Uno has limited connectivity options, typically
+                    relying on USB for serial communication.
+                  </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>Wireless Capabilities</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span> </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span
+                    >Arduino Uno lacks built-in wireless capabilities. Adding
+                    WiFi or Bluetooth functionality may require external
+                    modules.
+                  </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>&nbsp;</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>Power Consumption</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span> </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span
+                    >Arduino Uno generally has lower power consumption compared
+                    to the ESP32.
+                  </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>I/O Pins</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span> </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span
+                    >Arduino Uno provides a moderate number of digital and
+                    analog I/O pins.</span
+                  >
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span> </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span class="key-differences-between">ESP32 WiFi Module</span>
+                </span>
+              </span>
+            </p>
+            <p class="p24">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>Microcontroller:</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b> </b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span
+                    >ESP32 integrates a more powerful dual-core Xtensa LX6
+                    microcontroller.</span
+                  >
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>&nbsp;</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>Processing Power</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span> </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span
+                    >ESP32 offers significantly higher processing power compared
+                    to Arduino Uno.
+                  </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>Connectivity</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span> </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span
+                    >ESP32 comes with built-in WiFi and Bluetooth capabilities,
+                    making it suitable for wireless communication.
+                  </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>Wireless Capabilities</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span> </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span
+                    >ESP32 has native support for WiFi and Bluetooth,
+                    streamlining wireless communication without the need for
+                    additional modules.</span
+                  >
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>Power Consumption</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span> </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span
+                    >Depending on usage, ESP32 may have higher power
+                    consumption, especially when utilizing WiFi features.
+                  </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span>&nbsp;</span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>I/O Pins</b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b> </b>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <span
+                    >ESP32 provides a larger number of digital and analog I/O
+                    pins compared to Arduino Uno.
+                  </span>
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>
+                  <b>&nbsp;</b>
+                </span>
+              </span>
+            </p>
+            <p class="relevance">
+              <b>
+                <span class="key-differences-between">&nbsp;</span>
+              </b>
+            </p>
+            <p class="a-voltmeter-is">
+              <b>
+                <span class="key-differences-between"
+                  >Considerations for our Energy Consumption Management System
+                </span>
+              </b>
+            </p>
+            <p class="p24">
+              <span>
+                <span>&nbsp;</span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <b>Sensor Integration</b>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span> </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span
+                  >As our system involves basic sensor interfacing and low-power
+                  requirements, Arduino Uno may suffice.
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span>&nbsp;</span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <b>Wireless Communication</b>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span> </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span
+                  >As of our plan to send data to the cloud wirelessly and
+                  require built-in WiFi capabilities, the ESP32 might be a
+                  better choice.</span
+                >
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span> </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <b>Processing Requirements </b>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span> </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span
+                  >Consider the complexity of data processing and visualization.
+                  As our project involves complex computations or graphics, the
+                  ESP32's higher processing power may be beneficial.
+                </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <b>&nbsp;</b>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <b>Power Consumption</b>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span> </span>
+              </span>
+            </p>
+            <p class="a-voltmeter-is">
+              <span>
+                <span
+                  >As of power efficiency is a critical factor, Arduino Uno's
+                  generally lower power consumption may be advantageous.</span
+                >
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer class="footer2">
+        <footer class="footer-section2">
+          <div class="home-button2" id="homeButtonContainer">
+            <div class="home2">Home</div>
+          </div>
+          <div class="copyright4">
+            <div class="home2">© | Designed by Team Novva | 2023</div>
+          </div>
+          <div class="scroll-up-button2" id="scrollUpButton">
+            <div class="home2">Scroll Up</div>
+          </div>
+        </footer>
+      </footer>
+    </div>
+
+    <script>
+      var arduinoBasicsText = document.getElementById("arduinoBasicsText");
+      if (arduinoBasicsText) {
+        arduinoBasicsText.addEventListener("click", function (e) {
+          window.location.href = "./e-arduino1.html";
+        });
+      }
+      
+      var arduinoOutputText = document.getElementById("arduinoOutputText");
+      if (arduinoOutputText) {
+        arduinoOutputText.addEventListener("click", function (e) {
+          window.location.href = "./e-arduino2.html";
+        });
+      }
+      
+      var arduinoInputText = document.getElementById("arduinoInputText");
+      if (arduinoInputText) {
+        arduinoInputText.addEventListener("click", function (e) {
+          window.location.href = "./e-arduino3.html";
+        });
+      }
+      
+      var openSourceProjects = document.getElementById("openSourceProjects");
+      if (openSourceProjects) {
+        openSourceProjects.addEventListener("click", function (e) {
+          window.location.href = "./e-arduino4.html";
+        });
+      }
+      
+      var ourOwnProjects = document.getElementById("ourOwnProjects");
+      if (ourOwnProjects) {
+        ourOwnProjects.addEventListener("click", function (e) {
+          window.location.href = "./a-project-management5.html";
+        });
+      }
+      
+      var homeButtonContainer = document.getElementById("homeButtonContainer");
+      if (homeButtonContainer) {
+        homeButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./index1.html";
+        });
+      }
+      
+      var scrollUpButton = document.getElementById("scrollUpButton");
+      if (scrollUpButton) {
+        scrollUpButton.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='navigationBar']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>
